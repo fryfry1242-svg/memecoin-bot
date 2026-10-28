@@ -4,62 +4,84 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Memecoin Scanner</title>
-<style>
-  body { margin:0; padding:16px; background:#0e1116; color:#e6e9ef; font-family:system-ui,sans-serif; }
-  h1 { margin:0 0 4px; font-size:22px; }
-  .dim { color:#8b93a1; font-size:14px; }
-  .warn { background:#2a2414; border:1px solid #5a4a1c; color:#ffcc66; padding:12px; border-radius:8px; margin:16px 0; font-size:14px; }
-  .wrap { overflow-x:auto; }
-  table { width:100%; border-collapse:collapse; background:#171b22; }
-  th, td { padding:10px 12px; text-align:left; border-bottom:1px solid #262c36; font-size:14px; white-space:nowrap; }
-  th { color:#8b93a1; }
-  a { color:#6cb6ff; }
-  .up { color:#3ddc97; } .down { color:#ff6b6b; }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Memecoin Scanner</h1>
-<div class="dim" id="updated">Loading...</div>
+<header>
+  <div>
+    <h1>Memecoin Scanner</h1>
+    <div class="dim" id="updated">Loading...</div>
+  </div>
+  <div class="buttons">
+    <button id="refresh">Refresh data</button>
+    <button id="live">Live prices</button>
+    <a class="btn" href="https://github.com/fryfry1242-svg/memecoin-bot/actions/workflows/scan.yml" target="_blank" rel="noopener">Run new scan</a>
+  </div>
+</header>
+
 <div class="warn">Passing the filter means no obvious red flags were found. It does not mean a token will go up or that it is safe. Check every token yourself and only risk money you can afford to lose.</div>
-<div class="dim" id="counts"></div>
-<div class="wrap">
-<table>
-<thead><tr><th>Token</th><th>Price</th><th>Liquidity</th><th>24h Vol</th><th>24h</th><th>Trades</th><th>Age</th><th>Link</th></tr></thead>
-<tbody id="rows"></tbody>
-</table>
-</div>
-<h3>Why tokens were rejected</h3>
-<div class="dim" id="reasons"></div>
-<script>
-function money(n) { return n == null ? "-" : "$" + Number(n).toLocaleString(undefined, {maximumFractionDigits: 0}); }
-function cell(text, cls) { var td = document.createElement("td"); td.textContent = text; if (cls) td.className = cls; return td; }
-fetch("data.json?t=" + Date.now()).then(function (r) { return r.json(); }).then(function (d) {
-  document.getElementById("updated").textContent = "Last scan: " + d.updated;
-  document.getElementById("counts").textContent = "Scanned " + d.scanned + " tokens, " + d.passed + " passed";
-  var rows = document.getElementById("rows");
-  if (!d.candidates.length) {
-    var tr = document.createElement("tr"); var td = cell("Nothing passed the filter in the last scan. That is normal.");
-    td.colSpan = 8; tr.appendChild(td); rows.appendChild(tr);
-  }
-  d.candidates.forEach(function (c) {
-    var tr = document.createElement("tr");
-    tr.appendChild(cell((c.name || "?") + " (" + (c.symbol || "?") + ")"));
-    tr.appendChild(cell("$" + c.price_usd));
-    tr.appendChild(cell(money(c.liquidity_usd)));
-    tr.appendChild(cell(money(c.volume_24h)));
-    tr.appendChild(cell(c.change_24h + "%", c.change_24h >= 0 ? "up" : "down"));
-    tr.appendChild(cell(c.trades_24h));
-    tr.appendChild(cell(c.age_hours + "h"));
-    var td = document.createElement("td"); var a = document.createElement("a");
-    a.textContent = "DexScreener"; a.href = c.url || "#"; a.target = "_blank"; a.rel = "noopener";
-    td.appendChild(a); tr.appendChild(td); rows.appendChild(tr);
-  });
-  var parts = Object.entries(d.rejection_reasons || {}).sort(function (a, b) { return b[1] - a[1]; })
-    .map(function (e) { return e[0] + ": " + e[1]; });
-  document.getElementById("reasons").textContent = parts.join("  |  ") || "No rejections recorded.";
-}).catch(function () {
-  document.getElementById("updated").textContent = "No scan data yet.";
-});
-</script>
+
+<nav>
+  <button class="tab active" data-tab="overview">Overview</button>
+  <button class="tab" data-tab="charts">Charts</button>
+  <button class="tab" data-tab="details">Token details</button>
+  <button class="tab" data-tab="history">History</button>
+  <button class="tab" data-tab="rules">Rules</button>
+</nav>
+<div class="dim" id="status"></div>
+
+<section id="overview" class="panel">
+  <div class="stats" id="stats"></div>
+  <div class="wrap">
+    <table>
+      <thead><tr><th>Token</th><th>Price</th><th>Liquidity</th><th>24h Vol</th><th>24h</th><th>Trades</th><th>Age</th><th>Link</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <h3>Why tokens were rejected</h3>
+  <div class="dim" id="reasons"></div>
+</section>
+
+<section id="charts" class="panel" hidden>
+  <div class="dim" id="chartwarn"></div>
+  <div class="grid">
+    <div class="chartcard"><b>Tokens passed per scan</b><div class="chartbox"><canvas id="c_passed"></canvas></div></div>
+    <div class="chartcard"><b>Why tokens were rejected</b><div class="chartbox"><canvas id="c_reasons"></canvas></div></div>
+    <div class="chartcard"><b>Liquidity of passed tokens (USD)</b><div class="chartbox"><canvas id="c_liq"></canvas></div></div>
+    <div class="chartcard"><b>24h price change of passed tokens (%)</b><div class="chartbox"><canvas id="c_change"></canvas></div></div>
+  </div>
+</section>
+
+<section id="details" class="panel" hidden>
+  <p><select id="picker"></select></p>
+  <div class="stats" id="detailstats"></div>
+  <div class="chartcard"><b>Price since our scanner first saw it (%)</b><div class="chartbox"><canvas id="c_track"></canvas></div></div>
+  <div id="embedbox"></div>
+</section>
+
+<section id="history" class="panel" hidden>
+  <div class="wrap">
+    <table>
+      <thead><tr><th>Scan time</th><th>Scanned</th><th>Passed</th><th>Tokens that passed</th></tr></thead>
+      <tbody id="histrows"></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="rules" class="panel" hidden>
+  <h3>What a token must pass</h3>
+  <ul>
+    <li>Liquidity of at least $25,000 (money sitting in the trading pool)</li>
+    <li>At least $10,000 traded in the last 24 hours</li>
+    <li>Trading pair at least 24 hours old</li>
+    <li>At least 100 trades in the last 24 hours</li>
+    <li>Not many buys with almost no sells (a honeypot sign)</li>
+    <li>Liquidity at least 2% of market cap (harder to drain)</li>
+  </ul>
+  <p class="dim">Scans run about every 15 minutes. These rules are in scanner.py, and a token that passes them can still lose money or be a rug.</p>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-28 16:20 UTC",
-  "scanned": 48,
+  "updated": "2026-10-28 17:15 UTC",
+  "scanned": 52,
   "passed": 9,
   "rejection_reasons": {
-    "too new": 34,
-    "low liquidity": 29,
-    "thin liquidity vs market cap": 16,
+    "too new": 37,
+    "low liquidity": 34,
+    "thin liquidity vs market cap": 19,
     "low volume": 6,
     "few trades": 5
   },
@@ -17,114 +17,174 @@
     "Not many buys with almost no sells: with 20+ buys, sells must be more than 5% of buys (a honeypot sign)",
     "Liquidity at least 2% of market cap (harder to drain)"
   ],
+  "strategy_rules": {
+    "baseline": [
+      "Liquidity of at least $25,000 (money sitting in the trading pool)",
+      "At least $10,000 traded in the last 24 hours",
+      "Trading pair at least 24 hours old",
+      "At least 100 trades in the last 24 hours",
+      "Not many buys with almost no sells: with 20+ buys, sells must be more than 5% of buys (a honeypot sign)",
+      "Liquidity at least 2% of market cap (harder to drain)"
+    ],
+    "medium_risk": [
+      "Liquidity of at least $50,000 (money sitting in the trading pool)",
+      "At least $10,000 traded in the last 24 hours",
+      "Trading pair at least 72 hours old",
+      "At least 200 trades in the last 24 hours",
+      "Not many buys with almost no sells: with 20+ buys, sells must be more than 5% of buys (a honeypot sign)",
+      "Liquidity at least 5% of market cap (harder to drain)",
+      "Market cap between $1,000,000 and $25,000,000",
+      "24h volume at least 50% of liquidity (shows real trading)"
+    ]
+  },
   "candidates": [
     {
       "name": "Dacity Coin",
       "symbol": "Dacity",
       "address": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
-      "price_usd": "0.009412",
-      "liquidity_usd": 411265.3,
-      "volume_24h": 1111464.57,
-      "change_24h": -4.29,
-      "trades_24h": 10766,
-      "age_hours": 413,
-      "url": "https://dexscreener.com/solana/g2uurbmvdzdfp4qyobjrskbxsi7d6v4bpp9thps36y4b"
+      "price_usd": "0.009037",
+      "liquidity_usd": 402404.09,
+      "volume_24h": 1097538.87,
+      "change_24h": -15.23,
+      "trades_24h": 10722,
+      "age_hours": 414,
+      "url": "https://dexscreener.com/solana/g2uurbmvdzdfp4qyobjrskbxsi7d6v4bpp9thps36y4b",
+      "market_cap": 8871917,
+      "strategies": [
+        "baseline"
+      ]
     },
     {
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.004356",
-      "liquidity_usd": 207045.2,
-      "volume_24h": 853040.4,
-      "change_24h": -0.23,
-      "trades_24h": 12193,
-      "age_hours": 1540,
-      "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m"
+      "price_usd": "0.004635",
+      "liquidity_usd": 213749.12,
+      "volume_24h": 845162.16,
+      "change_24h": -1.46,
+      "trades_24h": 11903,
+      "age_hours": 1541,
+      "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
+      "market_cap": 4574934,
+      "strategies": [
+        "baseline"
+      ]
     },
     {
       "name": "GTA6DOG",
       "symbol": "CHICO",
       "address": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
-      "price_usd": "0.003152",
-      "liquidity_usd": 162013.32,
-      "volume_24h": 4448683.56,
-      "change_24h": -53.38,
-      "trades_24h": 35596,
-      "age_hours": 40,
-      "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap"
+      "price_usd": "0.003215",
+      "liquidity_usd": 163778.64,
+      "volume_24h": 4418095.13,
+      "change_24h": -52.56,
+      "trades_24h": 35390,
+      "age_hours": 41,
+      "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap",
+      "market_cap": 3174404,
+      "strategies": [
+        "baseline"
+      ]
     },
     {
       "name": "Infinite Money Glitch",
       "symbol": "GLITCH",
       "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "price_usd": "0.003051",
-      "liquidity_usd": 154587.94,
-      "volume_24h": 345776.95,
-      "change_24h": 28.41,
-      "trades_24h": 3342,
-      "age_hours": 289,
-      "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7"
+      "price_usd": "0.002955",
+      "liquidity_usd": 152194.41,
+      "volume_24h": 350270.1,
+      "change_24h": 24.16,
+      "trades_24h": 3384,
+      "age_hours": 290,
+      "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
+      "market_cap": 2757952,
+      "strategies": [
+        "baseline",
+        "medium_risk"
+      ]
     },
     {
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.002955",
-      "liquidity_usd": 153321.33,
-      "volume_24h": 166853.87,
-      "change_24h": -7.59,
-      "trades_24h": 54672,
-      "age_hours": 363,
-      "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg"
+      "price_usd": "0.002888",
+      "liquidity_usd": 152132.39,
+      "volume_24h": 148500.07,
+      "change_24h": 10.42,
+      "trades_24h": 55438,
+      "age_hours": 364,
+      "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
+      "market_cap": 2754872,
+      "strategies": [
+        "baseline",
+        "medium_risk"
+      ]
     },
     {
       "name": "Remus",
       "symbol": "REMUS",
       "address": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
-      "price_usd": "0.001562",
-      "liquidity_usd": 127291.75,
-      "volume_24h": 1163187.71,
-      "change_24h": 14.48,
-      "trades_24h": 326170,
-      "age_hours": 113,
-      "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg"
+      "price_usd": "0.001498",
+      "liquidity_usd": 124681.74,
+      "volume_24h": 1133175.23,
+      "change_24h": 23.78,
+      "trades_24h": 325531,
+      "age_hours": 114,
+      "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
+      "market_cap": 1477544,
+      "strategies": [
+        "baseline",
+        "medium_risk"
+      ]
     },
     {
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.001074",
-      "liquidity_usd": 107999.87,
-      "volume_24h": 88923.81,
-      "change_24h": 35.15,
-      "trades_24h": 819,
-      "age_hours": 526,
-      "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb"
+      "price_usd": "0.001103",
+      "liquidity_usd": 109454.51,
+      "volume_24h": 81619.24,
+      "change_24h": 38.23,
+      "trades_24h": 791,
+      "age_hours": 527,
+      "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+      "market_cap": 1040018,
+      "strategies": [
+        "baseline",
+        "medium_risk"
+      ]
     },
     {
       "name": "Born Retired",
       "symbol": "RETIRED",
       "address": "BLeMEetdzeq9xsNti2tCiau4JnD7mzyQzQFHdy5pump",
-      "price_usd": "0.0006547",
-      "liquidity_usd": 69067.07,
-      "volume_24h": 441045.5,
-      "change_24h": -24.75,
-      "trades_24h": 4350,
-      "age_hours": 52,
-      "url": "https://dexscreener.com/solana/7ob52bodellge5y6cq945jxz885zjqphnghvv267pn4l"
+      "price_usd": "0.0006620",
+      "liquidity_usd": 69487.41,
+      "volume_24h": 435579.51,
+      "change_24h": -22.84,
+      "trades_24h": 4344,
+      "age_hours": 53,
+      "url": "https://dexscreener.com/solana/7ob52bodellge5y6cq945jxz885zjqphnghvv267pn4l",
+      "market_cap": 648202,
+      "strategies": [
+        "baseline"
+      ]
     },
     {
       "name": "gently used joystick",
       "symbol": "N64",
       "address": "9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump",
-      "price_usd": "0.0001036",
-      "liquidity_usd": 27011.83,
-      "volume_24h": 339373.62,
-      "change_24h": 25.53,
-      "trades_24h": 12898,
-      "age_hours": 41,
-      "url": "https://dexscreener.com/solana/ewjia2nk268howctfitp8chqskec8z6azahcimkppxfi"
+      "price_usd": "0.0001018",
+      "liquidity_usd": 26796,
+      "volume_24h": 338871.63,
+      "change_24h": 6.38,
+      "trades_24h": 11891,
+      "age_hours": 42,
+      "url": "https://dexscreener.com/solana/ewjia2nk268howctfitp8chqskec8z6azahcimkppxfi",
+      "market_cap": 98787,
+      "strategies": [
+        "baseline"
+      ]
     }
   ]
 }

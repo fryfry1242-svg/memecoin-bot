@@ -254,7 +254,7 @@ function renderPaper() {
     $("papernote").textContent = "No paper data yet. Run export_results.py on your computer after the ticket bot has made some paper trades.";
     return;
   }
-  $("papernote").textContent = "Exported " + p.updated + ". Pretend money only. Open trades are not counted in profit until they close.";
+  $("papernote").textContent = "Exported " + p.updated + ". Pretend money only. Open trades are not counted in profit until they close. \"Now\" is the price at the ticket bot's last check.";
 
   var t = p.totals || {};
   var best = t.best_trade ? t.best_trade.symbol + " " + usd(t.best_trade.profit_usd, true) : "-";
@@ -277,7 +277,7 @@ function renderPaper() {
   if (!open.length) {
     var tr0 = el("tr");
     var td0 = el("td", "No open paper trades.");
-    td0.colSpan = 6;
+    td0.colSpan = 7;
     tr0.appendChild(td0);
     orows.appendChild(tr0);
   }
@@ -287,6 +287,9 @@ function renderPaper() {
     tr.appendChild(el("td", usd(o.invested_usd)));
     tr.appendChild(el("td", "$" + o.start_price));
     tr.appendChild(el("td", o.peak_mult === null || o.peak_mult === undefined ? "-" : o.peak_mult + "x"));
+    var now = o.now_mult;
+    var hasNow = now !== null && now !== undefined;
+    tr.appendChild(el("td", hasNow ? now + "x" : "-", hasNow ? (now >= 1 ? "up" : "down") : ""));
     tr.appendChild(el("td", o.took_profit ? "Yes" : "No"));
     tr.appendChild(el("td", usd(o.cash_taken_usd)));
     orows.appendChild(tr);

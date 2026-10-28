@@ -26,12 +26,16 @@ def load_open():
     for pos in saved:
         ticket = pos.get("ticket") or {}
         start = pos.get("start_price") or 0
+        last = pos.get("last_price")  # missing for trades saved before the bot recorded it
         rows.append({
             "symbol": pos.get("symbol") or short_address(ticket.get("token_address")),
             "address": ticket.get("token_address"),
             "invested_usd": round(float(ticket.get("size_usd") or 0), 2),
             "start_price": start,
             "peak_mult": round(pos.get("peak", start) / start, 2) if start else None,
+            "last_price": last,
+            "last_checked": pos.get("last_checked"),
+            "now_mult": round(last / start, 2) if start and last is not None else None,
             "took_profit": bool(pos.get("took_profit")),
             "cash_taken_usd": round(float(pos.get("cash") or 0), 2),
         })

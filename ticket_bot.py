@@ -153,6 +153,8 @@ def handle_new_ticket(path, positions):
         "start_price": price,
         "tokens": ticket["size_usd"] / (price * (1 + slip)),
         "peak": price,
+        "last_price": price,
+        "last_checked": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "took_profit": False,
         "cash": 0.0,
         "closed": False,
@@ -179,6 +181,8 @@ def update_position(pos):
 
     price = float(pair["priceUsd"])
     pos["peak"] = max(pos["peak"], price)
+    pos["last_price"] = price  # saved to positions.json so export_results.py can show the "Now" multiple
+    pos["last_checked"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     multiple = price / pos["start_price"]
     value = pos["tokens"] * price * (1 - slip)
     log(f"{symbol}: ${price:.10f} | {multiple:.2f}x | peak {pos['peak'] / pos['start_price']:.2f}x "

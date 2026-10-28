@@ -1,4 +1,4 @@
-var state = { data: null, history: [], live: {}, selected: "" };
+var state = { data: null, history: [], paper: null, live: {}, selected: "" };
 var charts = {};
 
 function $(id) { return document.getElementById(id); }
@@ -13,6 +13,13 @@ function el(tag, text, cls) {
 function money(n) {
   if (n === null || n === undefined || isNaN(n)) return "-";
   return "$" + Number(n).toLocaleString(undefined, { maximumFractionDigits: 0 });
+}
+
+function usd(n, signed) {
+  if (n === null || n === undefined || isNaN(n)) return "-";
+  var v = Number(n);
+  var sign = v < 0 ? "-" : (signed && v > 0 ? "+" : "");
+  return sign + "$" + Math.abs(v).toFixed(2);
 }
 
 function pct(n) { return n === null || n === undefined ? "-" : n + "%"; }
@@ -32,10 +39,12 @@ function loadAll() {
   setStatus("Refreshing...");
   return Promise.all([
     loadJson("data.json"),
-    loadJson("history.json").catch(function () { return []; })
+    loadJson("history.json").catch(function () { return []; }),
+    loadJson("paper.json").catch(function () { return null; })
   ]).then(function (res) {
     state.data = res[0];
     state.history = res[1];
+    state.paper = res[2];
     state.live = {};
     render();
     setStatus("Loaded at " + new Date().toLocaleTimeString());
@@ -232,6 +241,77 @@ function renderHistory() {
   });
 }
 
+function profitCell(n) {
+  return el("td", usd(n, true), n > 0 ? "up" : (n < 0 ? "down" : ""));
+}
+
+function renderPaper() {
+  var p = state.paper;
+  var open = (p && Array.isArray(p.open)) ? p.open : [];
+  var closed = (p && Array.isArray(p.closed)) ? p.closed : [];
+  $("paperbody").hidden = !(open.length || closed.length);
+  if (!open.length && !closed.length) {
+    $("papernote").textContent = "No paper data yet. Run export_results.py on your computer after the ticket bot has made some paper trades.";
+    return;
+  }
+  $("papernote").textContent = "Exported " + p.updated + ". Pretend money only. Open trades are not counted in profit until they close.";
+
+  var t = p.totals || {};
+  var best = t.best_trade ? t.best_trade.symbol + " " + usd(t.best_trade.profit_usd, true) : "-";
+  var stats = $("paperstats");
+  stats.textContent = "";
+  [["Closed trades", t.closed_trades],
+   ["Win rate", t.win_rate_pct === null || t.win_rate_pct === undefined ? "-" : t.win_rate_pct + "%"],
+   ["Total profit", usd(t.profit_usd, true)],
+   ["Best trade", best],
+   ["Profit without best trade", t.profit_without_best_usd === null || t.profit_without_best_usd === undefined ? "needs 2+ trades" : usd(t.profit_without_best_usd, true)],
+   ["Open trades", t.open_trades]].forEach(function (s) {
+    var card = el("div", null, "stat");
+    card.appendChild(el("span", s[0], "dim"));
+    card.appendChild(el("b", s[1]));
+    stats.appendChild(card);
+  });
+
+  var orows = $("openrows");
+  orows.textContent = "";
+  if (!open.length) {
+    var tr0 = el("tr");
+    var td0 = el("td", "No open paper trades.");
+    td0.colSpan = 6;
+    tr0.appendChild(td0);
+    orows.appendChild(tr0);
+  }
+  open.forEach(function (o) {
+    var tr = el("tr");
+    tr.appendChild(el("td", o.symbol || "?"));
+    tr.appendChild(el("td", usd(o.invested_usd)));
+    tr.appendChild(el("td", "$" + o.start_price));
+    tr.appendChild(el("td", o.peak_mult === null || o.peak_mult === undefined ? "-" : o.peak_mult + "x"));
+    tr.appendChild(el("td", o.took_profit ? "Yes" : "No"));
+    tr.appendChild(el("td", usd(o.cash_taken_usd)));
+    orows.appendChild(tr);
+  });
+
+  var crows = $("closedrows");
+  crows.textContent = "";
+  if (!closed.length) {
+    var tr1 = el("tr");
+    var td1 = el("td", "No closed paper trades yet.");
+    td1.colSpan = 5;
+    tr1.appendChild(td1);
+    crows.appendChild(tr1);
+  }
+  closed.forEach(function (c) {
+    var tr = el("tr");
+    tr.appendChild(el("td", c.closed_at || "-"));
+    tr.appendChild(el("td", c.symbol || "?"));
+    tr.appendChild(el("td", usd(c.invested_usd)));
+    tr.appendChild(el("td", usd(c.returned_usd)));
+    tr.appendChild(profitCell(c.profit_usd));
+    crows.appendChild(tr);
+  });
+}
+
 function renderRules() {
   var list = state.data.rules;
   if (!Array.isArray(list) || !list.length) return;
@@ -310,6 +390,7 @@ function render() {
   renderOverview();
   renderHistory();
   renderRules();
+  renderPaper();
   if (!$("charts").hidden) renderCharts();
   if (!$("details").hidden) renderDetails();
 }

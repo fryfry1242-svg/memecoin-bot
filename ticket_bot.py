@@ -3,7 +3,7 @@ import json
 import os
 import shutil
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 
 import requests
 
@@ -215,6 +215,8 @@ def close_position(pos):
         "invested_usd": round(ticket["size_usd"], 2),
         "returned_usd": round(pos["cash"], 2),
         "profit_usd": round(profit, 2),
+        "symbol": pos["symbol"],
+        "closed_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
     }
     with open(done_path, "w") as f:
         json.dump(ticket, f, indent=2)

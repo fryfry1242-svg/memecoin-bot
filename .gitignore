@@ -3,3 +3,6 @@ venv/
 __pycache__/
 orders/
 paper_trades.log
+seen_tokens.json
+positions.json
+positions.json.tmp

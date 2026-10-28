@@ -12,6 +12,7 @@ CHAIN = "solana"
 SLIPPAGE_PCT = 2        # pretend we lose 2% on every buy and sell
 CHECK_SECONDS = 10      # how often to check tickets and prices
 LOG_FILE = "paper_trades.log"
+POSITIONS_FILE = "positions.json"   # open paper trades are saved here between runs
 
 # ---- Rug filter rules (every ticket must pass these) ----
 MIN_LIQUIDITY_USD = 25000
@@ -38,6 +39,33 @@ def log(message):
     print(line)
     with open(LOG_FILE, "a") as f:
         f.write(line + "\n")
+
+
+def save_positions(positions):
+    """Write open positions to a temp file, then swap it in, so a crash never leaves half a file."""
+    tmp = POSITIONS_FILE + ".tmp"
+    with open(tmp, "w") as f:
+        json.dump(positions, f, indent=2)
+    os.replace(tmp, POSITIONS_FILE)
+
+
+def load_positions():
+    """Read positions saved by an earlier run. Skip any whose ticket file is gone."""
+    if not os.path.exists(POSITIONS_FILE):
+        return []
+    try:
+        with open(POSITIONS_FILE) as f:
+            saved = json.load(f)
+    except (OSError, ValueError) as error:
+        raise SystemExit(f"Could not read {POSITIONS_FILE}: {error}\n"
+                         "Fix or move that file, then start the bot again.")
+    positions = []
+    for pos in saved:
+        if os.path.exists(pos.get("open_path", "")):
+            positions.append(pos)
+        else:
+            log(f"Skipping saved {pos.get('symbol')} position: {pos.get('open_path')} no longer exists")
+    return positions
 
 
 def get_pair(address):
@@ -231,8 +259,11 @@ def close_position(pos):
 
 
 def main():
-    positions = []
     log("Ticket bot running in PAPER MODE (fake money). Drop tickets into the orders/ folder.")
+    positions = load_positions()
+    if positions:
+        log(f"Picked up {len(positions)} saved paper position(s): "
+            + ", ".join(str(p["symbol"]) for p in positions))
     log("Press Ctrl+C to stop.\n")
     try:
         while True:
@@ -242,11 +273,13 @@ def main():
                 update_position(pos)
                 if pos["closed"]:
                     positions.remove(pos)
+            save_positions(positions)
             time.sleep(CHECK_SECONDS)
     except KeyboardInterrupt:
         print()
-        log(f"Stopped by you. {len(positions)} open paper position(s) were NOT sold "
-            "and will be forgotten (their ticket files stay in orders/open).")
+        save_positions(positions)
+        log(f"Stopped by you. {len(positions)} open paper position(s) saved to {POSITIONS_FILE}. "
+            "They will be picked up again next time you start the bot.")
 
 
 main()

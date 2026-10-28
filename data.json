@@ -1,0 +1,98 @@
+{
+  "updated": "2026-10-28 13:10 UTC",
+  "scanned": 46,
+  "passed": 7,
+  "rejection_reasons": {
+    "low liquidity": 32,
+    "low volume": 11,
+    "too new": 33,
+    "few trades": 8,
+    "thin liquidity vs market cap": 16
+  },
+  "candidates": [
+    {
+      "name": "Dacity Coin",
+      "symbol": "Dacity",
+      "address": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+      "price_usd": "0.009202",
+      "liquidity_usd": 407140.52,
+      "volume_24h": 1073429.69,
+      "change_24h": -4.98,
+      "trades_24h": 10527,
+      "age_hours": 410,
+      "url": "https://dexscreener.com/solana/g2uurbmvdzdfp4qyobjrskbxsi7d6v4bpp9thps36y4b"
+    },
+    {
+      "name": "GTA6CAT",
+      "symbol": "GATO",
+      "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "price_usd": "0.004214",
+      "liquidity_usd": 203847.49,
+      "volume_24h": 866992.3,
+      "change_24h": 4.76,
+      "trades_24h": 13490,
+      "age_hours": 1537,
+      "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m"
+    },
+    {
+      "name": "GTA6DOG",
+      "symbol": "CHICO",
+      "address": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
+      "price_usd": "0.004133",
+      "liquidity_usd": 185346.35,
+      "volume_24h": 4320793.66,
+      "change_24h": -30.15,
+      "trades_24h": 33751,
+      "age_hours": 37,
+      "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap"
+    },
+    {
+      "name": "Hellhound",
+      "symbol": "HELL",
+      "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
+      "price_usd": "0.003278",
+      "liquidity_usd": 162350.17,
+      "volume_24h": 182038.05,
+      "change_24h": -6.09,
+      "trades_24h": 56834,
+      "age_hours": 360,
+      "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg"
+    },
+    {
+      "name": "Remus",
+      "symbol": "REMUS",
+      "address": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
+      "price_usd": "0.001653",
+      "liquidity_usd": 131014.13,
+      "volume_24h": 1208101.12,
+      "change_24h": 21.73,
+      "trades_24h": 342946,
+      "age_hours": 110,
+      "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg"
+    },
+    {
+      "name": "THE GAME X ",
+      "symbol": "X TOKEN ",
+      "address": "5ZjdToZE9mEtjQ5AMQhn3Sb12i5u3qcpiCcN189Spump",
+      "price_usd": "0.0001237",
+      "liquidity_usd": 28098.42,
+      "volume_24h": 27790.27,
+      "change_24h": 75.58,
+      "trades_24h": 395,
+      "age_hours": 259,
+      "url": "https://dexscreener.com/solana/hkmj6tzdrnp41cgbg97kdx1kk3urzslyu7ripgmn1fgu"
+    },
+    {
+      "name": "gently used joystick",
+      "symbol": "N64",
+      "address": "9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump",
+      "price_usd": "0.00009179",
+      "liquidity_usd": 25281.6,
+      "volume_24h": 354616.92,
+      "change_24h": -17.43,
+      "trades_24h": 13155,
+      "age_hours": 38,
+      "url": "https://dexscreener.com/solana/ewjia2nk268howctfitp8chqskec8z6azahcimkppxfi"
+    }
+  ]
+}

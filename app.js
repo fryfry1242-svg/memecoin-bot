@@ -232,6 +232,14 @@ function renderHistory() {
   });
 }
 
+function renderRules() {
+  var list = state.data.rules;
+  if (!Array.isArray(list) || !list.length) return;
+  var ul = $("rulelist");
+  ul.textContent = "";
+  list.forEach(function (r) { ul.appendChild(el("li", r)); });
+}
+
 function baseOpts() { return { responsive: true, maintainAspectRatio: false }; }
 
 function makeChart(id, config) {
@@ -301,6 +309,7 @@ function render() {
   $("updated").textContent = "Last scan: " + d.updated;
   renderOverview();
   renderHistory();
+  renderRules();
   if (!$("charts").hidden) renderCharts();
   if (!$("details").hidden) renderDetails();
 }

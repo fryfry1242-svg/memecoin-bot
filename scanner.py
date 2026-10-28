@@ -5,12 +5,9 @@ from datetime import datetime, timezone
 
 import requests
 
+from rules import check_token, describe_rules
+
 CHAIN = "solana"
-MIN_LIQUIDITY_USD = 25000
-MIN_VOLUME_24H_USD = 10000
-MIN_AGE_HOURS = 24
-MIN_TRADES_24H = 100
-MIN_LIQUIDITY_TO_MCAP = 0.02
 
 SOURCES = [
     "https://api.dexscreener.com/token-profiles/latest/v1",
@@ -66,34 +63,6 @@ def best_pair_per_token(pairs):
     return list(best.values())
 
 
-def check_token(pair):
-    problems = []
-    liquidity = (pair.get("liquidity") or {}).get("usd") or 0
-    volume = (pair.get("volume") or {}).get("h24") or 0
-    txns = (pair.get("txns") or {}).get("h24") or {}
-    buys = txns.get("buys") or 0
-    sells = txns.get("sells") or 0
-    mcap = pair.get("marketCap") or pair.get("fdv") or 0
-    created_ms = pair.get("pairCreatedAt")
-
-    if liquidity < MIN_LIQUIDITY_USD:
-        problems.append("low liquidity")
-    if volume < MIN_VOLUME_24H_USD:
-        problems.append("low volume")
-    if created_ms:
-        if (time.time() * 1000 - created_ms) / 3600000 < MIN_AGE_HOURS:
-            problems.append("too new")
-    else:
-        problems.append("unknown age")
-    if buys + sells < MIN_TRADES_24H:
-        problems.append("few trades")
-    if buys >= 20 and sells <= buys * 0.05:
-        problems.append("buys but no sells")
-    if mcap and liquidity / mcap < MIN_LIQUIDITY_TO_MCAP:
-        problems.append("thin liquidity vs market cap")
-    return problems
-
-
 def main():
     addresses = collect_addresses()
     if not addresses:
@@ -105,7 +74,7 @@ def main():
     reasons = {}
 
     for p in pairs:
-        problems = check_token(p)
+        problems = [reason for reason, detail in check_token(p)]
         for reason in problems:
             reasons[reason] = reasons.get(reason, 0) + 1
         if problems:
@@ -132,6 +101,7 @@ def main():
         "scanned": len(pairs),
         "passed": len(candidates),
         "rejection_reasons": reasons,
+        "rules": describe_rules(),
         "candidates": candidates[:25],
     }
     with open("data.json", "w") as f:

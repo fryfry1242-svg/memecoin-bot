@@ -7,19 +7,14 @@ from datetime import datetime
 
 import requests
 
+from rules import check_token  # every ticket must pass the safety rules in rules.py
+
 # ---- Settings ----
 CHAIN = "solana"
 SLIPPAGE_PCT = 2        # pretend we lose 2% on every buy and sell
 CHECK_SECONDS = 10      # how often to check tickets and prices
 LOG_FILE = "paper_trades.log"
 POSITIONS_FILE = "positions.json"   # open paper trades are saved here between runs
-
-# ---- Rug filter rules (every ticket must pass these) ----
-MIN_LIQUIDITY_USD = 25000
-MIN_VOLUME_24H_USD = 10000
-MIN_AGE_HOURS = 24
-MIN_TRADES_24H = 100
-MIN_LIQUIDITY_TO_MCAP = 0.02
 
 # ---- Default rules, used when a ticket doesn't set its own ----
 DEFAULTS = {
@@ -78,36 +73,6 @@ def get_pair(address):
         return None
     pairs.sort(key=lambda p: (p.get("liquidity") or {}).get("usd") or 0, reverse=True)
     return pairs[0]
-
-
-def check_token(pair):
-    """Return a list of problems. Empty list means it passed."""
-    problems = []
-    liquidity = (pair.get("liquidity") or {}).get("usd") or 0
-    volume = (pair.get("volume") or {}).get("h24") or 0
-    txns = (pair.get("txns") or {}).get("h24") or {}
-    buys = txns.get("buys") or 0
-    sells = txns.get("sells") or 0
-    mcap = pair.get("marketCap") or pair.get("fdv") or 0
-    created_ms = pair.get("pairCreatedAt")
-
-    if liquidity < MIN_LIQUIDITY_USD:
-        problems.append(f"Liquidity too low: ${liquidity:,.0f}")
-    if volume < MIN_VOLUME_24H_USD:
-        problems.append(f"24h volume too low: ${volume:,.0f}")
-    if created_ms:
-        age_hours = (time.time() * 1000 - created_ms) / 3600000
-        if age_hours < MIN_AGE_HOURS:
-            problems.append(f"Too new: {age_hours:.1f} hours old")
-    else:
-        problems.append("Could not find the pair's age")
-    if buys + sells < MIN_TRADES_24H:
-        problems.append(f"Too few trades: {buys + sells} in 24h")
-    if buys >= 20 and sells <= buys * 0.05:
-        problems.append(f"Suspicious: {buys} buys but only {sells} sells")
-    if mcap and liquidity / mcap < MIN_LIQUIDITY_TO_MCAP:
-        problems.append(f"Liquidity only {liquidity / mcap * 100:.1f}% of market cap")
-    return problems
 
 
 def load_ticket(path):
@@ -170,7 +135,7 @@ def handle_new_ticket(path, positions):
         reject(path, f"No {CHAIN} trading pair or price found for that address")
         return
 
-    problems = check_token(pair)
+    problems = [detail for reason, detail in check_token(pair)]
     if problems:
         reject(path, "Failed rug filter: " + "; ".join(problems))
         return

@@ -3,6 +3,8 @@ import json
 import os
 from datetime import datetime, timezone
 
+from rules import DEFAULT_STRATEGY, STRATEGIES
+
 # Reads the ticket bot's private files and writes a summary for the dashboard's Paper trades tab.
 POSITIONS_FILE = "positions.json"   # open paper trades, saved by ticket_bot.py
 DONE_FOLDER = "orders/done"         # one file per closed paper trade
@@ -30,6 +32,7 @@ def load_open():
         rows.append({
             "symbol": pos.get("symbol") or short_address(ticket.get("token_address")),
             "address": ticket.get("token_address"),
+            "strategy": ticket.get("strategy") or DEFAULT_STRATEGY,   # older tickets have none
             "invested_usd": round(float(ticket.get("size_usd") or 0), 2),
             "start_price": start,
             "peak_mult": round(pos.get("peak", start) / start, 2) if start else None,
@@ -54,6 +57,7 @@ def load_closed():
             row = {
                 "symbol": result.get("symbol") or short_address(ticket.get("token_address")),
                 "address": ticket.get("token_address"),
+                "strategy": result.get("strategy") or ticket.get("strategy") or DEFAULT_STRATEGY,
                 "invested_usd": float(result["invested_usd"]),
                 "returned_usd": float(result["returned_usd"]),
                 "profit_usd": float(result["profit_usd"]),
@@ -93,18 +97,25 @@ def make_totals(open_rows, closed):
 def main():
     open_rows = load_open()
     closed, skipped = load_closed()
+    # Every strategy in rules.py, plus any old name still found on a ticket.
+    names = list(STRATEGIES) + sorted({r["strategy"] for r in open_rows + closed} - set(STRATEGIES))
     result = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "open": open_rows,
         "closed": closed,
         "skipped_files": skipped,
         "totals": make_totals(open_rows, closed),
+        "by_strategy": {name: make_totals([o for o in open_rows if o["strategy"] == name],
+                                          [c for c in closed if c["strategy"] == name])
+                        for name in names},
     }
     with open(OUT_FILE, "w") as f:
         json.dump(result, f, indent=2)
     t = result["totals"]
     print(f"{len(open_rows)} open, {len(closed)} closed paper trade(s). "
           f"Total profit ${t['profit_usd']:+.2f}. Wrote {OUT_FILE}.")
+    for name, s in result["by_strategy"].items():
+        print(f"  {name}: {s['open_trades']} open, {s['closed_trades']} closed, profit ${s['profit_usd']:+.2f}")
     if skipped:
         print(f"Skipped {skipped} file(s) in {DONE_FOLDER} that could not be read.")
 

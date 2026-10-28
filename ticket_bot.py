@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from rules import check_token  # every ticket must pass the safety rules in rules.py
+from rules import DEFAULT_STRATEGY, get_strategy, check_token  # each ticket must pass its strategy's rules
 
 # ---- Settings ----
 CHAIN = "solana"
@@ -18,6 +18,7 @@ POSITIONS_FILE = "positions.json"   # open paper trades are saved here between r
 
 # ---- Default rules, used when a ticket doesn't set its own ----
 DEFAULTS = {
+    "strategy": DEFAULT_STRATEGY,   # which rule set in rules.py the token must pass
     "size_usd": 20,
     "take_profit_mult": 2.0,
     "sell_fraction_at_tp": 0.5,
@@ -34,6 +35,11 @@ def log(message):
     print(line)
     with open(LOG_FILE, "a") as f:
         f.write(line + "\n")
+
+
+def label(pos):
+    """Name used in log lines, e.g. "GLITCH (medium_risk)". The same token can be open in two strategies."""
+    return f"{pos['symbol']} ({pos['ticket'].get('strategy', DEFAULT_STRATEGY)})"
 
 
 def save_positions(positions):
@@ -87,6 +93,7 @@ def load_ticket(path):
 
     ticket = dict(DEFAULTS)
     ticket.update(data)
+    get_strategy(ticket["strategy"])  # raises ValueError for a misspelled strategy name
     try:
         size = float(ticket["size_usd"])
         tp = float(ticket["take_profit_mult"])
@@ -135,9 +142,10 @@ def handle_new_ticket(path, positions):
         reject(path, f"No {CHAIN} trading pair or price found for that address")
         return
 
-    problems = [detail for reason, detail in check_token(pair)]
+    strategy = ticket["strategy"]
+    problems = [detail for reason, detail in check_token(pair, strategy)]
     if problems:
-        reject(path, "Failed rug filter: " + "; ".join(problems))
+        reject(path, f"Failed {strategy} rules: " + "; ".join(problems))
         return
 
     symbol = (pair.get("baseToken") or {}).get("symbol")
@@ -160,7 +168,7 @@ def handle_new_ticket(path, positions):
         "closed": False,
     }
     positions.append(position)
-    log(f"PASSED FILTER. PAPER BUY ${ticket['size_usd']:.2f} of {symbol} at ${price:.10f} "
+    log(f"PASSED {strategy} RULES. PAPER BUY ${ticket['size_usd']:.2f} of {label(position)} at ${price:.10f} "
         f"(sell {int(ticket['sell_fraction_at_tp'] * 100)}% at {ticket['take_profit_mult']}x, "
         f"{ticket['trailing_stop_pct']:.0f}% trailing stop, -{ticket['hard_stop_pct']:.0f}% hard stop)")
 
@@ -168,7 +176,7 @@ def handle_new_ticket(path, positions):
 def update_position(pos):
     ticket = pos["ticket"]
     slip = SLIPPAGE_PCT / 100
-    symbol = pos["symbol"]
+    symbol = label(pos)
 
     try:
         pair = get_pair(ticket["token_address"])
@@ -220,11 +228,12 @@ def close_position(pos):
         "returned_usd": round(pos["cash"], 2),
         "profit_usd": round(profit, 2),
         "symbol": pos["symbol"],
+        "strategy": ticket.get("strategy", DEFAULT_STRATEGY),
         "closed_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
     }
     with open(done_path, "w") as f:
         json.dump(ticket, f, indent=2)
-    log(f"{pos['symbol']}: TRADE CLOSED. In ${ticket['size_usd']:.2f}, "
+    log(f"{label(pos)}: TRADE CLOSED. In ${ticket['size_usd']:.2f}, "
         f"out ${pos['cash']:.2f}, profit/loss ${profit:+.2f}")
     pos["closed"] = True
 
@@ -234,7 +243,7 @@ def main():
     positions = load_positions()
     if positions:
         log(f"Picked up {len(positions)} saved paper position(s): "
-            + ", ".join(str(p["symbol"]) for p in positions))
+            + ", ".join(label(p) for p in positions))
     log("Press Ctrl+C to stop.\n")
     try:
         while True:

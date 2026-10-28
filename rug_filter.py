@@ -1,7 +1,7 @@
 import sys
 import requests
 
-from rules import check_token  # the safety rules live in rules.py
+from rules import DEFAULT_STRATEGY, STRATEGIES, check_token  # the safety rules live in rules.py
 
 CHAIN = "solana"
 
@@ -21,20 +21,24 @@ def get_best_pair(address):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 rug_filter.py TOKEN_ADDRESS")
+        print(f"Usage: venv/bin/python rug_filter.py TOKEN_ADDRESS [{' | '.join(STRATEGIES)}]")
         return
 
     address = sys.argv[1]
+    strategy = sys.argv[2] if len(sys.argv) > 2 else DEFAULT_STRATEGY
+    if strategy not in STRATEGIES:
+        print(f"Unknown strategy {strategy!r}. Use one of: {', '.join(STRATEGIES)}")
+        return
     pair = get_best_pair(address)
     if pair is None:
         print(f"No {CHAIN} trading pair found for that address.")
         return
 
     token = pair.get("baseToken") or {}
-    print(f"Checking {token.get('name')} ({token.get('symbol')})")
+    print(f"Checking {token.get('name')} ({token.get('symbol')}) with the {strategy} rules")
     print(f"Price: ${pair.get('priceUsd')}\n")
 
-    problems = [detail for reason, detail in check_token(pair)]
+    problems = [detail for reason, detail in check_token(pair, strategy)]
     if problems:
         print("RESULT: FAIL - do not buy")
         for problem in problems:

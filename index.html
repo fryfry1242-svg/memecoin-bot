@@ -73,17 +73,26 @@
   <div class="dim" id="papernote">No paper data yet.</div>
   <div id="paperbody" hidden>
     <div class="stats" id="paperstats"></div>
+    <div id="stratbox" hidden>
+      <h3>By strategy</h3>
+      <div class="wrap">
+        <table>
+          <thead id="stratheads"></thead>
+          <tbody id="stratrows"></tbody>
+        </table>
+      </div>
+    </div>
     <h3>Open paper trades</h3>
     <div class="wrap">
       <table>
-        <thead><tr><th>Token</th><th>Invested</th><th>Buy price</th><th>Peak</th><th>Now</th><th>Took profit</th><th>Cash taken</th></tr></thead>
+        <thead><tr><th>Token</th><th>Strategy</th><th>Invested</th><th>Buy price</th><th>Peak</th><th>Now</th><th>Took profit</th><th>Cash taken</th></tr></thead>
         <tbody id="openrows"></tbody>
       </table>
     </div>
     <h3>Closed paper trades</h3>
     <div class="wrap">
       <table>
-        <thead><tr><th>Closed</th><th>Token</th><th>Invested</th><th>Returned</th><th>Profit</th></tr></thead>
+        <thead><tr><th>Closed</th><th>Token</th><th>Strategy</th><th>Invested</th><th>Returned</th><th>Profit</th></tr></thead>
         <tbody id="closedrows"></tbody>
       </table>
     </div>

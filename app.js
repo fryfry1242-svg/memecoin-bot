@@ -245,6 +245,47 @@ function profitCell(n) {
   return el("td", usd(n, true), n > 0 ? "up" : (n < 0 ? "down" : ""));
 }
 
+function isNum(n) { return n !== null && n !== undefined && !isNaN(n); }
+function winRate(t) { return isNum(t.win_rate_pct) ? t.win_rate_pct + "%" : "-"; }
+function bestTrade(t) { return t.best_trade ? t.best_trade.symbol + " " + usd(t.best_trade.profit_usd, true) : "-"; }
+function withoutBest(t) { return isNum(t.profit_without_best_usd) ? usd(t.profit_without_best_usd, true) : "needs 2+ trades"; }
+
+// Per-strategy totals as a table: one row per measure, one column per strategy.
+function renderStrategies(by) {
+  var names = by ? Object.keys(by) : [];
+  $("stratbox").hidden = !names.length;
+  var head = $("stratheads");
+  var body = $("stratrows");
+  head.textContent = "";
+  body.textContent = "";
+  if (!names.length) return;
+
+  var htr = el("tr");
+  htr.appendChild(el("th", ""));
+  names.forEach(function (n) { htr.appendChild(el("th", n)); });
+  head.appendChild(htr);
+
+  [["Closed trades", function (t) { return t.closed_trades; }],
+   ["Wins / losses", function (t) { return t.wins + " / " + t.losses; }],
+   ["Win rate", winRate],
+   ["Invested (closed)", function (t) { return usd(t.invested_usd); }],
+   ["Returned (closed)", function (t) { return usd(t.returned_usd); }],
+   ["Total profit", function (t) { return usd(t.profit_usd, true); }, "profit_usd"],
+   ["Best trade", bestTrade],
+   ["Profit without best trade", withoutBest, "profit_without_best_usd"],
+   ["Open trades", function (t) { return t.open_trades; }],
+   ["Invested (open)", function (t) { return usd(t.open_invested_usd); }]].forEach(function (row) {
+    var tr = el("tr");
+    tr.appendChild(el("td", row[0], "dim"));
+    names.forEach(function (n) {
+      var t = by[n] || {};
+      var v = row[2] ? t[row[2]] : null;
+      tr.appendChild(el("td", row[1](t), v > 0 ? "up" : (v < 0 ? "down" : "")));
+    });
+    body.appendChild(tr);
+  });
+}
+
 function renderPaper() {
   var p = state.paper;
   var open = (p && Array.isArray(p.open)) ? p.open : [];
@@ -257,33 +298,34 @@ function renderPaper() {
   $("papernote").textContent = "Exported " + p.updated + ". Pretend money only. Open trades are not counted in profit until they close. \"Now\" is the price at the ticket bot's last check.";
 
   var t = p.totals || {};
-  var best = t.best_trade ? t.best_trade.symbol + " " + usd(t.best_trade.profit_usd, true) : "-";
   var stats = $("paperstats");
   stats.textContent = "";
   [["Closed trades", t.closed_trades],
-   ["Win rate", t.win_rate_pct === null || t.win_rate_pct === undefined ? "-" : t.win_rate_pct + "%"],
+   ["Win rate", winRate(t)],
    ["Total profit", usd(t.profit_usd, true)],
-   ["Best trade", best],
-   ["Profit without best trade", t.profit_without_best_usd === null || t.profit_without_best_usd === undefined ? "needs 2+ trades" : usd(t.profit_without_best_usd, true)],
+   ["Best trade", bestTrade(t)],
+   ["Profit without best trade", withoutBest(t)],
    ["Open trades", t.open_trades]].forEach(function (s) {
     var card = el("div", null, "stat");
     card.appendChild(el("span", s[0], "dim"));
     card.appendChild(el("b", s[1]));
     stats.appendChild(card);
   });
+  renderStrategies(p.by_strategy);
 
   var orows = $("openrows");
   orows.textContent = "";
   if (!open.length) {
     var tr0 = el("tr");
     var td0 = el("td", "No open paper trades.");
-    td0.colSpan = 7;
+    td0.colSpan = 8;
     tr0.appendChild(td0);
     orows.appendChild(tr0);
   }
   open.forEach(function (o) {
     var tr = el("tr");
     tr.appendChild(el("td", o.symbol || "?"));
+    tr.appendChild(el("td", o.strategy || "baseline"));
     tr.appendChild(el("td", usd(o.invested_usd)));
     tr.appendChild(el("td", "$" + o.start_price));
     tr.appendChild(el("td", o.peak_mult === null || o.peak_mult === undefined ? "-" : o.peak_mult + "x"));
@@ -300,7 +342,7 @@ function renderPaper() {
   if (!closed.length) {
     var tr1 = el("tr");
     var td1 = el("td", "No closed paper trades yet.");
-    td1.colSpan = 5;
+    td1.colSpan = 6;
     tr1.appendChild(td1);
     crows.appendChild(tr1);
   }
@@ -308,6 +350,7 @@ function renderPaper() {
     var tr = el("tr");
     tr.appendChild(el("td", c.closed_at || "-"));
     tr.appendChild(el("td", c.symbol || "?"));
+    tr.appendChild(el("td", c.strategy || "baseline"));
     tr.appendChild(el("td", usd(c.invested_usd)));
     tr.appendChild(el("td", usd(c.returned_usd)));
     tr.appendChild(profitCell(c.profit_usd));
@@ -316,9 +359,22 @@ function renderPaper() {
 }
 
 function renderRules() {
+  var ul = $("rulelist");
+  var sets = state.data.strategy_rules;
+  if (sets && typeof sets === "object" && Object.keys(sets).length) {
+    ul.textContent = "";
+    Object.keys(sets).forEach(function (name) {
+      var li = el("li");
+      li.appendChild(el("b", name));
+      var inner = el("ul");
+      (Array.isArray(sets[name]) ? sets[name] : []).forEach(function (r) { inner.appendChild(el("li", r)); });
+      li.appendChild(inner);
+      ul.appendChild(li);
+    });
+    return;
+  }
   var list = state.data.rules;
   if (!Array.isArray(list) || !list.length) return;
-  var ul = $("rulelist");
   ul.textContent = "";
   list.forEach(function (r) { ul.appendChild(el("li", r)); });
 }

@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from rules import check_token, describe_rules
+from rules import STRATEGIES, check_token, describe_rules
 
 CHAIN = "solana"
 
@@ -92,6 +92,9 @@ def main():
             "trades_24h": (txns.get("buys") or 0) + (txns.get("sells") or 0),
             "age_hours": round((time.time() * 1000 - p["pairCreatedAt"]) / 3600000),
             "url": p.get("url"),
+            "market_cap": p.get("marketCap") or p.get("fdv"),
+            # Which paper strategies this token passes. auto_tickets.py uses this.
+            "strategies": [name for name in STRATEGIES if not check_token(p, name)],
         })
 
     candidates.sort(key=lambda c: c.get("liquidity_usd") or 0, reverse=True)
@@ -102,6 +105,7 @@ def main():
         "passed": len(candidates),
         "rejection_reasons": reasons,
         "rules": describe_rules(),
+        "strategy_rules": {name: describe_rules(name) for name in STRATEGIES},
         "candidates": candidates[:25],
     }
     with open("data.json", "w") as f:

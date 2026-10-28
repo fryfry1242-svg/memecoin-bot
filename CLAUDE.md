@@ -18,6 +18,7 @@ These rules always apply in this repo.
 ## Project notes
 
 - Run Python with `venv/bin/python` (the system `python3` has no `requests`).
+- The paper strategies (`baseline` and `medium_risk`) and their rules live only in `rules.py`. Tickets and closed trades carry a `strategy` field (missing means `baseline`).
 - The rug filter rules live only in `rules.py`. `scanner.py`, `rug_filter.py` and `ticket_bot.py` import them, and the scanner saves a plain-language copy into `data.json` for the dashboard's Rules tab.
 - A GitHub Action commits new `data.json` and `history.json` every 15 minutes, so run `git pull` before making changes and before pushing.
 - To test the scanner locally without touching the real `data.json`, run it from a scratch folder.

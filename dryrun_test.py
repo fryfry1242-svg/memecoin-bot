@@ -2,10 +2,10 @@ import json
 
 import requests
 
-from jupiter_dryrun import DEFAULT_USD, get_decimals, get_quote
+from jupiter_dryrun import DEFAULT_USD, get_decimals, round_trip
 
-# Quotes a few tokens from data.json with Jupiter (DRY RUN, nothing is bought) and compares
-# the price per token Jupiter would give us against DexScreener's live price.
+# Quotes a few tokens from data.json with Jupiter (DRY RUN, nothing is bought or sold): the buy
+# price against DexScreener's live price, then selling the same tokens straight back to USDC.
 HOW_MANY = 3   # the most liquid tokens, plus the least liquid one for contrast
 
 
@@ -32,7 +32,7 @@ def main():
         return
 
     addresses = [c["address"] for c in picks]
-    print(f"DRY RUN: quoting ${DEFAULT_USD} of USDC into {len(picks)} tokens. Nothing is bought.\n")
+    print(f"DRY RUN: quoting ${DEFAULT_USD} of USDC into {len(picks)} tokens and back. Nothing is bought or sold.\n")
     decimals = get_decimals(addresses)
     try:
         dex_prices = live_dexscreener_prices(addresses)
@@ -44,26 +44,35 @@ def main():
         address = c["address"]
         name = f"{c['symbol']} (liquidity ${c['liquidity_usd']:,.0f})"
         try:
-            quote = get_quote(address, decimals=decimals.get(address))
+            trip = round_trip(address, decimals=decimals.get(address))
         except (requests.RequestException, RuntimeError) as error:
             print(f"{name}: no quote - {error}\n")
             continue
+        quote, sell = trip["buy"], trip["sell"]
         dex_price = dex_prices.get(address) or float(c["price_usd"])
         print(name)
+        print(f"  BUY ${DEFAULT_USD} USDC")
         print(f"  Route:            {' -> '.join(quote['route']) or '?'} (via {quote['router']})")
         impact = quote["price_impact_pct"]
         print(f"  Price impact:     {'?' if impact is None else f'{impact:.2f}%'} (as reported by Jupiter)")
         if quote["out_tokens"] is None:
-            print(f"  Would get:        {quote['out_amount_raw']} raw units (decimals unknown, can't compare)\n")
-            continue
-        worth = quote["out_tokens"] * dex_price
-        diff = (quote["effective_price_usd"] / dex_price - 1) * 100
-        print(f"  Would get:        {quote['out_tokens']:,.2f} tokens")
-        print(f"  Jupiter price:    ${quote['effective_price_usd']:.10f} per token")
-        print(f"  DexScreener:      ${dex_price:.10f} per token")
-        print(f"  Difference:       {diff:+.2f}% (positive = you pay more than DexScreener shows)")
-        print(f"  Hidden cost:      ${DEFAULT_USD - worth:+.4f} of your ${DEFAULT_USD} "
-              f"(tokens worth ${worth:.4f} at DexScreener's price)\n")
+            print(f"  Would get:        {quote['out_amount_raw']} raw units (decimals unknown, can't compare)")
+        else:
+            worth = quote["out_tokens"] * dex_price
+            diff = (quote["effective_price_usd"] / dex_price - 1) * 100
+            print(f"  Would get:        {quote['out_tokens']:,.2f} tokens")
+            print(f"  Jupiter price:    ${quote['effective_price_usd']:.10f} per token")
+            print(f"  DexScreener:      ${dex_price:.10f} per token")
+            print(f"  Difference:       {diff:+.2f}% (positive = you pay more than DexScreener shows)")
+            print(f"  Hidden cost:      ${DEFAULT_USD - worth:+.4f} of your ${DEFAULT_USD} "
+                  f"(tokens worth ${worth:.4f} at DexScreener's price)")
+        print("  SELL the same tokens straight back")
+        print(f"  Route:            {' -> '.join(sell['route']) or '?'} (via {sell['router']})")
+        sell_impact = sell["price_impact_pct"]
+        print(f"  Price impact:     {'?' if sell_impact is None else f'{sell_impact:.2f}%'} (as reported by Jupiter)")
+        print(f"  Would get back:   ${sell['usd_out']:.4f} USDC")
+        print(f"  ROUND-TRIP COST:  ${trip['cost_usd']:.4f} ({trip['cost_pct']:.2f}% of ${DEFAULT_USD})\n")
+    print("Round-trip cost = what you'd lose buying and selling at once, before the price moves at all.")
 
 
 main()

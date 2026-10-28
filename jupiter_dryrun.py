@@ -56,17 +56,23 @@ def describe_route(route_plan):
     return names
 
 
-def get_quote(token_address, usd_amount=DEFAULT_USD, decimals=None):
-    """Quote swapping usd_amount of USDC into token_address. Returns a dict, never a transaction."""
+def _order_quote(input_mint, output_mint, raw_amount):
+    """The one place we call Jupiter's /order. No taker is ever sent, so it can only return a quote."""
     data = _get("/swap/v2/order", {
-        "inputMint": USDC_MINT,
-        "outputMint": token_address,
-        "amount": str(int(usd_amount * 10 ** USDC_DECIMALS)),
+        "inputMint": input_mint,
+        "outputMint": output_mint,
+        "amount": str(int(raw_amount)),
     })
     if data.get("transaction"):
         raise RuntimeError("Jupiter returned a transaction. This dry-run module refuses to use it.")
     if data.get("error") or data.get("errorMessage") or "outAmount" not in data:
         raise RuntimeError(f"No quote: {data.get('error') or data.get('errorMessage') or 'missing outAmount'}")
+    return data
+
+
+def get_quote(token_address, usd_amount=DEFAULT_USD, decimals=None):
+    """Quote swapping usd_amount of USDC into token_address. Returns a dict, never a transaction."""
+    data = _order_quote(USDC_MINT, token_address, usd_amount * 10 ** USDC_DECIMALS)
 
     out_raw = int(data["outAmount"])
     out_tokens = out_raw / 10 ** decimals if decimals is not None else None
@@ -81,14 +87,39 @@ def get_quote(token_address, usd_amount=DEFAULT_USD, decimals=None):
     }
 
 
+def get_sell_quote(token_address, token_raw_amount):
+    """Quote selling token_raw_amount (smallest units) of a token back into USDC."""
+    data = _order_quote(token_address, USDC_MINT, token_raw_amount)
+    return {
+        "token_in_raw": int(token_raw_amount),
+        "usd_out": int(data["outAmount"]) / 10 ** USDC_DECIMALS,   # assumes 1 USDC = $1
+        "price_impact_pct": data.get("priceImpact"),
+        "route": describe_route(data.get("routePlan") or []),
+        "router": data.get("router"),
+    }
+
+
+def round_trip(token_address, usd_amount=DEFAULT_USD, decimals=None):
+    """Quote buying with usd_amount of USDC, then selling exactly those tokens straight back.
+    Both quotes use today's pool, so this is the minimum cost of getting in and out."""
+    buy = get_quote(token_address, usd_amount, decimals)
+    sell = get_sell_quote(token_address, buy["out_amount_raw"])
+    cost = usd_amount - sell["usd_out"]
+    return {"buy": buy, "sell": sell, "cost_usd": cost, "cost_pct": cost / usd_amount * 100}
+
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: venv/bin/python jupiter_dryrun.py TOKEN_ADDRESS")
         sys.exit(1)
     address = sys.argv[1]
-    quote = get_quote(address, decimals=get_decimals([address]).get(address))
+    trip = round_trip(address, decimals=get_decimals([address]).get(address))
+    quote, sell = trip["buy"], trip["sell"]
     print(f"DRY RUN quote for ${quote['usd_in']} of USDC -> {address}")
     print(f"  You would get: {quote['out_tokens']} tokens ({quote['out_amount_raw']} raw)")
     print(f"  Price per token: ${quote['effective_price_usd']}")
     print(f"  Price impact: {quote['price_impact_pct']}%")
     print(f"  Route: {' -> '.join(quote['route'])} (via {quote['router']})")
+    print(f"Selling those tokens straight back would return ${sell['usd_out']:.4f} USDC")
+    print(f"  Route: {' -> '.join(sell['route'])} (via {sell['router']})")
+    print(f"  Round-trip cost: ${trip['cost_usd']:.4f} ({trip['cost_pct']:.2f}%)")

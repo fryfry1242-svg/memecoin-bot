@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-30 00:39 UTC",
-  "scanned": 51,
+  "updated": "2026-10-30 01:42 UTC",
+  "scanned": 53,
   "passed": 4,
   "rejection_reasons": {
-    "too new": 42,
-    "low liquidity": 41,
-    "thin liquidity vs market cap": 17,
-    "low volume": 4,
+    "low liquidity": 44,
+    "too new": 44,
+    "thin liquidity vs market cap": 20,
+    "low volume": 5,
     "few trades": 1
   },
   "rules": [
@@ -42,14 +42,14 @@
       "name": "Dessa",
       "symbol": "DESSA",
       "address": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-      "price_usd": "0.007255",
-      "liquidity_usd": 233365.32,
-      "volume_24h": 4360522.9,
-      "change_24h": 852,
-      "trades_24h": 21785,
-      "age_hours": 84,
+      "price_usd": "0.007291",
+      "liquidity_usd": 234807.97,
+      "volume_24h": 4408786.42,
+      "change_24h": 868,
+      "trades_24h": 22152,
+      "age_hours": 85,
       "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-      "market_cap": 7103756,
+      "market_cap": 7139616,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.004076",
-      "liquidity_usd": 194917.5,
-      "volume_24h": 1024039.46,
-      "change_24h": -19.69,
-      "trades_24h": 31551,
-      "age_hours": 1572,
+      "price_usd": "0.004536",
+      "liquidity_usd": 206465.06,
+      "volume_24h": 992333.64,
+      "change_24h": -9.3,
+      "trades_24h": 31756,
+      "age_hours": 1573,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 4023188,
+      "market_cap": 4477608,
       "strategies": [
         "baseline"
       ]
@@ -74,14 +74,14 @@
       "name": "three.ws",
       "symbol": "three",
       "address": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
-      "price_usd": "0.0005415",
-      "liquidity_usd": 151228.03,
-      "volume_24h": 256921.57,
-      "change_24h": 10.25,
-      "trades_24h": 8774,
-      "age_hours": 4410,
+      "price_usd": "0.0006689",
+      "liquidity_usd": 168634.3,
+      "volume_24h": 262913.86,
+      "change_24h": 54.14,
+      "trades_24h": 10394,
+      "age_hours": 4411,
       "url": "https://dexscreener.com/solana/5byl7mzolabynwmpzkpkjf4mgkz7febzranos19pre2z",
-      "market_cap": 541370,
+      "market_cap": 668733,
       "strategies": [
         "baseline"
       ]
@@ -90,14 +90,14 @@
       "name": "jeff",
       "symbol": "jeff",
       "address": "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k",
-      "price_usd": "0.0007342",
-      "liquidity_usd": 65466.42,
-      "volume_24h": 711800.81,
-      "change_24h": -51.95,
-      "trades_24h": 8926,
-      "age_hours": 48,
+      "price_usd": "0.0008500",
+      "liquidity_usd": 70759.88,
+      "volume_24h": 652808.08,
+      "change_24h": -52.26,
+      "trades_24h": 8607,
+      "age_hours": 49,
       "url": "https://dexscreener.com/solana/jcxwfczgjgjc8nza5qb6jp3cgvqw4vgug4tqj87g5zny",
-      "market_cap": 734251,
+      "market_cap": 850091,
       "strategies": [
         "baseline"
       ]

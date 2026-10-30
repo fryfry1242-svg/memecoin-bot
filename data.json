@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-30 12:50 UTC",
-  "scanned": 49,
-  "passed": 6,
+  "updated": "2026-10-30 13:52 UTC",
+  "scanned": 53,
+  "passed": 7,
   "rejection_reasons": {
     "low liquidity": 37,
-    "too new": 39,
-    "thin liquidity vs market cap": 18,
-    "low volume": 7,
-    "few trades": 1
+    "low volume": 9,
+    "too new": 42,
+    "few trades": 1,
+    "thin liquidity vs market cap": 20
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "Dessa",
       "symbol": "DESSA",
       "address": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-      "price_usd": "0.009157",
-      "liquidity_usd": 268255.29,
-      "volume_24h": 4826887.4,
-      "change_24h": 780,
-      "trades_24h": 26868,
-      "age_hours": 96,
+      "price_usd": "0.008966",
+      "liquidity_usd": 263169.21,
+      "volume_24h": 4856505.76,
+      "change_24h": 784,
+      "trades_24h": 27112,
+      "age_hours": 97,
       "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-      "market_cap": 8966667,
+      "market_cap": 8779447,
       "strategies": [
         "baseline"
       ]
@@ -58,30 +58,47 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.004683",
-      "liquidity_usd": 213314.68,
-      "volume_24h": 911955.28,
-      "change_24h": -11,
-      "trades_24h": 29186,
-      "age_hours": 1584,
+      "price_usd": "0.004672",
+      "liquidity_usd": 211261.99,
+      "volume_24h": 904346.69,
+      "change_24h": -15,
+      "trades_24h": 28659,
+      "age_hours": 1585,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 4622084,
+      "market_cap": 4611140,
       "strategies": [
         "baseline"
+      ]
+    },
+    {
+      "name": "Hellhound",
+      "symbol": "HELL",
+      "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
+      "price_usd": "0.003053",
+      "liquidity_usd": 149002.75,
+      "volume_24h": 85891.03,
+      "change_24h": 10.19,
+      "trades_24h": 42477,
+      "age_hours": 409,
+      "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
+      "market_cap": 2912272,
+      "strategies": [
+        "baseline",
+        "medium_risk"
       ]
     },
     {
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.0009007",
-      "liquidity_usd": 98934.79,
-      "volume_24h": 68569.6,
-      "change_24h": -7.46,
+      "price_usd": "0.001029",
+      "liquidity_usd": 105958.24,
+      "volume_24h": 73052.36,
+      "change_24h": 3.26,
       "trades_24h": 610,
-      "age_hours": 570,
+      "age_hours": 571,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 849146,
+      "market_cap": 970440,
       "strategies": [
         "baseline"
       ]
@@ -90,14 +107,14 @@
       "name": "\u2588\u2588\u2588",
       "symbol": "\u2588\u2588\u2588",
       "address": "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
-      "price_usd": "0.0005089",
-      "liquidity_usd": 74068.34,
-      "volume_24h": 356562.13,
-      "change_24h": 3.75,
-      "trades_24h": 5002,
-      "age_hours": 153,
+      "price_usd": "0.0004362",
+      "liquidity_usd": 67891.34,
+      "volume_24h": 340811.61,
+      "change_24h": -26.29,
+      "trades_24h": 4860,
+      "age_hours": 154,
       "url": "https://dexscreener.com/solana/9sy4amm2rfpsbq1qgcqtxcjfvhmfj9k4d2j5xfm1k75m",
-      "market_cap": 495480,
+      "market_cap": 424696,
       "strategies": [
         "baseline"
       ]
@@ -106,14 +123,14 @@
       "name": "Network Coin",
       "symbol": "NETWORK",
       "address": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
-      "price_usd": "0.0002132",
-      "liquidity_usd": 38471.11,
-      "volume_24h": 176443.3,
-      "change_24h": 57.23,
-      "trades_24h": 9216,
-      "age_hours": 135,
+      "price_usd": "0.0002140",
+      "liquidity_usd": 38222.1,
+      "volume_24h": 175299.9,
+      "change_24h": 58.62,
+      "trades_24h": 9306,
+      "age_hours": 136,
       "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
-      "market_cap": 202671,
+      "market_cap": 203372,
       "strategies": [
         "baseline"
       ]
@@ -122,14 +139,14 @@
       "name": "Tip Toe'n in my Jordans",
       "symbol": "TIPTOE",
       "address": "gL9Q3xjXM1BdopmHn1R7Kb3Eim5NAQ1eWGNaTj3pump",
-      "price_usd": "0.00006976",
-      "liquidity_usd": 25725.21,
-      "volume_24h": 10627.42,
-      "change_24h": 2.26,
-      "trades_24h": 201,
-      "age_hours": 658,
+      "price_usd": "0.00006865",
+      "liquidity_usd": 25404.32,
+      "volume_24h": 10393.09,
+      "change_24h": -2.99,
+      "trades_24h": 191,
+      "age_hours": 659,
       "url": "https://dexscreener.com/solana/bl7ban83xxq5uxxuxfqketi3qgdx1qcpt7k4tpw9ag6z",
-      "market_cap": 67415,
+      "market_cap": 66341,
       "strategies": [
         "baseline"
       ]

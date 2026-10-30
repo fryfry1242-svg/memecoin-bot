@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-30 06:00 UTC",
+  "updated": "2026-10-30 06:52 UTC",
   "scanned": 58,
   "passed": 6,
   "rejection_reasons": {
     "low liquidity": 46,
     "too new": 47,
-    "thin liquidity vs market cap": 21,
-    "low volume": 7
+    "low volume": 7,
+    "thin liquidity vs market cap": 19
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -41,14 +41,14 @@
       "name": "Dessa",
       "symbol": "DESSA",
       "address": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-      "price_usd": "0.008998",
-      "liquidity_usd": 267017.34,
-      "volume_24h": 4609858.61,
-      "change_24h": 981,
-      "trades_24h": 25515,
-      "age_hours": 89,
+      "price_usd": "0.008610",
+      "liquidity_usd": 261240.57,
+      "volume_24h": 4633038.14,
+      "change_24h": 862,
+      "trades_24h": 25732,
+      "age_hours": 90,
       "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-      "market_cap": 8810611,
+      "market_cap": 8430374,
       "strategies": [
         "baseline"
       ]
@@ -57,14 +57,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.004335",
-      "liquidity_usd": 206222.7,
-      "volume_24h": 925988.34,
-      "change_24h": -20.87,
-      "trades_24h": 31075,
+      "price_usd": "0.004219",
+      "liquidity_usd": 203449.74,
+      "volume_24h": 900123.49,
+      "change_24h": -17.96,
+      "trades_24h": 30267,
       "age_hours": 1578,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 4279353,
+      "market_cap": 4164634,
       "strategies": [
         "baseline"
       ]
@@ -73,30 +73,14 @@
       "name": "three.ws",
       "symbol": "three",
       "address": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
-      "price_usd": "0.0006511",
-      "liquidity_usd": 169992.31,
-      "volume_24h": 288587.7,
-      "change_24h": 40.96,
-      "trades_24h": 16693,
-      "age_hours": 4415,
+      "price_usd": "0.0006440",
+      "liquidity_usd": 169075.05,
+      "volume_24h": 290060.37,
+      "change_24h": 40.07,
+      "trades_24h": 17876,
+      "age_hours": 4416,
       "url": "https://dexscreener.com/solana/5byl7mzolabynwmpzkpkjf4mgkz7febzranos19pre2z",
-      "market_cap": 650926,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "jeff",
-      "symbol": "jeff",
-      "address": "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k",
-      "price_usd": "0.001677",
-      "liquidity_usd": 102645.73,
-      "volume_24h": 634034.33,
-      "change_24h": 47.31,
-      "trades_24h": 8055,
-      "age_hours": 53,
-      "url": "https://dexscreener.com/solana/jcxwfczgjgjc8nza5qb6jp3cgvqw4vgug4tqj87g5zny",
-      "market_cap": 1677152,
+      "market_cap": 643814,
       "strategies": [
         "baseline"
       ]
@@ -105,14 +89,30 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.0008974",
-      "liquidity_usd": 98730.19,
-      "volume_24h": 67329.43,
-      "change_24h": -6.95,
-      "trades_24h": 655,
+      "price_usd": "0.0008902",
+      "liquidity_usd": 98322.15,
+      "volume_24h": 66163.34,
+      "change_24h": -8.06,
+      "trades_24h": 650,
       "age_hours": 564,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 846070,
+      "market_cap": 839314,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "jeff",
+      "symbol": "jeff",
+      "address": "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k",
+      "price_usd": "0.001487",
+      "liquidity_usd": 96800.51,
+      "volume_24h": 640956.76,
+      "change_24h": 44.38,
+      "trades_24h": 8088,
+      "age_hours": 54,
+      "url": "https://dexscreener.com/solana/jcxwfczgjgjc8nza5qb6jp3cgvqw4vgug4tqj87g5zny",
+      "market_cap": 1487290,
       "strategies": [
         "baseline"
       ]
@@ -121,14 +121,14 @@
       "name": "Network Coin",
       "symbol": "NETWORK",
       "address": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
-      "price_usd": "0.0002140",
-      "liquidity_usd": 38731.66,
-      "volume_24h": 159489.78,
-      "change_24h": 69.62,
-      "trades_24h": 8163,
-      "age_hours": 128,
+      "price_usd": "0.0002083",
+      "liquidity_usd": 38176.75,
+      "volume_24h": 161893.5,
+      "change_24h": 57.58,
+      "trades_24h": 8324,
+      "age_hours": 129,
       "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
-      "market_cap": 203439,
+      "market_cap": 197936,
       "strategies": [
         "baseline"
       ]

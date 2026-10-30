@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-30 18:07 UTC",
-  "scanned": 50,
-  "passed": 6,
+  "updated": "2026-10-30 18:56 UTC",
+  "scanned": 53,
+  "passed": 5,
   "rejection_reasons": {
-    "low liquidity": 40,
-    "too new": 33,
-    "thin liquidity vs market cap": 17,
-    "low volume": 12,
-    "few trades": 6
+    "low liquidity": 43,
+    "too new": 35,
+    "thin liquidity vs market cap": 19,
+    "low volume": 10,
+    "few trades": 5
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "Dessa",
       "symbol": "DESSA",
       "address": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-      "price_usd": "0.009243",
-      "liquidity_usd": 266730.42,
-      "volume_24h": 1748621.98,
-      "change_24h": -13.54,
-      "trades_24h": 14451,
-      "age_hours": 101,
+      "price_usd": "0.009299",
+      "liquidity_usd": 267157.99,
+      "volume_24h": 1468808.2,
+      "change_24h": -5.7,
+      "trades_24h": 12648,
+      "age_hours": 102,
       "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-      "market_cap": 9050382,
+      "market_cap": 9105590,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.004804",
-      "liquidity_usd": 213863.4,
-      "volume_24h": 862333.41,
-      "change_24h": -3,
-      "trades_24h": 29604,
+      "price_usd": "0.004691",
+      "liquidity_usd": 211304.35,
+      "volume_24h": 853668.56,
+      "change_24h": -5.69,
+      "trades_24h": 29270,
       "age_hours": 1590,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 4742200,
+      "market_cap": 4630678,
       "strategies": [
         "baseline"
       ]
@@ -74,31 +74,30 @@
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.002534",
-      "liquidity_usd": 133801.31,
-      "volume_24h": 68754.16,
-      "change_24h": -5.53,
-      "trades_24h": 49461,
-      "age_hours": 413,
+      "price_usd": "0.002879",
+      "liquidity_usd": 142016.97,
+      "volume_24h": 67598.99,
+      "change_24h": 13.93,
+      "trades_24h": 50850,
+      "age_hours": 414,
       "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 2417624,
+      "market_cap": 2746080,
       "strategies": [
-        "baseline",
-        "medium_risk"
+        "baseline"
       ]
     },
     {
       "name": "\u2588\u2588\u2588",
       "symbol": "\u2588\u2588\u2588",
       "address": "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
-      "price_usd": "0.0005192",
-      "liquidity_usd": 74206.94,
-      "volume_24h": 333519.62,
-      "change_24h": -19.12,
-      "trades_24h": 4817,
-      "age_hours": 159,
+      "price_usd": "0.0005409",
+      "liquidity_usd": 75556.75,
+      "volume_24h": 322007.89,
+      "change_24h": -14.84,
+      "trades_24h": 4710,
+      "age_hours": 160,
       "url": "https://dexscreener.com/solana/9sy4amm2rfpsbq1qgcqtxcjfvhmfj9k4d2j5xfm1k75m",
-      "market_cap": 505523,
+      "market_cap": 526665,
       "strategies": [
         "baseline"
       ]
@@ -107,30 +106,14 @@
       "name": "STANK",
       "symbol": "STANK",
       "address": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-      "price_usd": "0.0001525",
-      "liquidity_usd": 32864.45,
-      "volume_24h": 402672.67,
-      "change_24h": 77.63,
-      "trades_24h": 5400,
-      "age_hours": 28,
+      "price_usd": "0.0001308",
+      "liquidity_usd": 30052.14,
+      "volume_24h": 401814.25,
+      "change_24h": 52.93,
+      "trades_24h": 5441,
+      "age_hours": 29,
       "url": "https://dexscreener.com/solana/6hyfmye2byyscterqueckhihq5x9j2wd2z9watdwy38n",
-      "market_cap": 152520,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Hexncoin",
-      "symbol": "HEXN",
-      "address": "ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump",
-      "price_usd": "0.00008419",
-      "liquidity_usd": 27429.27,
-      "volume_24h": 5656021.46,
-      "change_24h": -87.77,
-      "trades_24h": 159543,
-      "age_hours": 25,
-      "url": "https://dexscreener.com/solana/bqjzersgugnhav8c1m3vc4wa6mgqbae8t2w7eptsdkw4",
-      "market_cap": 83599,
+      "market_cap": 130866,
       "strategies": [
         "baseline"
       ]

@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-30 10:29 UTC",
+  "updated": "2026-10-30 11:14 UTC",
   "scanned": 53,
   "passed": 6,
   "rejection_reasons": {
-    "low liquidity": 41,
+    "low liquidity": 39,
     "too new": 42,
-    "thin liquidity vs market cap": 20,
-    "low volume": 8,
+    "thin liquidity vs market cap": 18,
+    "low volume": 9,
     "few trades": 1
   },
   "rules": [
@@ -42,14 +42,14 @@
       "name": "Dessa",
       "symbol": "DESSA",
       "address": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-      "price_usd": "0.008593",
-      "liquidity_usd": 259757.37,
-      "volume_24h": 4738410.59,
-      "change_24h": 705,
-      "trades_24h": 26352,
-      "age_hours": 93,
+      "price_usd": "0.008986",
+      "liquidity_usd": 266162.18,
+      "volume_24h": 4767396.57,
+      "change_24h": 806,
+      "trades_24h": 26496,
+      "age_hours": 94,
       "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-      "market_cap": 8413805,
+      "market_cap": 8799005,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.004635",
-      "liquidity_usd": 212195.3,
-      "volume_24h": 897044.22,
-      "change_24h": -11.4,
-      "trades_24h": 29465,
-      "age_hours": 1582,
+      "price_usd": "0.004453",
+      "liquidity_usd": 208314.92,
+      "volume_24h": 905539.29,
+      "change_24h": -11.05,
+      "trades_24h": 29497,
+      "age_hours": 1583,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 4575046,
+      "market_cap": 4395219,
       "strategies": [
         "baseline"
       ]
@@ -74,14 +74,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.0009837",
-      "liquidity_usd": 103499.31,
-      "volume_24h": 67451.62,
-      "change_24h": 5.31,
-      "trades_24h": 626,
-      "age_hours": 568,
+      "price_usd": "0.0009966",
+      "liquidity_usd": 104189.85,
+      "volume_24h": 67523.74,
+      "change_24h": 4.46,
+      "trades_24h": 625,
+      "age_hours": 569,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 927483,
+      "market_cap": 939606,
       "strategies": [
         "baseline"
       ]
@@ -90,14 +90,14 @@
       "name": "\u2588\u2588\u2588",
       "symbol": "\u2588\u2588\u2588",
       "address": "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
-      "price_usd": "0.0005227",
-      "liquidity_usd": 75115.11,
-      "volume_24h": 359114.72,
-      "change_24h": -8.36,
-      "trades_24h": 5038,
-      "age_hours": 151,
+      "price_usd": "0.0005145",
+      "liquidity_usd": 74624.53,
+      "volume_24h": 358098.15,
+      "change_24h": -8.98,
+      "trades_24h": 5016,
+      "age_hours": 152,
       "url": "https://dexscreener.com/solana/9sy4amm2rfpsbq1qgcqtxcjfvhmfj9k4d2j5xfm1k75m",
-      "market_cap": 508962,
+      "market_cap": 500898,
       "strategies": [
         "baseline"
       ]
@@ -106,14 +106,14 @@
       "name": "Network Coin",
       "symbol": "NETWORK",
       "address": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
-      "price_usd": "0.0002300",
-      "liquidity_usd": 40026.78,
-      "volume_24h": 175106.32,
-      "change_24h": 71.66,
-      "trades_24h": 9043,
+      "price_usd": "0.0002350",
+      "liquidity_usd": 40535.27,
+      "volume_24h": 174217.85,
+      "change_24h": 75.17,
+      "trades_24h": 9074,
       "age_hours": 133,
       "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
-      "market_cap": 218644,
+      "market_cap": 223341,
       "strategies": [
         "baseline"
       ]
@@ -127,7 +127,7 @@
       "volume_24h": 10465.37,
       "change_24h": 1.38,
       "trades_24h": 196,
-      "age_hours": 655,
+      "age_hours": 656,
       "url": "https://dexscreener.com/solana/bl7ban83xxq5uxxuxfqketi3qgdx1qcpt7k4tpw9ag6z",
       "market_cap": 69137,
       "strategies": [

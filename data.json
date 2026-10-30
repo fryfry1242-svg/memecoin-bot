@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-30 18:56 UTC",
-  "scanned": 53,
-  "passed": 5,
+  "updated": "2026-10-30 19:43 UTC",
+  "scanned": 57,
+  "passed": 6,
   "rejection_reasons": {
-    "low liquidity": 43,
-    "too new": 35,
-    "thin liquidity vs market cap": 19,
-    "low volume": 10,
-    "few trades": 5
+    "low liquidity": 45,
+    "too new": 42,
+    "thin liquidity vs market cap": 23,
+    "low volume": 11,
+    "few trades": 6
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "Dessa",
       "symbol": "DESSA",
       "address": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-      "price_usd": "0.009299",
-      "liquidity_usd": 267157.99,
-      "volume_24h": 1468808.2,
-      "change_24h": -5.7,
-      "trades_24h": 12648,
-      "age_hours": 102,
+      "price_usd": "0.009015",
+      "liquidity_usd": 263910.87,
+      "volume_24h": 1300503.79,
+      "change_24h": 21.44,
+      "trades_24h": 12006,
+      "age_hours": 103,
       "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-      "market_cap": 9105590,
+      "market_cap": 8827156,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,30 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.004691",
-      "liquidity_usd": 211304.35,
-      "volume_24h": 853668.56,
-      "change_24h": -5.69,
-      "trades_24h": 29270,
-      "age_hours": 1590,
+      "price_usd": "0.004596",
+      "liquidity_usd": 209614.21,
+      "volume_24h": 852676.68,
+      "change_24h": -7.62,
+      "trades_24h": 29555,
+      "age_hours": 1591,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 4630678,
+      "market_cap": 4536776,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "DogWifJob",
+      "symbol": "JOB",
+      "address": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+      "price_usd": "0.003474",
+      "liquidity_usd": 161124.34,
+      "volume_24h": 1385158.44,
+      "change_24h": -0.26,
+      "trades_24h": 26938,
+      "age_hours": 72,
+      "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
+      "market_cap": 3384878,
       "strategies": [
         "baseline"
       ]
@@ -74,30 +90,30 @@
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.002879",
-      "liquidity_usd": 142016.97,
-      "volume_24h": 67598.99,
-      "change_24h": 13.93,
-      "trades_24h": 50850,
-      "age_hours": 414,
+      "price_usd": "0.002900",
+      "liquidity_usd": 143168.75,
+      "volume_24h": 68537.03,
+      "change_24h": 10.55,
+      "trades_24h": 52207,
+      "age_hours": 415,
       "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 2746080,
+      "market_cap": 2766683,
       "strategies": [
         "baseline"
       ]
     },
     {
-      "name": "\u2588\u2588\u2588",
-      "symbol": "\u2588\u2588\u2588",
-      "address": "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
-      "price_usd": "0.0005409",
-      "liquidity_usd": 75556.75,
-      "volume_24h": 322007.89,
-      "change_24h": -14.84,
-      "trades_24h": 4710,
-      "age_hours": 160,
-      "url": "https://dexscreener.com/solana/9sy4amm2rfpsbq1qgcqtxcjfvhmfj9k4d2j5xfm1k75m",
-      "market_cap": 526665,
+      "name": "Network Coin",
+      "symbol": "NETWORK",
+      "address": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
+      "price_usd": "0.0002343",
+      "liquidity_usd": 40063.93,
+      "volume_24h": 171382.76,
+      "change_24h": 81.16,
+      "trades_24h": 10019,
+      "age_hours": 142,
+      "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
+      "market_cap": 222681,
       "strategies": [
         "baseline"
       ]
@@ -106,14 +122,14 @@
       "name": "STANK",
       "symbol": "STANK",
       "address": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-      "price_usd": "0.0001308",
-      "liquidity_usd": 30052.14,
-      "volume_24h": 401814.25,
-      "change_24h": 52.93,
-      "trades_24h": 5441,
-      "age_hours": 29,
+      "price_usd": "0.0001568",
+      "liquidity_usd": 32917.72,
+      "volume_24h": 409054.98,
+      "change_24h": 101,
+      "trades_24h": 5510,
+      "age_hours": 30,
       "url": "https://dexscreener.com/solana/6hyfmye2byyscterqueckhihq5x9j2wd2z9watdwy38n",
-      "market_cap": 130866,
+      "market_cap": 156870,
       "strategies": [
         "baseline"
       ]

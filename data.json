@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-30 15:42 UTC",
-  "scanned": 49,
-  "passed": 8,
+  "updated": "2026-10-30 16:30 UTC",
+  "scanned": 44,
+  "passed": 5,
   "rejection_reasons": {
-    "low liquidity": 33,
-    "too new": 33,
-    "thin liquidity vs market cap": 13,
-    "low volume": 8,
+    "low liquidity": 31,
+    "low volume": 9,
+    "too new": 31,
+    "thin liquidity vs market cap": 12,
     "few trades": 3
   },
   "rules": [
@@ -39,33 +39,17 @@
   },
   "candidates": [
     {
-      "name": "Dessa",
-      "symbol": "DESSA",
-      "address": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-      "price_usd": "0.008826",
-      "liquidity_usd": 261130,
-      "volume_24h": 4032555.99,
-      "change_24h": 104,
-      "trades_24h": 22702,
-      "age_hours": 99,
-      "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-      "market_cap": 8642163,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.004418",
-      "liquidity_usd": 205414.71,
-      "volume_24h": 863411.42,
-      "change_24h": -14.3,
-      "trades_24h": 27757,
-      "age_hours": 1587,
+      "price_usd": "0.004547",
+      "liquidity_usd": 208985.7,
+      "volume_24h": 854480.76,
+      "change_24h": -3.57,
+      "trades_24h": 28297,
+      "age_hours": 1588,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 4360769,
+      "market_cap": 4487712,
       "strategies": [
         "baseline"
       ]
@@ -74,14 +58,14 @@
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.002610",
-      "liquidity_usd": 137376.19,
-      "volume_24h": 83273.68,
-      "change_24h": 2.57,
-      "trades_24h": 45596,
+      "price_usd": "0.002859",
+      "liquidity_usd": 143020.81,
+      "volume_24h": 72624.23,
+      "change_24h": 6.12,
+      "trades_24h": 46855,
       "age_hours": 411,
       "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 2489628,
+      "market_cap": 2727722,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -91,14 +75,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.0009833",
-      "liquidity_usd": 103499.02,
-      "volume_24h": 73038.5,
-      "change_24h": -2.16,
-      "trades_24h": 601,
-      "age_hours": 573,
+      "price_usd": "0.0009947",
+      "liquidity_usd": 104120.9,
+      "volume_24h": 75525.67,
+      "change_24h": -0.4,
+      "trades_24h": 602,
+      "age_hours": 574,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 927032,
+      "market_cap": 937814,
       "strategies": [
         "baseline"
       ]
@@ -107,30 +91,14 @@
       "name": "\u2588\u2588\u2588",
       "symbol": "\u2588\u2588\u2588",
       "address": "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
-      "price_usd": "0.0006032",
-      "liquidity_usd": 80150.68,
-      "volume_24h": 341565,
-      "change_24h": 13.29,
-      "trades_24h": 4889,
-      "age_hours": 156,
+      "price_usd": "0.0004988",
+      "liquidity_usd": 72949.71,
+      "volume_24h": 349090.64,
+      "change_24h": -13.69,
+      "trades_24h": 4977,
+      "age_hours": 157,
       "url": "https://dexscreener.com/solana/9sy4amm2rfpsbq1qgcqtxcjfvhmfj9k4d2j5xfm1k75m",
-      "market_cap": 587315,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Sixth Sense Labs",
-      "symbol": "SENSE",
-      "address": "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
-      "price_usd": "0.0003130",
-      "liquidity_usd": 54668,
-      "volume_24h": 508989.76,
-      "change_24h": -70.57,
-      "trades_24h": 7710,
-      "age_hours": 25,
-      "url": "https://dexscreener.com/solana/gtl872vumrwnc34asqlzctih8co2fcwd9zpkzy2y1lqc",
-      "market_cap": 313091,
+      "market_cap": 485628,
       "strategies": [
         "baseline"
       ]
@@ -139,30 +107,14 @@
       "name": "STANK",
       "symbol": "STANK",
       "address": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-      "price_usd": "0.0002649",
-      "liquidity_usd": 43183.97,
-      "volume_24h": 381223.85,
-      "change_24h": 345,
-      "trades_24h": 5061,
-      "age_hours": 26,
+      "price_usd": "0.0002173",
+      "liquidity_usd": 39457.56,
+      "volume_24h": 402888.41,
+      "change_24h": 237,
+      "trades_24h": 5369,
+      "age_hours": 27,
       "url": "https://dexscreener.com/solana/6hyfmye2byyscterqueckhihq5x9j2wd2z9watdwy38n",
-      "market_cap": 264907,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Tip Toe'n in my Jordans",
-      "symbol": "TIPTOE",
-      "address": "gL9Q3xjXM1BdopmHn1R7Kb3Eim5NAQ1eWGNaTj3pump",
-      "price_usd": "0.00006797",
-      "liquidity_usd": 25172.24,
-      "volume_24h": 10593.56,
-      "change_24h": -9.35,
-      "trades_24h": 174,
-      "age_hours": 660,
-      "url": "https://dexscreener.com/solana/bl7ban83xxq5uxxuxfqketi3qgdx1qcpt7k4tpw9ag6z",
-      "market_cap": 65683,
+      "market_cap": 217348,
       "strategies": [
         "baseline"
       ]

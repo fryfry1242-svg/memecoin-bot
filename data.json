@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-31 10:28 UTC",
-  "scanned": 57,
-  "passed": 8,
+  "updated": "2026-10-31 11:06 UTC",
+  "scanned": 58,
+  "passed": 9,
   "rejection_reasons": {
-    "low liquidity": 40,
-    "too new": 42,
-    "thin liquidity vs market cap": 23,
+    "low liquidity": 43,
+    "too new": 40,
+    "thin liquidity vs market cap": 24,
     "low volume": 12,
-    "few trades": 7
+    "few trades": 6
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,30 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.005436",
-      "liquidity_usd": 230672.39,
-      "volume_24h": 921277.76,
-      "change_24h": 17.01,
-      "trades_24h": 40016,
-      "age_hours": 1606,
+      "price_usd": "0.005291",
+      "liquidity_usd": 227575.42,
+      "volume_24h": 920562.36,
+      "change_24h": 18.16,
+      "trades_24h": 39405,
+      "age_hours": 1607,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 5365856,
+      "market_cap": 5222024,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "DogWifJob",
+      "symbol": "JOB",
+      "address": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+      "price_usd": "0.003391",
+      "liquidity_usd": 161779.35,
+      "volume_24h": 1404014.69,
+      "change_24h": 14.2,
+      "trades_24h": 28398,
+      "age_hours": 88,
+      "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
+      "market_cap": 3303376,
       "strategies": [
         "baseline"
       ]
@@ -58,64 +74,64 @@
       "name": "Infinite Money Glitch",
       "symbol": "GLITCH",
       "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "price_usd": "0.003510",
-      "liquidity_usd": 163692.09,
-      "volume_24h": 525116.52,
-      "change_24h": 28.53,
-      "trades_24h": 3796,
-      "age_hours": 355,
+      "price_usd": "0.003373",
+      "liquidity_usd": 160400.24,
+      "volume_24h": 528911.62,
+      "change_24h": 24.31,
+      "trades_24h": 3816,
+      "age_hours": 356,
       "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-      "market_cap": 3273588,
+      "market_cap": 3146023,
       "strategies": [
         "baseline",
         "medium_risk"
-      ]
-    },
-    {
-      "name": "DogWifJob",
-      "symbol": "JOB",
-      "address": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-      "price_usd": "0.003376",
-      "liquidity_usd": 161382.22,
-      "volume_24h": 1430417.96,
-      "change_24h": 26.36,
-      "trades_24h": 28736,
-      "age_hours": 87,
-      "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-      "market_cap": 3289191,
-      "strategies": [
-        "baseline"
       ]
     },
     {
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.002445",
-      "liquidity_usd": 132596.36,
-      "volume_24h": 110025.48,
-      "change_24h": null,
-      "trades_24h": 70528,
-      "age_hours": 429,
+      "price_usd": "0.002674",
+      "liquidity_usd": 138809.22,
+      "volume_24h": 107510.78,
+      "change_24h": 9.4,
+      "trades_24h": 70719,
+      "age_hours": 430,
       "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 2333001,
+      "market_cap": 2550974,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
+      "name": "Quantum Inu",
+      "symbol": "QI",
+      "address": "8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ",
+      "price_usd": "0.0002162",
+      "liquidity_usd": 51867.21,
+      "volume_24h": 56622.06,
+      "change_24h": -6.77,
+      "trades_24h": 1163,
+      "age_hours": 534,
+      "url": "https://dexscreener.com/solana/cb4gfrgeitfu5qtxfrmiqzsavpwgbd3heor4cs2jfpn",
+      "market_cap": 206003,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
       "name": "STANK",
       "symbol": "STANK",
       "address": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-      "price_usd": "0.0002858",
-      "liquidity_usd": 45423.19,
-      "volume_24h": 283653.28,
-      "change_24h": 234,
-      "trades_24h": 3935,
+      "price_usd": "0.0003032",
+      "liquidity_usd": 47060.7,
+      "volume_24h": 284109.21,
+      "change_24h": 151,
+      "trades_24h": 3955,
       "age_hours": 45,
       "url": "https://dexscreener.com/solana/6hyfmye2byyscterqueckhihq5x9j2wd2z9watdwy38n",
-      "market_cap": 285877,
+      "market_cap": 303221,
       "strategies": [
         "baseline"
       ]
@@ -124,14 +140,14 @@
       "name": "Network Coin",
       "symbol": "NETWORK",
       "address": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
-      "price_usd": "0.0002619",
-      "liquidity_usd": 43065.97,
-      "volume_24h": 226123.92,
-      "change_24h": 15.53,
-      "trades_24h": 19649,
+      "price_usd": "0.0002563",
+      "liquidity_usd": 42596.75,
+      "volume_24h": 227151.9,
+      "change_24h": 10.92,
+      "trades_24h": 19642,
       "age_hours": 157,
       "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
-      "market_cap": 248899,
+      "market_cap": 243610,
       "strategies": [
         "baseline"
       ]
@@ -140,14 +156,14 @@
       "name": "Pok\u00e9mon",
       "symbol": "Pok\u00e9mon",
       "address": "D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1",
-      "price_usd": "0.0001072",
-      "liquidity_usd": 33314.55,
-      "volume_24h": 33383.57,
-      "change_24h": -17.75,
-      "trades_24h": 771,
+      "price_usd": "0.0001061",
+      "liquidity_usd": 33162.66,
+      "volume_24h": 33150.98,
+      "change_24h": -20.01,
+      "trades_24h": 768,
       "age_hours": 300,
       "url": "https://dexscreener.com/solana/cxyug8pvwbbkw41mlaq7j87ft3drydjzv2a5pgwb31an",
-      "market_cap": 103843,
+      "market_cap": 102807,
       "strategies": [
         "baseline"
       ]
@@ -156,14 +172,14 @@
       "name": "NIKITA BOAR",
       "symbol": "BOAR",
       "address": "5ohBqLgmccJstRhrFskitBYa7DtwQ13HZmFzH8Wepump",
-      "price_usd": "0.00002781",
-      "liquidity_usd": 25753.39,
-      "volume_24h": 34585.01,
-      "change_24h": 37.22,
-      "trades_24h": 521,
-      "age_hours": 7028,
+      "price_usd": "0.00002784",
+      "liquidity_usd": 25791.34,
+      "volume_24h": 34586.92,
+      "change_24h": 37.35,
+      "trades_24h": 522,
+      "age_hours": 7029,
       "url": "https://dexscreener.com/solana/y48t97pt9f9q9woxfdts53aofui3ane1ggbjtm8gazz",
-      "market_cap": 27802,
+      "market_cap": 27828,
       "strategies": [
         "baseline"
       ]

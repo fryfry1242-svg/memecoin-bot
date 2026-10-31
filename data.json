@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-31 07:27 UTC",
+  "updated": "2026-10-31 08:18 UTC",
   "scanned": 55,
-  "passed": 8,
+  "passed": 7,
   "rejection_reasons": {
     "low liquidity": 40,
     "too new": 39,
-    "thin liquidity vs market cap": 26,
-    "low volume": 11,
-    "few trades": 6
+    "thin liquidity vs market cap": 25,
+    "low volume": 13,
+    "few trades": 8
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,46 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.004851",
-      "liquidity_usd": 218044.69,
-      "volume_24h": 970086.16,
-      "change_24h": 16.64,
-      "trades_24h": 42596,
-      "age_hours": 1603,
+      "price_usd": "0.005267",
+      "liquidity_usd": 226961.44,
+      "volume_24h": 959551.99,
+      "change_24h": 7.93,
+      "trades_24h": 42207,
+      "age_hours": 1604,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 4788552,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Infinite Money Glitch",
-      "symbol": "GLITCH",
-      "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "price_usd": "0.003668",
-      "liquidity_usd": 167543.9,
-      "volume_24h": 523710.2,
-      "change_24h": 44.99,
-      "trades_24h": 3732,
-      "age_hours": 352,
-      "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-      "market_cap": 3420366,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "three.ws",
-      "symbol": "three",
-      "address": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
-      "price_usd": "0.0006373",
-      "liquidity_usd": 166676.4,
-      "volume_24h": 102270.75,
-      "change_24h": -1.65,
-      "trades_24h": 22257,
-      "age_hours": 4440,
-      "url": "https://dexscreener.com/solana/5byl7mzolabynwmpzkpkjf4mgkz7febzranos19pre2z",
-      "market_cap": 637145,
+      "market_cap": 5198989,
       "strategies": [
         "baseline"
       ]
@@ -90,30 +58,47 @@
       "name": "DogWifJob",
       "symbol": "JOB",
       "address": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-      "price_usd": "0.003450",
-      "liquidity_usd": 163173.6,
-      "volume_24h": 1497269.09,
-      "change_24h": 21.98,
-      "trades_24h": 29357,
-      "age_hours": 84,
+      "price_usd": "0.003377",
+      "liquidity_usd": 161251.83,
+      "volume_24h": 1478231.56,
+      "change_24h": 19.58,
+      "trades_24h": 29244,
+      "age_hours": 85,
       "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-      "market_cap": 3361604,
+      "market_cap": 3290266,
       "strategies": [
         "baseline"
+      ]
+    },
+    {
+      "name": "Infinite Money Glitch",
+      "symbol": "GLITCH",
+      "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "price_usd": "0.003395",
+      "liquidity_usd": 160930.86,
+      "volume_24h": 529423.33,
+      "change_24h": 29.85,
+      "trades_24h": 3810,
+      "age_hours": 353,
+      "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
+      "market_cap": 3165987,
+      "strategies": [
+        "baseline",
+        "medium_risk"
       ]
     },
     {
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.002625",
-      "liquidity_usd": 137609.37,
-      "volume_24h": 102836.08,
-      "change_24h": 8.16,
-      "trades_24h": 69872,
-      "age_hours": 426,
+      "price_usd": "0.002652",
+      "liquidity_usd": 138304.25,
+      "volume_24h": 102413.66,
+      "change_24h": 9.89,
+      "trades_24h": 70093,
+      "age_hours": 427,
       "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 2504439,
+      "market_cap": 2530209,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -123,14 +108,14 @@
       "name": "Network Coin",
       "symbol": "NETWORK",
       "address": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
-      "price_usd": "0.0002802",
-      "liquidity_usd": 44641.89,
-      "volume_24h": 237445.41,
-      "change_24h": 38.19,
-      "trades_24h": 20160,
+      "price_usd": "0.0002779",
+      "liquidity_usd": 44403.2,
+      "volume_24h": 233938.77,
+      "change_24h": 28.27,
+      "trades_24h": 20048,
       "age_hours": 154,
       "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
-      "market_cap": 266306,
+      "market_cap": 264137,
       "strategies": [
         "baseline"
       ]
@@ -139,14 +124,14 @@
       "name": "STANK",
       "symbol": "STANK",
       "address": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-      "price_usd": "0.0001944",
-      "liquidity_usd": 37598.3,
-      "volume_24h": 285663.22,
-      "change_24h": 69.69,
-      "trades_24h": 3937,
+      "price_usd": "0.0001935",
+      "liquidity_usd": 37322.4,
+      "volume_24h": 284878.13,
+      "change_24h": 117,
+      "trades_24h": 3925,
       "age_hours": 42,
       "url": "https://dexscreener.com/solana/6hyfmye2byyscterqueckhihq5x9j2wd2z9watdwy38n",
-      "market_cap": 194419,
+      "market_cap": 193515,
       "strategies": [
         "baseline"
       ]
@@ -155,14 +140,14 @@
       "name": "NIKITA BOAR",
       "symbol": "BOAR",
       "address": "5ohBqLgmccJstRhrFskitBYa7DtwQ13HZmFzH8Wepump",
-      "price_usd": "0.00002798",
-      "liquidity_usd": 25889.19,
-      "volume_24h": 33701.52,
-      "change_24h": 36.47,
-      "trades_24h": 497,
-      "age_hours": 7025,
+      "price_usd": "0.00002898",
+      "liquidity_usd": 26336.75,
+      "volume_24h": 33958.77,
+      "change_24h": 41.7,
+      "trades_24h": 507,
+      "age_hours": 7026,
       "url": "https://dexscreener.com/solana/y48t97pt9f9q9woxfdts53aofui3ane1ggbjtm8gazz",
-      "market_cap": 27970,
+      "market_cap": 28973,
       "strategies": [
         "baseline"
       ]

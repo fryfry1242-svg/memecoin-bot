@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-06 19:13 UTC",
-  "scanned": 54,
-  "passed": 7,
+  "updated": "2026-11-06 20:02 UTC",
+  "scanned": 53,
+  "passed": 8,
   "rejection_reasons": {
-    "low liquidity": 39,
-    "low volume": 12,
-    "too new": 37,
+    "low liquidity": 40,
+    "too new": 36,
     "thin liquidity vs market cap": 14,
+    "low volume": 15,
     "few trades": 4
   },
   "rules": [
@@ -42,14 +42,30 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.01140",
-      "liquidity_usd": 353388.11,
-      "volume_24h": 1701948.84,
-      "change_24h": 19.29,
-      "trades_24h": 51297,
-      "age_hours": 1759,
+      "price_usd": "0.01147",
+      "liquidity_usd": 354076.65,
+      "volume_24h": 1584266,
+      "change_24h": 18.64,
+      "trades_24h": 44830,
+      "age_hours": 1760,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 11255824,
+      "market_cap": 11328307,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "COGE COIN",
+      "symbol": "COGE",
+      "address": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
+      "price_usd": "0.004819",
+      "liquidity_usd": 183283.39,
+      "volume_24h": 2087927.78,
+      "change_24h": 1071,
+      "trades_24h": 212680,
+      "age_hours": 24,
+      "url": "https://dexscreener.com/solana/8gjmy6ipysxfmwwrpu9c7atssorjg6al88d9xttzslqe",
+      "market_cap": 4797705,
       "strategies": [
         "baseline"
       ]
@@ -58,47 +74,47 @@
       "name": "three.ws",
       "symbol": "three",
       "address": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
-      "price_usd": "0.0006206",
-      "liquidity_usd": 160637.1,
-      "volume_24h": 212555.06,
-      "change_24h": 17.88,
-      "trades_24h": 36994,
-      "age_hours": 4596,
+      "price_usd": "0.0006125",
+      "liquidity_usd": 159348.06,
+      "volume_24h": 213746.39,
+      "change_24h": 17.45,
+      "trades_24h": 37567,
+      "age_hours": 4597,
       "url": "https://dexscreener.com/solana/5byl7mzolabynwmpzkpkjf4mgkz7febzranos19pre2z",
-      "market_cap": 620389,
+      "market_cap": 612270,
       "strategies": [
         "baseline"
-      ]
-    },
-    {
-      "name": "Hellhound",
-      "symbol": "HELL",
-      "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.002746",
-      "liquidity_usd": 133265.32,
-      "volume_24h": 70807.61,
-      "change_24h": -12.16,
-      "trades_24h": 84166,
-      "age_hours": 582,
-      "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 2619247,
-      "strategies": [
-        "baseline",
-        "medium_risk"
       ]
     },
     {
       "name": "Nigga Its Over",
       "symbol": "NIO",
       "address": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
-      "price_usd": "0.001323",
-      "liquidity_usd": 124221.94,
-      "volume_24h": 754430.52,
-      "change_24h": 1.92,
-      "trades_24h": 9132,
-      "age_hours": 387,
+      "price_usd": "0.001959",
+      "liquidity_usd": 152846.93,
+      "volume_24h": 1079968.94,
+      "change_24h": 85.3,
+      "trades_24h": 12547,
+      "age_hours": 388,
       "url": "https://dexscreener.com/solana/b4wmjc6pvjctu3qsvs3ett9mr4m5v5jbkrqctwantc71",
-      "market_cap": 1261102,
+      "market_cap": 1866665,
+      "strategies": [
+        "baseline",
+        "medium_risk"
+      ]
+    },
+    {
+      "name": "Hellhound",
+      "symbol": "HELL",
+      "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
+      "price_usd": "0.002794",
+      "liquidity_usd": 134830.33,
+      "volume_24h": 68109.31,
+      "change_24h": -15.73,
+      "trades_24h": 82794,
+      "age_hours": 583,
+      "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
+      "market_cap": 2665283,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -108,14 +124,14 @@
       "name": "Super Intelligence SI276",
       "symbol": "SI276",
       "address": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "price_usd": "0.0003261",
-      "liquidity_usd": 56649.52,
-      "volume_24h": 44367.55,
-      "change_24h": -12.99,
-      "trades_24h": 33250,
-      "age_hours": 744,
+      "price_usd": "0.0002992",
+      "liquidity_usd": 54139.04,
+      "volume_24h": 49006.29,
+      "change_24h": -19.25,
+      "trades_24h": 32453,
+      "age_hours": 745,
       "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-      "market_cap": 313831,
+      "market_cap": 287918,
       "strategies": [
         "baseline"
       ]
@@ -124,14 +140,14 @@
       "name": "PODCAT",
       "symbol": "PODCAT",
       "address": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
-      "price_usd": "0.0002726",
-      "liquidity_usd": 49103.55,
-      "volume_24h": 76863.61,
-      "change_24h": 32.59,
-      "trades_24h": 1308,
-      "age_hours": 209,
+      "price_usd": "0.0002550",
+      "liquidity_usd": 47387.86,
+      "volume_24h": 77823.52,
+      "change_24h": 13.91,
+      "trades_24h": 1313,
+      "age_hours": 210,
       "url": "https://dexscreener.com/solana/4zygg3nz4td2dxspoey2rqfiu5mdbfeesvevr2kr1pwp",
-      "market_cap": 261973,
+      "market_cap": 245121,
       "strategies": [
         "baseline"
       ]
@@ -140,14 +156,14 @@
       "name": "Shitcoin",
       "symbol": "Shitcoin",
       "address": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
-      "price_usd": "0.00008425",
-      "liquidity_usd": 27282.69,
-      "volume_24h": 36584.92,
-      "change_24h": 116,
-      "trades_24h": 3004,
-      "age_hours": 272,
+      "price_usd": "0.00007854",
+      "liquidity_usd": 26179.93,
+      "volume_24h": 37782.13,
+      "change_24h": 97.12,
+      "trades_24h": 3236,
+      "age_hours": 273,
       "url": "https://dexscreener.com/solana/9kahpmrriblcujm9jhwnmwcz6qvwjuyylcxeuspwxd9w",
-      "market_cap": 80592,
+      "market_cap": 75130,
       "strategies": [
         "baseline"
       ]

@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-07 20:48 UTC",
-  "scanned": 47,
-  "passed": 7,
+  "updated": "2026-11-07 21:29 UTC",
+  "scanned": 50,
+  "passed": 8,
   "rejection_reasons": {
-    "low liquidity": 36,
-    "too new": 35,
-    "thin liquidity vs market cap": 12,
-    "low volume": 6,
+    "low liquidity": 35,
+    "too new": 38,
+    "thin liquidity vs market cap": 14,
+    "low volume": 5,
     "few trades": 2
   },
   "rules": [
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.01276",
-      "liquidity_usd": 376495.31,
-      "volume_24h": 2076769.13,
-      "change_24h": 12.22,
-      "trades_24h": 30774,
-      "age_hours": 1784,
+      "price_usd": "0.01326",
+      "liquidity_usd": 382736.26,
+      "volume_24h": 2050430.68,
+      "change_24h": 12.67,
+      "trades_24h": 30294,
+      "age_hours": 1785,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 12596331,
+      "market_cap": 13095915,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.002363",
-      "liquidity_usd": 164328.53,
-      "volume_24h": 273285.99,
-      "change_24h": 19.09,
-      "trades_24h": 1651,
-      "age_hours": 770,
+      "price_usd": "0.002358",
+      "liquidity_usd": 164150.18,
+      "volume_24h": 268148.35,
+      "change_24h": 15.49,
+      "trades_24h": 1662,
+      "age_hours": 771,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 2227947,
+      "market_cap": 2223104,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -75,14 +75,14 @@
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.003040",
-      "liquidity_usd": 140816.59,
-      "volume_24h": 63875.53,
-      "change_24h": -1.65,
-      "trades_24h": 56871,
+      "price_usd": "0.003031",
+      "liquidity_usd": 140558.27,
+      "volume_24h": 60510.68,
+      "change_24h": -2.64,
+      "trades_24h": 59208,
       "age_hours": 608,
       "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 2900063,
+      "market_cap": 2891360,
       "strategies": [
         "baseline"
       ]
@@ -91,14 +91,14 @@
       "name": "Infinite Money Glitch",
       "symbol": "GLITCH",
       "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "price_usd": "0.002569",
-      "liquidity_usd": 139906.69,
-      "volume_24h": 395840.82,
-      "change_24h": -16.58,
-      "trades_24h": 4546,
-      "age_hours": 533,
+      "price_usd": "0.002408",
+      "liquidity_usd": 134962.57,
+      "volume_24h": 399704.98,
+      "change_24h": -20.03,
+      "trades_24h": 4547,
+      "age_hours": 534,
       "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-      "market_cap": 2387272,
+      "market_cap": 2236944,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -108,30 +108,14 @@
       "name": "MAMESUKE",
       "symbol": "MAMESUKE",
       "address": "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK",
-      "price_usd": "0.0005347",
-      "liquidity_usd": 55049.11,
-      "volume_24h": 266127.92,
-      "change_24h": -47.55,
-      "trades_24h": 3752,
-      "age_hours": 129,
+      "price_usd": "0.0005241",
+      "liquidity_usd": 53712.21,
+      "volume_24h": 274764.38,
+      "change_24h": -44.11,
+      "trades_24h": 3960,
+      "age_hours": 130,
       "url": "https://dexscreener.com/solana/hpexrue5msv7paz5wpviwsclesywgzr8vhdakuiep5ku",
-      "market_cap": 534783,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "THUG LIFE INC",
-      "symbol": "THUG",
-      "address": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "price_usd": "0.0001497",
-      "liquidity_usd": 37470.84,
-      "volume_24h": 34761.96,
-      "change_24h": 147,
-      "trades_24h": 303,
-      "age_hours": 57,
-      "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
-      "market_cap": 149725,
+      "market_cap": 524129,
       "strategies": [
         "baseline"
       ]
@@ -140,14 +124,46 @@
       "name": "State of Leonida",
       "symbol": "Leonida",
       "address": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
-      "price_usd": "0.0002188",
-      "liquidity_usd": 36936.67,
-      "volume_24h": 493230.83,
-      "change_24h": 112,
-      "trades_24h": 9978,
-      "age_hours": 49,
+      "price_usd": "0.0002157",
+      "liquidity_usd": 36612.73,
+      "volume_24h": 498606.68,
+      "change_24h": 81.52,
+      "trades_24h": 10163,
+      "age_hours": 50,
       "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
-      "market_cap": 212483,
+      "market_cap": 209425,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "THUG LIFE INC",
+      "symbol": "THUG",
+      "address": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+      "price_usd": "0.0001426",
+      "liquidity_usd": 36448.78,
+      "volume_24h": 35266.23,
+      "change_24h": 136,
+      "trades_24h": 307,
+      "age_hours": 58,
+      "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
+      "market_cap": 142657,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "sexcoin",
+      "symbol": "sexcoin",
+      "address": "HGHJCdysTaaYDJKwwQ3UmcodCw9xjpfFDvcShVVBpump",
+      "price_usd": "0.00009736",
+      "liquidity_usd": 25928.11,
+      "volume_24h": 123210.71,
+      "change_24h": 29.09,
+      "trades_24h": 31359,
+      "age_hours": 25,
+      "url": "https://dexscreener.com/solana/fxjkaiwb6b8yy4q6hyhchdiqfhhquud4puvjoydohwnj",
+      "market_cap": 94049,
       "strategies": [
         "baseline"
       ]

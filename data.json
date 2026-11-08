@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-08 08:28 UTC",
+  "updated": "2026-11-08 09:20 UTC",
   "scanned": 44,
   "passed": 7,
   "rejection_reasons": {
-    "low liquidity": 34,
+    "low liquidity": 33,
     "too new": 31,
+    "thin liquidity vs market cap": 11,
     "low volume": 6,
-    "few trades": 2,
-    "thin liquidity vs market cap": 11
+    "few trades": 2
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.01144",
-      "liquidity_usd": 357398.16,
-      "volume_24h": 1845343.94,
-      "change_24h": -5.46,
-      "trades_24h": 28710,
-      "age_hours": 1796,
+      "price_usd": "0.01100",
+      "liquidity_usd": 350625.64,
+      "volume_24h": 1820559.12,
+      "change_24h": -10.9,
+      "trades_24h": 28458,
+      "age_hours": 1797,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 11290907,
+      "market_cap": 10859304,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.002438",
-      "liquidity_usd": 167085.9,
-      "volume_24h": 256689.86,
-      "change_24h": 2.61,
-      "trades_24h": 1654,
-      "age_hours": 782,
+      "price_usd": "0.002477",
+      "liquidity_usd": 168415.25,
+      "volume_24h": 252443.62,
+      "change_24h": 3.23,
+      "trades_24h": 1628,
+      "age_hours": 783,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 2298915,
+      "market_cap": 2335168,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -75,63 +75,64 @@
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.002944",
-      "liquidity_usd": 138630.07,
-      "volume_24h": 78271.86,
-      "change_24h": 0.15,
-      "trades_24h": 87954,
-      "age_hours": 619,
+      "price_usd": "0.002718",
+      "liquidity_usd": 133190.43,
+      "volume_24h": 83035.31,
+      "change_24h": -8.93,
+      "trades_24h": 88956,
+      "age_hours": 620,
       "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 2808494,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Infinite Money Glitch",
-      "symbol": "GLITCH",
-      "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "price_usd": "0.001866",
-      "liquidity_usd": 119123.71,
-      "volume_24h": 463658.53,
-      "change_24h": -35.13,
-      "trades_24h": 5004,
-      "age_hours": 545,
-      "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-      "market_cap": 1734130,
+      "market_cap": 2593207,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
-      "name": "COGE COIN",
-      "symbol": "COGE",
-      "address": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
-      "price_usd": "0.001377",
-      "liquidity_usd": 100442.13,
-      "volume_24h": 2636954.11,
-      "change_24h": -91.87,
-      "trades_24h": 214925,
-      "age_hours": 61,
-      "url": "https://dexscreener.com/solana/8gjmy6ipysxfmwwrpu9c7atssorjg6al88d9xttzslqe",
-      "market_cap": 1371217,
+      "name": "Infinite Money Glitch",
+      "symbol": "GLITCH",
+      "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "price_usd": "0.001781",
+      "liquidity_usd": 116387.43,
+      "volume_24h": 455734.5,
+      "change_24h": -37.06,
+      "trades_24h": 5054,
+      "age_hours": 546,
+      "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
+      "market_cap": 1655033,
       "strategies": [
-        "baseline"
+        "baseline",
+        "medium_risk"
       ]
     },
     {
       "name": "WASTED",
       "symbol": "WASTED",
       "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "price_usd": "0.0009092",
-      "liquidity_usd": 92766.7,
-      "volume_24h": 277235.27,
-      "change_24h": 51.59,
-      "trades_24h": 3977,
-      "age_hours": 206,
+      "price_usd": "0.0009023",
+      "liquidity_usd": 92427.54,
+      "volume_24h": 275171.63,
+      "change_24h": 60.2,
+      "trades_24h": 3980,
+      "age_hours": 207,
       "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
-      "market_cap": 892032,
+      "market_cap": 885326,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "COGE COIN",
+      "symbol": "COGE",
+      "address": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
+      "price_usd": "0.001133",
+      "liquidity_usd": 91076.02,
+      "volume_24h": 2567560.49,
+      "change_24h": -93.7,
+      "trades_24h": 214738,
+      "age_hours": 62,
+      "url": "https://dexscreener.com/solana/8gjmy6ipysxfmwwrpu9c7atssorjg6al88d9xttzslqe",
+      "market_cap": 1128634,
       "strategies": [
         "baseline"
       ]
@@ -140,14 +141,14 @@
       "name": "Network Coin",
       "symbol": "NETWORK",
       "address": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
-      "price_usd": "0.0002040",
-      "liquidity_usd": 39010.6,
-      "volume_24h": 90858.42,
-      "change_24h": -41.87,
-      "trades_24h": 23257,
-      "age_hours": 347,
+      "price_usd": "0.0001925",
+      "liquidity_usd": 37856.33,
+      "volume_24h": 86622.43,
+      "change_24h": -42.46,
+      "trades_24h": 22443,
+      "age_hours": 348,
       "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
-      "market_cap": 183726,
+      "market_cap": 173312,
       "strategies": [
         "baseline"
       ]

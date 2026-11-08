@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-08 20:16 UTC",
+  "updated": "2026-11-08 21:05 UTC",
   "scanned": 48,
   "passed": 9,
   "rejection_reasons": {
-    "low liquidity": 32,
-    "too new": 35,
-    "thin liquidity vs market cap": 20,
+    "low liquidity": 33,
+    "too new": 34,
+    "thin liquidity vs market cap": 14,
     "low volume": 6,
-    "few trades": 3
+    "few trades": 1
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.01186",
-      "liquidity_usd": 366056.55,
-      "volume_24h": 1521245.11,
-      "change_24h": -8.31,
-      "trades_24h": 28286,
-      "age_hours": 1808,
+      "price_usd": "0.01198",
+      "liquidity_usd": 367353.53,
+      "volume_24h": 1547966.92,
+      "change_24h": -4.58,
+      "trades_24h": 30600,
+      "age_hours": 1809,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 11712405,
+      "market_cap": 11828437,
       "strategies": [
         "baseline"
       ]
@@ -58,31 +58,30 @@
       "name": "AgenC",
       "symbol": "AgenC",
       "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
-      "price_usd": "0.001784",
-      "liquidity_usd": 189439.7,
-      "volume_24h": 99791.05,
-      "change_24h": -2.31,
-      "trades_24h": 1101,
-      "age_hours": 6164,
+      "price_usd": "0.001742",
+      "liquidity_usd": 186827.67,
+      "volume_24h": 88535.85,
+      "change_24h": -5.06,
+      "trades_24h": 959,
+      "age_hours": 6165,
       "url": "https://dexscreener.com/solana/bumh6yebpbvah4by4otgjuvzq9cvh6dqpgrzvxfdmwc1",
-      "market_cap": 1784233,
+      "market_cap": 1742748,
       "strategies": [
-        "baseline",
-        "medium_risk"
+        "baseline"
       ]
     },
     {
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.002376",
-      "liquidity_usd": 165050.82,
-      "volume_24h": 116030.43,
-      "change_24h": 0.66,
-      "trades_24h": 1140,
-      "age_hours": 794,
+      "price_usd": "0.002477",
+      "liquidity_usd": 168554.43,
+      "volume_24h": 118519.26,
+      "change_24h": 8.22,
+      "trades_24h": 1113,
+      "age_hours": 795,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 2240101,
+      "market_cap": 2335673,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -92,14 +91,14 @@
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.002508",
-      "liquidity_usd": 128094.06,
-      "volume_24h": 92809.52,
-      "change_24h": -18.99,
-      "trades_24h": 84116,
-      "age_hours": 631,
+      "price_usd": "0.002491",
+      "liquidity_usd": 127235.92,
+      "volume_24h": 97111.47,
+      "change_24h": -9.17,
+      "trades_24h": 81433,
+      "age_hours": 632,
       "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 2393151,
+      "market_cap": 2376411,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -109,14 +108,30 @@
       "name": "WASTED",
       "symbol": "WASTED",
       "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "price_usd": "0.0008193",
-      "liquidity_usd": 88216.07,
-      "volume_24h": 199199.18,
-      "change_24h": 52.48,
-      "trades_24h": 3477,
-      "age_hours": 218,
+      "price_usd": "0.0008642",
+      "liquidity_usd": 90495.71,
+      "volume_24h": 201413.52,
+      "change_24h": 79.8,
+      "trades_24h": 3494,
+      "age_hours": 219,
       "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
-      "market_cap": 803848,
+      "market_cap": 847861,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Gigahug",
+      "symbol": "GIGAHUG",
+      "address": "BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump",
+      "price_usd": "0.0004699",
+      "liquidity_usd": 57578.56,
+      "volume_24h": 2383440.8,
+      "change_24h": -7.04,
+      "trades_24h": 264726,
+      "age_hours": 25,
+      "url": "https://dexscreener.com/solana/brkcwryaj22fgqh6ggelbrmuedxx7ylhncaasajor8yt",
+      "market_cap": 467322,
       "strategies": [
         "baseline"
       ]
@@ -125,14 +140,14 @@
       "name": "COGE COIN",
       "symbol": "COGE",
       "address": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
-      "price_usd": "0.0003876",
-      "liquidity_usd": 53597.59,
-      "volume_24h": 2238874.89,
-      "change_24h": -96.15,
-      "trades_24h": 214510,
-      "age_hours": 72,
+      "price_usd": "0.0002899",
+      "liquidity_usd": 46152.83,
+      "volume_24h": 2227936.46,
+      "change_24h": -96.89,
+      "trades_24h": 221152,
+      "age_hours": 73,
       "url": "https://dexscreener.com/solana/8gjmy6ipysxfmwwrpu9c7atssorjg6al88d9xttzslqe",
-      "market_cap": 385871,
+      "market_cap": 288634,
       "strategies": [
         "baseline"
       ]
@@ -141,14 +156,14 @@
       "name": "george",
       "symbol": "george",
       "address": "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump",
-      "price_usd": "0.0001905",
-      "liquidity_usd": 41819.84,
-      "volume_24h": 146119.36,
-      "change_24h": 21.16,
-      "trades_24h": 2987,
-      "age_hours": 98,
+      "price_usd": "0.0002034",
+      "liquidity_usd": 43191.96,
+      "volume_24h": 146667.77,
+      "change_24h": 46.52,
+      "trades_24h": 2983,
+      "age_hours": 99,
       "url": "https://dexscreener.com/solana/b1t63lntnyainfqwml7aoj3xekcfr7cokf7nhgmvh8jq",
-      "market_cap": 184071,
+      "market_cap": 196537,
       "strategies": [
         "baseline"
       ]
@@ -157,30 +172,14 @@
       "name": "State of Leonida",
       "symbol": "Leonida",
       "address": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
-      "price_usd": "0.0002133",
-      "liquidity_usd": 37089.44,
-      "volume_24h": 330741.32,
-      "change_24h": -25.3,
-      "trades_24h": 6886,
+      "price_usd": "0.0001913",
+      "liquidity_usd": 34993.17,
+      "volume_24h": 303864.86,
+      "change_24h": -12.05,
+      "trades_24h": 6379,
       "age_hours": 73,
       "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
-      "market_cap": 207121,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "timmy",
-      "symbol": "timmy",
-      "address": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
-      "price_usd": "0.0002214",
-      "liquidity_usd": 25653.01,
-      "volume_24h": 148525.79,
-      "change_24h": 269,
-      "trades_24h": 1678,
-      "age_hours": 195,
-      "url": "https://dexscreener.com/solana/6h9lwrbatqsftxtsimmzhwncpxtezk1klsj4bc7jz1nu",
-      "market_cap": 221499,
+      "market_cap": 185759,
       "strategies": [
         "baseline"
       ]

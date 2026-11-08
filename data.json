@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-07 23:28 UTC",
+  "updated": "2026-11-08 00:06 UTC",
   "scanned": 56,
   "passed": 8,
   "rejection_reasons": {
-    "low liquidity": 37,
+    "low liquidity": 38,
     "too new": 40,
-    "thin liquidity vs market cap": 16,
-    "low volume": 6,
+    "thin liquidity vs market cap": 15,
+    "low volume": 7,
     "few trades": 2
   },
   "rules": [
@@ -42,14 +42,30 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.01185",
-      "liquidity_usd": 363244.64,
-      "volume_24h": 1938122.32,
-      "change_24h": 1.16,
-      "trades_24h": 30442,
-      "age_hours": 1787,
+      "price_usd": "0.01166",
+      "liquidity_usd": 361127.98,
+      "volume_24h": 1906517.53,
+      "change_24h": 0.95,
+      "trades_24h": 30500,
+      "age_hours": 1788,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 11702568,
+      "market_cap": 11512771,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "COGE COIN",
+      "symbol": "COGE",
+      "address": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
+      "price_usd": "0.004018",
+      "liquidity_usd": 171228.86,
+      "volume_24h": 2875941.13,
+      "change_24h": -51.39,
+      "trades_24h": 217800,
+      "age_hours": 52,
+      "url": "https://dexscreener.com/solana/8gjmy6ipysxfmwwrpu9c7atssorjg6al88d9xttzslqe",
+      "market_cap": 4000170,
       "strategies": [
         "baseline"
       ]
@@ -59,13 +75,30 @@
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "price_usd": "0.002250",
-      "liquidity_usd": 160343.66,
-      "volume_24h": 274330.92,
-      "change_24h": 11.85,
-      "trades_24h": 1684,
-      "age_hours": 773,
+      "liquidity_usd": 160310.85,
+      "volume_24h": 276028.93,
+      "change_24h": 9.89,
+      "trades_24h": 1695,
+      "age_hours": 774,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 2121740,
+      "market_cap": 2121003,
+      "strategies": [
+        "baseline",
+        "medium_risk"
+      ]
+    },
+    {
+      "name": "Infinite Money Glitch",
+      "symbol": "GLITCH",
+      "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "price_usd": "0.002474",
+      "liquidity_usd": 137632.76,
+      "volume_24h": 419496.1,
+      "change_24h": -11.16,
+      "trades_24h": 4657,
+      "age_hours": 537,
+      "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
+      "market_cap": 2298326,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -75,47 +108,30 @@
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.003156",
-      "liquidity_usd": 143395.99,
-      "volume_24h": 57681.66,
-      "change_24h": 2.07,
-      "trades_24h": 66040,
-      "age_hours": 610,
+      "price_usd": "0.002768",
+      "liquidity_usd": 134290.33,
+      "volume_24h": 57705.25,
+      "change_24h": -4.05,
+      "trades_24h": 69164,
+      "age_hours": 611,
       "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 3010591,
+      "market_cap": 2640615,
       "strategies": [
         "baseline"
-      ]
-    },
-    {
-      "name": "Infinite Money Glitch",
-      "symbol": "GLITCH",
-      "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "price_usd": "0.002484",
-      "liquidity_usd": 137656.03,
-      "volume_24h": 421856.63,
-      "change_24h": -12.94,
-      "trades_24h": 4653,
-      "age_hours": 536,
-      "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-      "market_cap": 2308056,
-      "strategies": [
-        "baseline",
-        "medium_risk"
       ]
     },
     {
       "name": "WASTED",
       "symbol": "WASTED",
       "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "price_usd": "0.0007752",
-      "liquidity_usd": 85495.03,
-      "volume_24h": 312076.85,
-      "change_24h": 27.85,
-      "trades_24h": 4558,
-      "age_hours": 197,
+      "price_usd": "0.0008159",
+      "liquidity_usd": 87946.47,
+      "volume_24h": 315370.71,
+      "change_24h": 38.34,
+      "trades_24h": 4601,
+      "age_hours": 198,
       "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
-      "market_cap": 760568,
+      "market_cap": 800520,
       "strategies": [
         "baseline"
       ]
@@ -124,14 +140,14 @@
       "name": "Network Coin",
       "symbol": "NETWORK",
       "address": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
-      "price_usd": "0.0002772",
-      "liquidity_usd": 45681.32,
-      "volume_24h": 170073.31,
-      "change_24h": 17.17,
-      "trades_24h": 30459,
+      "price_usd": "0.0002787",
+      "liquidity_usd": 45914.31,
+      "volume_24h": 162461.01,
+      "change_24h": 0.32,
+      "trades_24h": 26018,
       "age_hours": 338,
       "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
-      "market_cap": 249584,
+      "market_cap": 250950,
       "strategies": [
         "baseline"
       ]
@@ -140,30 +156,14 @@
       "name": "THUG LIFE INC",
       "symbol": "THUG",
       "address": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "price_usd": "0.0001492",
-      "liquidity_usd": 37399.08,
-      "volume_24h": 34322.52,
-      "change_24h": 90.88,
-      "trades_24h": 303,
-      "age_hours": 60,
+      "price_usd": "0.0001520",
+      "liquidity_usd": 37830.4,
+      "volume_24h": 36297.42,
+      "change_24h": 94.42,
+      "trades_24h": 318,
+      "age_hours": 61,
       "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
-      "market_cap": 149286,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "sexcoin",
-      "symbol": "sexcoin",
-      "address": "HGHJCdysTaaYDJKwwQ3UmcodCw9xjpfFDvcShVVBpump",
-      "price_usd": "0.00009993",
-      "liquidity_usd": 26260.79,
-      "volume_24h": 99238.18,
-      "change_24h": 97.28,
-      "trades_24h": 30853,
-      "age_hours": 27,
-      "url": "https://dexscreener.com/solana/fxjkaiwb6b8yy4q6hyhchdiqfhhquud4puvjoydohwnj",
-      "market_cap": 96522,
+      "market_cap": 152034,
       "strategies": [
         "baseline"
       ]

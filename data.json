@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-08 01:17 UTC",
-  "scanned": 50,
-  "passed": 7,
+  "updated": "2026-11-08 02:22 UTC",
+  "scanned": 52,
+  "passed": 8,
   "rejection_reasons": {
-    "low liquidity": 38,
-    "low volume": 8,
-    "too new": 35,
-    "few trades": 3,
-    "thin liquidity vs market cap": 17
+    "too new": 38,
+    "low liquidity": 32,
+    "thin liquidity vs market cap": 15,
+    "low volume": 4,
+    "few trades": 1
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,30 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.01243",
-      "liquidity_usd": 372546.23,
-      "volume_24h": 1854125.16,
-      "change_24h": 6.68,
-      "trades_24h": 30062,
-      "age_hours": 1789,
+      "price_usd": "0.01237",
+      "liquidity_usd": 370639.57,
+      "volume_24h": 1817518.57,
+      "change_24h": 8.03,
+      "trades_24h": 29430,
+      "age_hours": 1790,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 12273401,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "COGE COIN",
-      "symbol": "COGE",
-      "address": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
-      "price_usd": "0.004090",
-      "liquidity_usd": 172636.39,
-      "volume_24h": 2757218.47,
-      "change_24h": -59.12,
-      "trades_24h": 219032,
-      "age_hours": 53,
-      "url": "https://dexscreener.com/solana/8gjmy6ipysxfmwwrpu9c7atssorjg6al88d9xttzslqe",
-      "market_cap": 4072419,
+      "market_cap": 12210007,
       "strategies": [
         "baseline"
       ]
@@ -74,47 +58,80 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.002364",
-      "liquidity_usd": 164433.56,
-      "volume_24h": 274707.86,
-      "change_24h": 19.61,
-      "trades_24h": 1702,
-      "age_hours": 775,
+      "price_usd": "0.002387",
+      "liquidity_usd": 165208.33,
+      "volume_24h": 269146.06,
+      "change_24h": 10.47,
+      "trades_24h": 1696,
+      "age_hours": 776,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 2229263,
+      "market_cap": 2250149,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
+      "name": "COGE COIN",
+      "symbol": "COGE",
+      "address": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
+      "price_usd": "0.003039",
+      "liquidity_usd": 148354.14,
+      "volume_24h": 2637715.69,
+      "change_24h": -80.94,
+      "trades_24h": 217993,
+      "age_hours": 55,
+      "url": "https://dexscreener.com/solana/8gjmy6ipysxfmwwrpu9c7atssorjg6al88d9xttzslqe",
+      "market_cap": 3025750,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.002880",
-      "liquidity_usd": 136984.76,
-      "volume_24h": 56502.93,
-      "change_24h": 2.43,
-      "trades_24h": 75414,
-      "age_hours": 612,
+      "price_usd": "0.002821",
+      "liquidity_usd": 135525.76,
+      "volume_24h": 57525.43,
+      "change_24h": 2.34,
+      "trades_24h": 81254,
+      "age_hours": 613,
       "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 2747726,
+      "market_cap": 2691607,
       "strategies": [
         "baseline"
+      ]
+    },
+    {
+      "name": "Infinite Money Glitch",
+      "symbol": "GLITCH",
+      "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "price_usd": "0.002332",
+      "liquidity_usd": 133016.22,
+      "volume_24h": 408916.67,
+      "change_24h": -22.49,
+      "trades_24h": 4674,
+      "age_hours": 539,
+      "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
+      "market_cap": 2166974,
+      "strategies": [
+        "baseline",
+        "medium_risk"
       ]
     },
     {
       "name": "WASTED",
       "symbol": "WASTED",
       "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "price_usd": "0.0009567",
-      "liquidity_usd": 95327.41,
-      "volume_24h": 275752.85,
-      "change_24h": 102,
-      "trades_24h": 3997,
-      "age_hours": 199,
+      "price_usd": "0.0009162",
+      "liquidity_usd": 92965.75,
+      "volume_24h": 270159.57,
+      "change_24h": 51.14,
+      "trades_24h": 3839,
+      "age_hours": 200,
       "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
-      "market_cap": 938615,
+      "market_cap": 898897,
       "strategies": [
         "baseline"
       ]
@@ -123,14 +140,14 @@
       "name": "Network Coin",
       "symbol": "NETWORK",
       "address": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
-      "price_usd": "0.0002915",
-      "liquidity_usd": 46953.19,
-      "volume_24h": 160720.46,
-      "change_24h": 4.67,
-      "trades_24h": 26331,
-      "age_hours": 339,
+      "price_usd": "0.0002729",
+      "liquidity_usd": 45257.9,
+      "volume_24h": 159067.38,
+      "change_24h": 1.9,
+      "trades_24h": 26582,
+      "age_hours": 341,
       "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
-      "market_cap": 262484,
+      "market_cap": 245726,
       "strategies": [
         "baseline"
       ]
@@ -139,14 +156,14 @@
       "name": "THUG LIFE INC",
       "symbol": "THUG",
       "address": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "price_usd": "0.0001474",
-      "liquidity_usd": 37206.29,
-      "volume_24h": 35109.89,
-      "change_24h": 71.3,
+      "price_usd": "0.0001411",
+      "liquidity_usd": 36379.03,
+      "volume_24h": 35387.83,
+      "change_24h": 65.62,
       "trades_24h": 312,
-      "age_hours": 62,
+      "age_hours": 63,
       "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
-      "market_cap": 147492,
+      "market_cap": 141166,
       "strategies": [
         "baseline"
       ]

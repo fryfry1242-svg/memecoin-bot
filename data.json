@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-08 15:27 UTC",
-  "scanned": 35,
+  "updated": "2026-11-08 16:08 UTC",
+  "scanned": 39,
   "passed": 5,
   "rejection_reasons": {
-    "low liquidity": 24,
-    "too new": 25,
-    "thin liquidity vs market cap": 14,
-    "unknown age": 1,
+    "low liquidity": 27,
+    "too new": 29,
     "low volume": 4,
-    "few trades": 2
+    "few trades": 3,
+    "thin liquidity vs market cap": 16,
+    "unknown age": 1
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -43,14 +43,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.01194",
-      "liquidity_usd": 366968.93,
-      "volume_24h": 1729548.61,
-      "change_24h": -9.24,
-      "trades_24h": 26800,
-      "age_hours": 1803,
+      "price_usd": "0.01155",
+      "liquidity_usd": 361268.8,
+      "volume_24h": 1689619.22,
+      "change_24h": -12.79,
+      "trades_24h": 26379,
+      "age_hours": 1804,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 11791641,
+      "market_cap": 11402901,
       "strategies": [
         "baseline"
       ]
@@ -59,14 +59,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.002383",
-      "liquidity_usd": 165231.49,
-      "volume_24h": 197224.99,
-      "change_24h": -9.23,
-      "trades_24h": 1405,
-      "age_hours": 789,
+      "price_usd": "0.002313",
+      "liquidity_usd": 162716.64,
+      "volume_24h": 190020.18,
+      "change_24h": -16.33,
+      "trades_24h": 1403,
+      "age_hours": 790,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 2247007,
+      "market_cap": 2181007,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -76,31 +76,30 @@
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.002719",
-      "liquidity_usd": 133302.28,
-      "volume_24h": 97661.33,
-      "change_24h": 0.66,
-      "trades_24h": 95062,
-      "age_hours": 626,
+      "price_usd": "0.002985",
+      "liquidity_usd": 139449.53,
+      "volume_24h": 95235.63,
+      "change_24h": -4.04,
+      "trades_24h": 95303,
+      "age_hours": 627,
       "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 2594154,
+      "market_cap": 2847255,
       "strategies": [
-        "baseline",
-        "medium_risk"
+        "baseline"
       ]
     },
     {
       "name": "WASTED",
       "symbol": "WASTED",
       "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "price_usd": "0.0009180",
-      "liquidity_usd": 93532.57,
-      "volume_24h": 278266.95,
-      "change_24h": 70.93,
-      "trades_24h": 4176,
-      "age_hours": 213,
+      "price_usd": "0.0008794",
+      "liquidity_usd": 91594.22,
+      "volume_24h": 277884.98,
+      "change_24h": 72.84,
+      "trades_24h": 4196,
+      "age_hours": 214,
       "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
-      "market_cap": 900671,
+      "market_cap": 862792,
       "strategies": [
         "baseline"
       ]
@@ -109,14 +108,14 @@
       "name": "COGE COIN",
       "symbol": "COGE",
       "address": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
-      "price_usd": "0.0008695",
-      "liquidity_usd": 80348.45,
-      "volume_24h": 2243099.63,
-      "change_24h": -90.85,
-      "trades_24h": 204031,
+      "price_usd": "0.0007774",
+      "liquidity_usd": 75985.58,
+      "volume_24h": 2211250.14,
+      "change_24h": -92.55,
+      "trades_24h": 205408,
       "age_hours": 68,
       "url": "https://dexscreener.com/solana/8gjmy6ipysxfmwwrpu9c7atssorjg6al88d9xttzslqe",
-      "market_cap": 865664,
+      "market_cap": 773954,
       "strategies": [
         "baseline"
       ]

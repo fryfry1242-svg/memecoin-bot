@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-09 05:58 UTC",
-  "scanned": 47,
+  "updated": "2026-11-09 07:22 UTC",
+  "scanned": 48,
   "passed": 6,
   "rejection_reasons": {
-    "low liquidity": 37,
+    "low liquidity": 38,
     "too new": 37,
-    "thin liquidity vs market cap": 14,
-    "low volume": 11,
-    "few trades": 3
+    "thin liquidity vs market cap": 18,
+    "low volume": 10,
+    "few trades": 2
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.01256",
-      "liquidity_usd": 372825.64,
-      "volume_24h": 1667321.93,
-      "change_24h": 7.74,
-      "trades_24h": 43758,
-      "age_hours": 1818,
+      "price_usd": "0.01273",
+      "liquidity_usd": 372660.04,
+      "volume_24h": 1721164.73,
+      "change_24h": 13.78,
+      "trades_24h": 46780,
+      "age_hours": 1819,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 12397487,
+      "market_cap": 12563770,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "Everyday is Zeroday",
       "symbol": "0DAY",
       "address": "85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump",
-      "price_usd": "0.0007618",
-      "liquidity_usd": 70718.17,
-      "volume_24h": 230420.98,
-      "change_24h": 58.61,
-      "trades_24h": 2554,
-      "age_hours": 64,
+      "price_usd": "0.0007684",
+      "liquidity_usd": 70626.82,
+      "volume_24h": 217347.33,
+      "change_24h": 41.61,
+      "trades_24h": 2438,
+      "age_hours": 65,
       "url": "https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa",
-      "market_cap": 753317,
+      "market_cap": 759782,
       "strategies": [
         "baseline"
       ]
@@ -74,30 +74,14 @@
       "name": "CHILL",
       "symbol": "CHILL",
       "address": "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump",
-      "price_usd": "0.0007742",
-      "liquidity_usd": 67878.74,
-      "volume_24h": 81126.42,
-      "change_24h": 7.46,
-      "trades_24h": 5087,
-      "age_hours": 37,
+      "price_usd": "0.0007966",
+      "liquidity_usd": 68354.17,
+      "volume_24h": 79455.64,
+      "change_24h": 4.52,
+      "trades_24h": 5131,
+      "age_hours": 38,
       "url": "https://dexscreener.com/solana/gom6pz6nc2natjvtr29xa98gsqmjzt72rjnkekyprzs8",
-      "market_cap": 771282,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "timmy",
-      "symbol": "timmy",
-      "address": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
-      "price_usd": "0.0004005",
-      "liquidity_usd": 33971.52,
-      "volume_24h": 368779.15,
-      "change_24h": 289,
-      "trades_24h": 4393,
-      "age_hours": 204,
-      "url": "https://dexscreener.com/solana/6h9lwrbatqsftxtsimmzhwncpxtezk1klsj4bc7jz1nu",
-      "market_cap": 400575,
+      "market_cap": 793640,
       "strategies": [
         "baseline"
       ]
@@ -106,14 +90,14 @@
       "name": "george",
       "symbol": "george",
       "address": "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump",
-      "price_usd": "0.0001185",
-      "liquidity_usd": 32240.57,
-      "volume_24h": 121450.06,
-      "change_24h": -34.72,
-      "trades_24h": 2868,
-      "age_hours": 108,
+      "price_usd": "0.0001503",
+      "liquidity_usd": 36251.77,
+      "volume_24h": 120501.35,
+      "change_24h": -9.87,
+      "trades_24h": 2917,
+      "age_hours": 109,
       "url": "https://dexscreener.com/solana/b1t63lntnyainfqwml7aoj3xekcfr7cokf7nhgmvh8jq",
-      "market_cap": 114474,
+      "market_cap": 143216,
       "strategies": [
         "baseline"
       ]
@@ -122,14 +106,30 @@
       "name": "Ah Shit, Here We Go Again",
       "symbol": "HEREWEGO",
       "address": "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump",
-      "price_usd": "0.00009304",
-      "liquidity_usd": 26493.79,
-      "volume_24h": 4793122.78,
-      "change_24h": -92.82,
-      "trades_24h": 124007,
-      "age_hours": 28,
+      "price_usd": "0.0001246",
+      "liquidity_usd": 30958.07,
+      "volume_24h": 4584028.34,
+      "change_24h": -90.7,
+      "trades_24h": 125611,
+      "age_hours": 30,
       "url": "https://dexscreener.com/solana/67bwjnjsjbdpp3kpi6gdeevk25qgrprwfttmqe4wszir",
-      "market_cap": 92623,
+      "market_cap": 124126,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "timmy",
+      "symbol": "timmy",
+      "address": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
+      "price_usd": "0.0002768",
+      "liquidity_usd": 28092.68,
+      "volume_24h": 404842.98,
+      "change_24h": 190,
+      "trades_24h": 4771,
+      "age_hours": 206,
+      "url": "https://dexscreener.com/solana/6h9lwrbatqsftxtsimmzhwncpxtezk1klsj4bc7jz1nu",
+      "market_cap": 276829,
       "strategies": [
         "baseline"
       ]

@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-09 03:54 UTC",
+  "updated": "2026-11-09 04:56 UTC",
   "scanned": 46,
-  "passed": 8,
+  "passed": 7,
   "rejection_reasons": {
-    "low liquidity": 35,
-    "too new": 32,
-    "thin liquidity vs market cap": 17,
-    "low volume": 6,
+    "low liquidity": 34,
+    "too new": 34,
+    "thin liquidity vs market cap": 15,
+    "low volume": 9,
     "few trades": 2
   },
   "rules": [
@@ -42,47 +42,30 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.01254",
-      "liquidity_usd": 374302.52,
-      "volume_24h": 1639663.13,
-      "change_24h": 8.76,
-      "trades_24h": 40222,
-      "age_hours": 1815,
+      "price_usd": "0.01209",
+      "liquidity_usd": 367007.93,
+      "volume_24h": 1655004.35,
+      "change_24h": 1.61,
+      "trades_24h": 42028,
+      "age_hours": 1816,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 12378476,
+      "market_cap": 11941411,
       "strategies": [
         "baseline"
-      ]
-    },
-    {
-      "name": "Cartoon Money",
-      "symbol": "CBUCKS",
-      "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.003852",
-      "liquidity_usd": 211289.49,
-      "volume_24h": 311109.83,
-      "change_24h": 59.54,
-      "trades_24h": 1751,
-      "age_hours": 801,
-      "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 3631594,
-      "strategies": [
-        "baseline",
-        "medium_risk"
       ]
     },
     {
       "name": "AgenC",
       "symbol": "AgenC",
       "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
-      "price_usd": "0.001805",
-      "liquidity_usd": 188815.71,
-      "volume_24h": 103918.95,
-      "change_24h": 1.78,
-      "trades_24h": 1209,
-      "age_hours": 6172,
+      "price_usd": "0.001696",
+      "liquidity_usd": 182652.91,
+      "volume_24h": 103817.24,
+      "change_24h": -5.73,
+      "trades_24h": 1231,
+      "age_hours": 6173,
       "url": "https://dexscreener.com/solana/bumh6yebpbvah4by4otgjuvzq9cvh6dqpgrzvxfdmwc1",
-      "market_cap": 1805304,
+      "market_cap": 1696395,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -92,14 +75,14 @@
       "name": "Everyday is Zeroday",
       "symbol": "0DAY",
       "address": "85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump",
-      "price_usd": "0.0009385",
-      "liquidity_usd": 79090.3,
-      "volume_24h": 250051.06,
-      "change_24h": 113,
-      "trades_24h": 2696,
-      "age_hours": 62,
+      "price_usd": "0.0007857",
+      "liquidity_usd": 72090.31,
+      "volume_24h": 237821.71,
+      "change_24h": 80.44,
+      "trades_24h": 2605,
+      "age_hours": 63,
       "url": "https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa",
-      "market_cap": 928040,
+      "market_cap": 776887,
       "strategies": [
         "baseline"
       ]
@@ -108,14 +91,14 @@
       "name": "CHILL",
       "symbol": "CHILL",
       "address": "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump",
-      "price_usd": "0.0008287",
-      "liquidity_usd": 70727.65,
-      "volume_24h": 84772.91,
-      "change_24h": 21.33,
-      "trades_24h": 5035,
-      "age_hours": 35,
+      "price_usd": "0.0008228",
+      "liquidity_usd": 70265.29,
+      "volume_24h": 81925.52,
+      "change_24h": 25.77,
+      "trades_24h": 5059,
+      "age_hours": 36,
       "url": "https://dexscreener.com/solana/gom6pz6nc2natjvtr29xa98gsqmjzt72rjnkekyprzs8",
-      "market_cap": 825625,
+      "market_cap": 819718,
       "strategies": [
         "baseline"
       ]
@@ -124,30 +107,14 @@
       "name": "george",
       "symbol": "george",
       "address": "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump",
-      "price_usd": "0.0001343",
-      "liquidity_usd": 34588.26,
-      "volume_24h": 124542.37,
-      "change_24h": -35.49,
-      "trades_24h": 2804,
-      "age_hours": 106,
+      "price_usd": "0.0001125",
+      "liquidity_usd": 31482.58,
+      "volume_24h": 128742.81,
+      "change_24h": -45.54,
+      "trades_24h": 2914,
+      "age_hours": 107,
       "url": "https://dexscreener.com/solana/b1t63lntnyainfqwml7aoj3xekcfr7cokf7nhgmvh8jq",
-      "market_cap": 129741,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Ah Shit, Here We Go Again",
-      "symbol": "HEREWEGO",
-      "address": "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump",
-      "price_usd": "0.0001498",
-      "liquidity_usd": 33719.04,
-      "volume_24h": 4938648.56,
-      "change_24h": -89.08,
-      "trades_24h": 120250,
-      "age_hours": 26,
-      "url": "https://dexscreener.com/solana/67bwjnjsjbdpp3kpi6gdeevk25qgrprwfttmqe4wszir",
-      "market_cap": 149203,
+      "market_cap": 108716,
       "strategies": [
         "baseline"
       ]
@@ -156,14 +123,30 @@
       "name": "State of Leonida",
       "symbol": "Leonida",
       "address": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
-      "price_usd": "0.0001630",
-      "liquidity_usd": 31997.22,
-      "volume_24h": 185944.58,
-      "change_24h": -1.28,
-      "trades_24h": 4108,
-      "age_hours": 80,
+      "price_usd": "0.0001537",
+      "liquidity_usd": 30962.25,
+      "volume_24h": 175388.82,
+      "change_24h": -21.67,
+      "trades_24h": 3955,
+      "age_hours": 81,
       "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
-      "market_cap": 158278,
+      "market_cap": 149213,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Ah Shit, Here We Go Again",
+      "symbol": "HEREWEGO",
+      "address": "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump",
+      "price_usd": "0.0001109",
+      "liquidity_usd": 29006.45,
+      "volume_24h": 4895757.04,
+      "change_24h": -90.27,
+      "trades_24h": 122295,
+      "age_hours": 27,
+      "url": "https://dexscreener.com/solana/67bwjnjsjbdpp3kpi6gdeevk25qgrprwfttmqe4wszir",
+      "market_cap": 110480,
       "strategies": [
         "baseline"
       ]

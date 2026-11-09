@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-09 11:36 UTC",
+  "updated": "2026-11-09 12:40 UTC",
   "scanned": 41,
   "passed": 5,
   "rejection_reasons": {
-    "low liquidity": 31,
-    "too new": 33,
-    "thin liquidity vs market cap": 16,
-    "low volume": 6,
-    "few trades": 2
+    "low liquidity": 29,
+    "too new": 30,
+    "thin liquidity vs market cap": 15,
+    "low volume": 7,
+    "few trades": 4
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.01281",
-      "liquidity_usd": 376452.71,
-      "volume_24h": 1727757.75,
-      "change_24h": 10.47,
-      "trades_24h": 48082,
-      "age_hours": 1823,
+      "price_usd": "0.01260",
+      "liquidity_usd": 374161.93,
+      "volume_24h": 1709116.95,
+      "change_24h": 3.98,
+      "trades_24h": 47763,
+      "age_hours": 1824,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 12648275,
+      "market_cap": 12437679,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.003890",
-      "liquidity_usd": 212581.11,
-      "volume_24h": 375382.02,
-      "change_24h": 50.86,
-      "trades_24h": 2301,
-      "age_hours": 809,
+      "price_usd": "0.003753",
+      "liquidity_usd": 208803.8,
+      "volume_24h": 411817.41,
+      "change_24h": 49.43,
+      "trades_24h": 2507,
+      "age_hours": 810,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 3667826,
+      "market_cap": 3537767,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -75,31 +75,30 @@
       "name": "Macca The Gator",
       "symbol": "Macca",
       "address": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
-      "price_usd": "0.001054",
-      "liquidity_usd": 117210.82,
-      "volume_24h": 215312.58,
-      "change_24h": -4.1,
-      "trades_24h": 1813,
-      "age_hours": 598,
+      "price_usd": "0.001007",
+      "liquidity_usd": 114354.4,
+      "volume_24h": 217568.99,
+      "change_24h": -9.25,
+      "trades_24h": 1791,
+      "age_hours": 599,
       "url": "https://dexscreener.com/solana/4fonnnmmkma66ppcia9557cg63s2bnn9uofcakxxbmvg",
-      "market_cap": 1004956,
+      "market_cap": 960481,
       "strategies": [
-        "baseline",
-        "medium_risk"
+        "baseline"
       ]
     },
     {
       "name": "timmy",
       "symbol": "timmy",
       "address": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
-      "price_usd": "0.0003131",
-      "liquidity_usd": 30152.48,
-      "volume_24h": 435790.92,
-      "change_24h": 287,
-      "trades_24h": 5102,
-      "age_hours": 210,
+      "price_usd": "0.0003158",
+      "liquidity_usd": 30329.2,
+      "volume_24h": 437823.01,
+      "change_24h": 329,
+      "trades_24h": 5132,
+      "age_hours": 211,
       "url": "https://dexscreener.com/solana/6h9lwrbatqsftxtsimmzhwncpxtezk1klsj4bc7jz1nu",
-      "market_cap": 313132,
+      "market_cap": 315805,
       "strategies": [
         "baseline"
       ]
@@ -108,14 +107,14 @@
       "name": "Everyday is Zeroday",
       "symbol": "0DAY",
       "address": "85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump",
-      "price_usd": "0.0001273",
-      "liquidity_usd": 27986.04,
-      "volume_24h": 186793.7,
-      "change_24h": -63.52,
-      "trades_24h": 2250,
-      "age_hours": 69,
+      "price_usd": "0.0001282",
+      "liquidity_usd": 28146.18,
+      "volume_24h": 178080.46,
+      "change_24h": -51.07,
+      "trades_24h": 2134,
+      "age_hours": 70,
       "url": "https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa",
-      "market_cap": 125872,
+      "market_cap": 126793,
       "strategies": [
         "baseline"
       ]

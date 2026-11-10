@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-10 15:40 UTC",
-  "scanned": 38,
+  "updated": "2026-11-10 16:30 UTC",
+  "scanned": 44,
   "passed": 6,
   "rejection_reasons": {
-    "low liquidity": 26,
-    "too new": 25,
-    "thin liquidity vs market cap": 9,
-    "low volume": 7,
-    "few trades": 1
+    "low liquidity": 35,
+    "too new": 28,
+    "thin liquidity vs market cap": 14,
+    "low volume": 10,
+    "few trades": 3
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.008486",
-      "liquidity_usd": 304164.25,
-      "volume_24h": 1950496.3,
-      "change_24h": -31.28,
-      "trades_24h": 27057,
-      "age_hours": 1851,
+      "price_usd": "0.007538",
+      "liquidity_usd": 285371.17,
+      "volume_24h": 2068606,
+      "change_24h": -36.97,
+      "trades_24h": 27943,
+      "age_hours": 1852,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 8375757,
+      "market_cap": 7440154,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.004976",
-      "liquidity_usd": 241758.17,
-      "volume_24h": 399458.21,
-      "change_24h": 31.22,
-      "trades_24h": 2618,
-      "age_hours": 837,
+      "price_usd": "0.005131",
+      "liquidity_usd": 245590.39,
+      "volume_24h": 414668.71,
+      "change_24h": 31.69,
+      "trades_24h": 2726,
+      "age_hours": 838,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 4691390,
+      "market_cap": 4836732,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -75,14 +75,14 @@
       "name": "jeff",
       "symbol": "jeff",
       "address": "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k",
-      "price_usd": "0.001115",
-      "liquidity_usd": 90675.18,
-      "volume_24h": 154042.7,
-      "change_24h": 54.53,
-      "trades_24h": 15644,
-      "age_hours": 327,
+      "price_usd": "0.001224",
+      "liquidity_usd": 94728.5,
+      "volume_24h": 187458.15,
+      "change_24h": 70.32,
+      "trades_24h": 23350,
+      "age_hours": 328,
       "url": "https://dexscreener.com/solana/jcxwfczgjgjc8nza5qb6jp3cgvqw4vgug4tqj87g5zny",
-      "market_cap": 1115953,
+      "market_cap": 1224601,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -92,30 +92,14 @@
       "name": "Big Guy",
       "symbol": "BIG",
       "address": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
-      "price_usd": "0.0009315",
-      "liquidity_usd": 85818.23,
-      "volume_24h": 406220.18,
-      "change_24h": 622,
-      "trades_24h": 20992,
-      "age_hours": 47,
+      "price_usd": "0.0009785",
+      "liquidity_usd": 87563,
+      "volume_24h": 412079.17,
+      "change_24h": 667,
+      "trades_24h": 22438,
+      "age_hours": 48,
       "url": "https://dexscreener.com/solana/5tecgcpfldbnjvbrpjvk32uayabpra1hgefpeujqqkyk",
-      "market_cap": 884550,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "State of Leonida",
-      "symbol": "Leonida",
-      "address": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
-      "price_usd": "0.0002710",
-      "liquidity_usd": 41170.78,
-      "volume_24h": 194892.2,
-      "change_24h": 77.61,
-      "trades_24h": 4741,
-      "age_hours": 116,
-      "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
-      "market_cap": 263045,
+      "market_cap": 929159,
       "strategies": [
         "baseline"
       ]
@@ -124,14 +108,30 @@
       "name": "THUG LIFE INC",
       "symbol": "THUG",
       "address": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "price_usd": "0.0001618",
-      "liquidity_usd": 37504.84,
-      "volume_24h": 101813.3,
-      "change_24h": 9.24,
-      "trades_24h": 32279,
-      "age_hours": 124,
+      "price_usd": "0.0001892",
+      "liquidity_usd": 40402.78,
+      "volume_24h": 106939.49,
+      "change_24h": 26.58,
+      "trades_24h": 33746,
+      "age_hours": 125,
       "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
-      "market_cap": 161870,
+      "market_cap": 189268,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "State of Leonida",
+      "symbol": "Leonida",
+      "address": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+      "price_usd": "0.0002591",
+      "liquidity_usd": 40032.18,
+      "volume_24h": 202107.03,
+      "change_24h": 74.05,
+      "trades_24h": 4951,
+      "age_hours": 117,
+      "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
+      "market_cap": 251563,
       "strategies": [
         "baseline"
       ]

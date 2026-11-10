@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-10 06:22 UTC",
-  "scanned": 52,
-  "passed": 10,
+  "updated": "2026-11-10 07:43 UTC",
+  "scanned": 51,
+  "passed": 9,
   "rejection_reasons": {
-    "low liquidity": 38,
-    "low volume": 10,
-    "too new": 33,
-    "thin liquidity vs market cap": 13,
+    "low liquidity": 39,
+    "too new": 34,
+    "thin liquidity vs market cap": 12,
+    "low volume": 11,
     "few trades": 1
   },
   "rules": [
@@ -42,14 +42,14 @@
       "name": "Dessa",
       "symbol": "DESSA",
       "address": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-      "price_usd": "0.01974",
-      "liquidity_usd": 419558.18,
-      "volume_24h": 3689821.95,
-      "change_24h": -52.83,
-      "trades_24h": 18882,
-      "age_hours": 353,
+      "price_usd": "0.01941",
+      "liquidity_usd": 416733.24,
+      "volume_24h": 3678034.23,
+      "change_24h": -53.83,
+      "trades_24h": 18746,
+      "age_hours": 355,
       "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-      "market_cap": 19328852,
+      "market_cap": 19006706,
       "strategies": [
         "baseline"
       ]
@@ -58,47 +58,30 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.01124",
-      "liquidity_usd": 353792.97,
-      "volume_24h": 1456915.39,
-      "change_24h": -8.84,
-      "trades_24h": 23391,
-      "age_hours": 1842,
+      "price_usd": "0.01044",
+      "liquidity_usd": 341474.71,
+      "volume_24h": 1394081.87,
+      "change_24h": -18.08,
+      "trades_24h": 20686,
+      "age_hours": 1843,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 11100557,
+      "market_cap": 10307285,
       "strategies": [
         "baseline"
-      ]
-    },
-    {
-      "name": "Cartoon Money",
-      "symbol": "CBUCKS",
-      "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.004007",
-      "liquidity_usd": 216450.1,
-      "volume_24h": 423746.83,
-      "change_24h": 11.27,
-      "trades_24h": 2942,
-      "age_hours": 828,
-      "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 3777351,
-      "strategies": [
-        "baseline",
-        "medium_risk"
       ]
     },
     {
       "name": "WASTED",
       "symbol": "WASTED",
       "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "price_usd": "0.001244",
-      "liquidity_usd": 107361.54,
-      "volume_24h": 148401.96,
-      "change_24h": 72.59,
-      "trades_24h": 2452,
-      "age_hours": 252,
+      "price_usd": "0.001329",
+      "liquidity_usd": 111246.85,
+      "volume_24h": 153790.2,
+      "change_24h": 72.16,
+      "trades_24h": 2532,
+      "age_hours": 254,
       "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
-      "market_cap": 1220880,
+      "market_cap": 1304833,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -108,14 +91,14 @@
       "name": "Big Guy",
       "symbol": "BIG",
       "address": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
-      "price_usd": "0.0009295",
-      "liquidity_usd": 84212.31,
-      "volume_24h": 331236.63,
-      "change_24h": 763,
-      "trades_24h": 5278,
-      "age_hours": 38,
+      "price_usd": "0.0007418",
+      "liquidity_usd": 75084.54,
+      "volume_24h": 347242.02,
+      "change_24h": 588,
+      "trades_24h": 7575,
+      "age_hours": 40,
       "url": "https://dexscreener.com/solana/5tecgcpfldbnjvbrpjvk32uayabpra1hgefpeujqqkyk",
-      "market_cap": 882663,
+      "market_cap": 704441,
       "strategies": [
         "baseline"
       ]
@@ -124,46 +107,14 @@
       "name": "Hellhound",
       "symbol": "HELL",
       "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "price_usd": "0.0005299",
-      "liquidity_usd": 62130,
-      "volume_24h": 287522.78,
-      "change_24h": -78.91,
-      "trades_24h": 54972,
-      "age_hours": 665,
+      "price_usd": "0.0004219",
+      "liquidity_usd": 55225.1,
+      "volume_24h": 304698.18,
+      "change_24h": -82.37,
+      "trades_24h": 50622,
+      "age_hours": 667,
       "url": "https://dexscreener.com/solana/ewsyhiuznynqh5f65ypfsoqblq2kyetuvhm5un7wsfdg",
-      "market_cap": 505524,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Charlie Unicorn AI",
-      "symbol": "CHRLE",
-      "address": "G1ij1UjWBcUFtVHz5GVDAopPNMQcbwtdegH94LU6Jray",
-      "price_usd": "0.0003429",
-      "liquidity_usd": 46706.92,
-      "volume_24h": 10919,
-      "change_24h": 49.01,
-      "trades_24h": 283,
-      "age_hours": 6618,
-      "url": "https://dexscreener.com/solana/1ttvxugntut9u8b4boybkrj6gv67nh3cwqrv7cr6kns",
-      "market_cap": 342924,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Sixth Sense Labs",
-      "symbol": "SENSE",
-      "address": "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
-      "price_usd": "0.0002248",
-      "liquidity_usd": 44243.99,
-      "volume_24h": 30294.86,
-      "change_24h": 23.73,
-      "trades_24h": 352,
-      "age_hours": 280,
-      "url": "https://dexscreener.com/solana/gtl872vumrwnc34asqlzctih8co2fcwd9zpkzy2y1lqc",
-      "market_cap": 224898,
+      "market_cap": 402476,
       "strategies": [
         "baseline"
       ]
@@ -172,14 +123,46 @@
       "name": "THUG LIFE INC",
       "symbol": "THUG",
       "address": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "price_usd": "0.0002052",
-      "liquidity_usd": 43012.37,
-      "volume_24h": 83875,
-      "change_24h": 50.38,
-      "trades_24h": 15869,
-      "age_hours": 115,
+      "price_usd": "0.0002510",
+      "liquidity_usd": 47673.65,
+      "volume_24h": 85554.59,
+      "change_24h": 97.2,
+      "trades_24h": 18265,
+      "age_hours": 116,
       "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
-      "market_cap": 205273,
+      "market_cap": 251094,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Charlie Unicorn AI",
+      "symbol": "CHRLE",
+      "address": "G1ij1UjWBcUFtVHz5GVDAopPNMQcbwtdegH94LU6Jray",
+      "price_usd": "0.0003453",
+      "liquidity_usd": 47004.9,
+      "volume_24h": 10937.42,
+      "change_24h": 50.08,
+      "trades_24h": 284,
+      "age_hours": 6619,
+      "url": "https://dexscreener.com/solana/1ttvxugntut9u8b4boybkrj6gv67nh3cwqrv7cr6kns",
+      "market_cap": 345382,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Sixth Sense Labs",
+      "symbol": "SENSE",
+      "address": "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
+      "price_usd": "0.0002194",
+      "liquidity_usd": 43603.18,
+      "volume_24h": 30440.09,
+      "change_24h": 21.24,
+      "trades_24h": 363,
+      "age_hours": 281,
+      "url": "https://dexscreener.com/solana/gtl872vumrwnc34asqlzctih8co2fcwd9zpkzy2y1lqc",
+      "market_cap": 219428,
       "strategies": [
         "baseline"
       ]
@@ -188,14 +171,14 @@
       "name": "forg",
       "symbol": "forg",
       "address": "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump",
-      "price_usd": "0.0001202",
-      "liquidity_usd": 26678.26,
-      "volume_24h": 248856.2,
-      "change_24h": 70.84,
-      "trades_24h": 13830,
-      "age_hours": 40,
+      "price_usd": "0.0001148",
+      "liquidity_usd": 26098.25,
+      "volume_24h": 251273.78,
+      "change_24h": 57.7,
+      "trades_24h": 13850,
+      "age_hours": 41,
       "url": "https://dexscreener.com/solana/4shxry7svmew899ozjaxgkprrbqlqoghzmrhyswcmrju",
-      "market_cap": 116828,
+      "market_cap": 111553,
       "strategies": [
         "baseline"
       ]

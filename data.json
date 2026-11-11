@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-11 12:55 UTC",
-  "scanned": 50,
-  "passed": 14,
+  "updated": "2026-11-11 14:10 UTC",
+  "scanned": 52,
+  "passed": 13,
   "rejection_reasons": {
-    "low liquidity": 32,
-    "too new": 31,
-    "thin liquidity vs market cap": 18,
-    "low volume": 5,
-    "few trades": 1
+    "low liquidity": 34,
+    "too new": 33,
+    "thin liquidity vs market cap": 16,
+    "low volume": 7,
+    "few trades": 2
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.008465",
-      "liquidity_usd": 308542.04,
-      "volume_24h": 2019921.82,
-      "change_24h": -13.93,
-      "trades_24h": 23645,
-      "age_hours": 1872,
+      "price_usd": "0.009947",
+      "liquidity_usd": 335899.79,
+      "volume_24h": 1809707.46,
+      "change_24h": 10.89,
+      "trades_24h": 21536,
+      "age_hours": 1874,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 8355232,
+      "market_cap": 9817477,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.004221",
-      "liquidity_usd": 223507.5,
-      "volume_24h": 662318.13,
-      "change_24h": 9.87,
-      "trades_24h": 3378,
-      "age_hours": 858,
+      "price_usd": "0.005062",
+      "liquidity_usd": 245075.04,
+      "volume_24h": 666330.14,
+      "change_24h": 16.48,
+      "trades_24h": 3436,
+      "age_hours": 860,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 3979261,
+      "market_cap": 4772233,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -75,31 +75,14 @@
       "name": "Infinite Money Glitch",
       "symbol": "GLITCH",
       "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "price_usd": "0.002106",
-      "liquidity_usd": 124591.49,
-      "volume_24h": 284579.42,
-      "change_24h": -12.55,
-      "trades_24h": 2948,
-      "age_hours": 621,
+      "price_usd": "0.002037",
+      "liquidity_usd": 122920.76,
+      "volume_24h": 270508.28,
+      "change_24h": -9.38,
+      "trades_24h": 2837,
+      "age_hours": 623,
       "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-      "market_cap": 1954868,
-      "strategies": [
-        "baseline",
-        "medium_risk"
-      ]
-    },
-    {
-      "name": "jeff",
-      "symbol": "jeff",
-      "address": "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k",
-      "price_usd": "0.001361",
-      "liquidity_usd": 103212.37,
-      "volume_24h": 313877.12,
-      "change_24h": 38.86,
-      "trades_24h": 21066,
-      "age_hours": 348,
-      "url": "https://dexscreener.com/solana/jcxwfczgjgjc8nza5qb6jp3cgvqw4vgug4tqj87g5zny",
-      "market_cap": 1361857,
+      "market_cap": 1890624,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -109,14 +92,31 @@
       "name": "WASTED",
       "symbol": "WASTED",
       "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "price_usd": "0.001139",
-      "liquidity_usd": 102177.51,
-      "volume_24h": 217681.13,
-      "change_24h": -27.88,
-      "trades_24h": 3349,
-      "age_hours": 283,
+      "price_usd": "0.001233",
+      "liquidity_usd": 106707.75,
+      "volume_24h": 212675.02,
+      "change_24h": -12.84,
+      "trades_24h": 3128,
+      "age_hours": 284,
       "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
-      "market_cap": 1118424,
+      "market_cap": 1209807,
+      "strategies": [
+        "baseline",
+        "medium_risk"
+      ]
+    },
+    {
+      "name": "jeff",
+      "symbol": "jeff",
+      "address": "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k",
+      "price_usd": "0.001244",
+      "liquidity_usd": 99196.37,
+      "volume_24h": 335788.6,
+      "change_24h": 33.73,
+      "trades_24h": 22015,
+      "age_hours": 349,
+      "url": "https://dexscreener.com/solana/jcxwfczgjgjc8nza5qb6jp3cgvqw4vgug4tqj87g5zny",
+      "market_cap": 1244879,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -126,46 +126,14 @@
       "name": "Big Guy",
       "symbol": "BIG",
       "address": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
-      "price_usd": "0.0008623",
-      "liquidity_usd": 83479.57,
-      "volume_24h": 219641.52,
-      "change_24h": 11.6,
-      "trades_24h": 58406,
-      "age_hours": 69,
+      "price_usd": "0.0009300",
+      "liquidity_usd": 86947.96,
+      "volume_24h": 214039.79,
+      "change_24h": -4.25,
+      "trades_24h": 59445,
+      "age_hours": 70,
       "url": "https://dexscreener.com/solana/5tecgcpfldbnjvbrpjvk32uayabpra1hgefpeujqqkyk",
-      "market_cap": 818823,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "meowl the owl cat",
-      "symbol": "meowl",
-      "address": "8ryRQD6jWfxnSdvvVbQ8Tzwo1NgGP7w1X1nQPpb4pump",
-      "price_usd": "0.0002992",
-      "liquidity_usd": 64584.62,
-      "volume_24h": 100782.3,
-      "change_24h": 47.51,
-      "trades_24h": 914,
-      "age_hours": 13150,
-      "url": "https://dexscreener.com/solana/7x7tqm1xeqioaqtxri9ubvvchlvjacqarzkzwfx7t2ao",
-      "market_cap": 299185,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "THUG LIFE INC",
-      "symbol": "THUG",
-      "address": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "price_usd": "0.0002931",
-      "liquidity_usd": 50828.64,
-      "volume_24h": 89131.33,
-      "change_24h": 32.84,
-      "trades_24h": 33067,
-      "age_hours": 145,
-      "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
-      "market_cap": 293171,
+      "market_cap": 883104,
       "strategies": [
         "baseline"
       ]
@@ -174,14 +142,14 @@
       "name": "State of Leonida",
       "symbol": "Leonida",
       "address": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
-      "price_usd": "0.0003825",
-      "liquidity_usd": 50089.16,
-      "volume_24h": 359839.41,
-      "change_24h": 12.56,
-      "trades_24h": 7976,
-      "age_hours": 137,
+      "price_usd": "0.0004174",
+      "liquidity_usd": 52585.27,
+      "volume_24h": 356413.61,
+      "change_24h": 62.2,
+      "trades_24h": 8003,
+      "age_hours": 138,
       "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
-      "market_cap": 371331,
+      "market_cap": 405152,
       "strategies": [
         "baseline"
       ]
@@ -190,14 +158,46 @@
       "name": "apeonx",
       "symbol": "X",
       "address": "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump",
-      "price_usd": "0.0002845",
-      "liquidity_usd": 49020.75,
-      "volume_24h": 3578040.17,
-      "change_24h": -17.05,
-      "trades_24h": 63702,
-      "age_hours": 28,
+      "price_usd": "0.0003036",
+      "liquidity_usd": 50939.66,
+      "volume_24h": 2537616.29,
+      "change_24h": -58.07,
+      "trades_24h": 45582,
+      "age_hours": 29,
       "url": "https://dexscreener.com/solana/6mdmwvcsrmabtqjc7gbbu5fbuflbc6djxgxm5vtnrdzq",
-      "market_cap": 276814,
+      "market_cap": 295486,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "THUG LIFE INC",
+      "symbol": "THUG",
+      "address": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+      "price_usd": "0.0002731",
+      "liquidity_usd": 49214.4,
+      "volume_24h": 85634.78,
+      "change_24h": 52.79,
+      "trades_24h": 30916,
+      "age_hours": 147,
+      "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
+      "market_cap": 273123,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "texas cat",
+      "symbol": "texcat",
+      "address": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
+      "price_usd": "0.0002718",
+      "liquidity_usd": 43979.21,
+      "volume_24h": 70082.4,
+      "change_24h": 54.24,
+      "trades_24h": 1231,
+      "age_hours": 815,
+      "url": "https://dexscreener.com/solana/czcfvsc2hqvf1zwu6ya2vrf7g29anu4nnrhw7jvvd3vw",
+      "market_cap": 263932,
       "strategies": [
         "baseline"
       ]
@@ -206,46 +206,14 @@
       "name": "GTA6 KODAK BLACK",
       "symbol": "GTA6KODAK",
       "address": "CXz596uKfWb5tkyz5Vh5a9QCKKh38io6hdgGrKKcpump",
-      "price_usd": "0.0003732",
-      "liquidity_usd": 46734.76,
-      "volume_24h": 259722.76,
-      "change_24h": 320,
-      "trades_24h": 3130,
-      "age_hours": 62,
+      "price_usd": "0.0002258",
+      "liquidity_usd": 36238.36,
+      "volume_24h": 278502.15,
+      "change_24h": 66.47,
+      "trades_24h": 3511,
+      "age_hours": 63,
       "url": "https://dexscreener.com/solana/bkaagfumhqvgxa3bqzyabmibsmvietuiapu95prauhx7",
-      "market_cap": 356569,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Impeach",
-      "symbol": "Impeach",
-      "address": "F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump",
-      "price_usd": "0.0002130",
-      "liquidity_usd": 40765.91,
-      "volume_24h": 91991.29,
-      "change_24h": 16.87,
-      "trades_24h": 3169,
-      "age_hours": 184,
-      "url": "https://dexscreener.com/solana/12y1mrkwewewoyqhswybesjzm8gagnig1xqgqlc5uw3v",
-      "market_cap": 202177,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "AiDiglet",
-      "symbol": "DIGS",
-      "address": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-      "price_usd": "0.0001450",
-      "liquidity_usd": 32567.41,
-      "volume_24h": 481771.2,
-      "change_24h": 179,
-      "trades_24h": 15505,
-      "age_hours": 336,
-      "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
-      "market_cap": 138307,
+      "market_cap": 215727,
       "strategies": [
         "baseline"
       ]
@@ -254,14 +222,30 @@
       "name": "CatFu",
       "symbol": "CatFu",
       "address": "FP7NvFXQXoZL1nQC5QZtE1bzwgALdxj1TeA9J25epump",
-      "price_usd": "0.0001020",
-      "liquidity_usd": 31842.99,
-      "volume_24h": 106269.65,
-      "change_24h": 493,
-      "trades_24h": 1824,
-      "age_hours": 6130,
+      "price_usd": "0.0001206",
+      "liquidity_usd": 34744.01,
+      "volume_24h": 109119.85,
+      "change_24h": 444,
+      "trades_24h": 1873,
+      "age_hours": 6132,
       "url": "https://dexscreener.com/solana/4afz7xzcbmeyboiy6xeoswjbg8wyjlxr6faysjsuvmkw",
-      "market_cap": 102029,
+      "market_cap": 120601,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "AiDiglet",
+      "symbol": "DIGS",
+      "address": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+      "price_usd": "0.0001519",
+      "liquidity_usd": 33534.33,
+      "volume_24h": 514266.77,
+      "change_24h": 151,
+      "trades_24h": 17896,
+      "age_hours": 338,
+      "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
+      "market_cap": 144905,
       "strategies": [
         "baseline"
       ]

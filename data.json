@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-12 12:39 UTC",
-  "scanned": 40,
+  "updated": "2026-11-12 13:56 UTC",
+  "scanned": 41,
   "passed": 5,
   "rejection_reasons": {
     "low liquidity": 33,
-    "too new": 30,
+    "too new": 28,
+    "thin liquidity vs market cap": 15,
     "low volume": 6,
-    "thin liquidity vs market cap": 14,
     "few trades": 3
   },
   "rules": [
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.006125",
-      "liquidity_usd": 262095.84,
-      "volume_24h": 1520047.35,
-      "change_24h": -24.68,
-      "trades_24h": 41914,
-      "age_hours": 1896,
+      "price_usd": "0.005653",
+      "liquidity_usd": 251012.89,
+      "volume_24h": 1513197.83,
+      "change_24h": -40.63,
+      "trades_24h": 43853,
+      "age_hours": 1897,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 6045612,
+      "market_cap": 5579811,
       "strategies": [
         "baseline"
       ]
@@ -58,63 +58,64 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.004454",
-      "liquidity_usd": 230357.8,
-      "volume_24h": 347701.45,
-      "change_24h": 5.22,
-      "trades_24h": 2184,
-      "age_hours": 882,
+      "price_usd": "0.004135",
+      "liquidity_usd": 221939.8,
+      "volume_24h": 330647.14,
+      "change_24h": -18.07,
+      "trades_24h": 2104,
+      "age_hours": 883,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 4198650,
+      "market_cap": 3898535,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
-      "name": "WASTED",
-      "symbol": "WASTED",
-      "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "price_usd": "0.0009851",
-      "liquidity_usd": 94365.62,
-      "volume_24h": 320528.32,
-      "change_24h": -13.64,
-      "trades_24h": 5461,
-      "age_hours": 307,
-      "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
-      "market_cap": 966558,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
       "name": "Big Guy",
       "symbol": "BIG",
       "address": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
-      "price_usd": "0.001030",
-      "liquidity_usd": 92193.29,
-      "volume_24h": 114997.85,
-      "change_24h": 13.32,
-      "trades_24h": 36152,
-      "age_hours": 92,
+      "price_usd": "0.001067",
+      "liquidity_usd": 93926.51,
+      "volume_24h": 108452.93,
+      "change_24h": 15.25,
+      "trades_24h": 35904,
+      "age_hours": 94,
       "url": "https://dexscreener.com/solana/5tecgcpfldbnjvbrpjvk32uayabpra1hgefpeujqqkyk",
-      "market_cap": 978603,
+      "market_cap": 1014052,
       "strategies": [
-        "baseline"
+        "baseline",
+        "medium_risk"
       ]
     },
     {
       "name": "Shiba Nobunaga",
       "symbol": "NOBUSHIBA",
       "address": "8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump",
-      "price_usd": "0.001202",
-      "liquidity_usd": 88448.65,
-      "volume_24h": 1343493.86,
-      "change_24h": 485,
-      "trades_24h": 36623,
-      "age_hours": 35,
+      "price_usd": "0.0008902",
+      "liquidity_usd": 75996.11,
+      "volume_24h": 1521417.19,
+      "change_24h": 298,
+      "trades_24h": 40670,
+      "age_hours": 36,
       "url": "https://dexscreener.com/solana/dagau7g32pmkjf8ng2372xo2hygfgenx5yn7mwmkhfgf",
-      "market_cap": 1187060,
+      "market_cap": 878798,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "State of Leonida",
+      "symbol": "Leonida",
+      "address": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+      "price_usd": "0.0003421",
+      "liquidity_usd": 47113.18,
+      "volume_24h": 239069.53,
+      "change_24h": -17.85,
+      "trades_24h": 5248,
+      "age_hours": 162,
+      "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
+      "market_cap": 332153,
       "strategies": [
         "baseline"
       ]

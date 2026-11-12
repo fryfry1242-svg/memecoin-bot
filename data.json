@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-12 18:45 UTC",
+  "updated": "2026-11-12 19:47 UTC",
   "scanned": 49,
   "passed": 6,
   "rejection_reasons": {
     "low liquidity": 39,
-    "low volume": 7,
-    "too new": 35,
-    "thin liquidity vs market cap": 12,
+    "too new": 36,
+    "thin liquidity vs market cap": 13,
+    "low volume": 11,
     "few trades": 5
   },
   "rules": [
@@ -42,30 +42,14 @@
       "name": "RAMBO",
       "symbol": "RAMBO",
       "address": "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump",
-      "price_usd": "0.01176",
-      "liquidity_usd": 297680.6,
-      "volume_24h": 3520628.42,
-      "change_24h": 128,
-      "trades_24h": 30646,
-      "age_hours": 220,
+      "price_usd": "0.01238",
+      "liquidity_usd": 305045.52,
+      "volume_24h": 3529882.63,
+      "change_24h": 138,
+      "trades_24h": 30493,
+      "age_hours": 221,
       "url": "https://dexscreener.com/solana/gz15vwspy9kfynkrmpkokp2h9yygvbovoxjsgwsjcvfk",
-      "market_cap": 11598021,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Dessa",
-      "symbol": "DESSA",
-      "address": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-      "price_usd": "0.008946",
-      "liquidity_usd": 282263.31,
-      "volume_24h": 1425726.88,
-      "change_24h": 18.35,
-      "trades_24h": 8670,
-      "age_hours": 414,
-      "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-      "market_cap": 8759780,
+      "market_cap": 12207080,
       "strategies": [
         "baseline"
       ]
@@ -74,14 +58,30 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.005943",
-      "liquidity_usd": 258403.56,
-      "volume_24h": 1557274.49,
-      "change_24h": -28.58,
-      "trades_24h": 50184,
-      "age_hours": 1902,
+      "price_usd": "0.005090",
+      "liquidity_usd": 238931.2,
+      "volume_24h": 1548596.12,
+      "change_24h": -38.33,
+      "trades_24h": 49101,
+      "age_hours": 1903,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 5865619,
+      "market_cap": 5023948,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Dessa",
+      "symbol": "DESSA",
+      "address": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+      "price_usd": "0.006142",
+      "liquidity_usd": 233784.2,
+      "volume_24h": 1654423.83,
+      "change_24h": -16.93,
+      "trades_24h": 10332,
+      "age_hours": 415,
+      "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
+      "market_cap": 6014491,
       "strategies": [
         "baseline"
       ]
@@ -90,14 +90,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.003715",
-      "liquidity_usd": 210482.59,
-      "volume_24h": 365929.47,
-      "change_24h": -15.14,
-      "trades_24h": 2088,
-      "age_hours": 888,
+      "price_usd": "0.003698",
+      "liquidity_usd": 210009.77,
+      "volume_24h": 360042.16,
+      "change_24h": -21.37,
+      "trades_24h": 2044,
+      "age_hours": 889,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 3502525,
+      "market_cap": 3486655,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -107,14 +107,14 @@
       "name": "Shiba Nobunaga",
       "symbol": "NOBUSHIBA",
       "address": "8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump",
-      "price_usd": "0.0008058",
-      "liquidity_usd": 73435.54,
-      "volume_24h": 2046142.64,
-      "change_24h": 319,
-      "trades_24h": 47887,
-      "age_hours": 41,
+      "price_usd": "0.0007879",
+      "liquidity_usd": 72538.92,
+      "volume_24h": 2049787.37,
+      "change_24h": 243,
+      "trades_24h": 47502,
+      "age_hours": 42,
       "url": "https://dexscreener.com/solana/dagau7g32pmkjf8ng2372xo2hygfgenx5yn7mwmkhfgf",
-      "market_cap": 795474,
+      "market_cap": 777816,
       "strategies": [
         "baseline"
       ]
@@ -123,14 +123,14 @@
       "name": "State of Leonida",
       "symbol": "Leonida",
       "address": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
-      "price_usd": "0.0004026",
-      "liquidity_usd": 51411.61,
-      "volume_24h": 227140.6,
-      "change_24h": 12.49,
-      "trades_24h": 4914,
-      "age_hours": 167,
+      "price_usd": "0.0004345",
+      "liquidity_usd": 53355.32,
+      "volume_24h": 214513.21,
+      "change_24h": 35.93,
+      "trades_24h": 4663,
+      "age_hours": 168,
       "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
-      "market_cap": 390872,
+      "market_cap": 421805,
       "strategies": [
         "baseline"
       ]

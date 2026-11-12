@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-12 08:24 UTC",
-  "scanned": 49,
-  "passed": 7,
+  "updated": "2026-11-12 09:28 UTC",
+  "scanned": 45,
+  "passed": 6,
   "rejection_reasons": {
-    "low liquidity": 39,
-    "low volume": 5,
-    "too new": 36,
-    "thin liquidity vs market cap": 14,
-    "few trades": 1
+    "low liquidity": 37,
+    "too new": 33,
+    "thin liquidity vs market cap": 15,
+    "low volume": 6,
+    "few trades": 2
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.006133",
-      "liquidity_usd": 263084.46,
-      "volume_24h": 1569643.01,
-      "change_24h": -22.99,
-      "trades_24h": 38097,
-      "age_hours": 1892,
+      "price_usd": "0.006049",
+      "liquidity_usd": 261154.87,
+      "volume_24h": 1545673.57,
+      "change_24h": -20.2,
+      "trades_24h": 37645,
+      "age_hours": 1893,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 6052986,
+      "market_cap": 5970287,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.003924",
-      "liquidity_usd": 215935.06,
-      "volume_24h": 374911.66,
-      "change_24h": -13.62,
-      "trades_24h": 2342,
-      "age_hours": 878,
+      "price_usd": "0.003809",
+      "liquidity_usd": 212729.67,
+      "volume_24h": 361177.87,
+      "change_24h": -14.3,
+      "trades_24h": 2312,
+      "age_hours": 879,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 3699007,
+      "market_cap": 3590719,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -75,14 +75,30 @@
       "name": "Shiba Nobunaga",
       "symbol": "NOBUSHIBA",
       "address": "8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump",
-      "price_usd": "0.002087",
-      "liquidity_usd": 116867.62,
-      "volume_24h": 1182612.58,
-      "change_24h": 426,
-      "trades_24h": 29342,
-      "age_hours": 31,
+      "price_usd": "0.001956",
+      "liquidity_usd": 113095.79,
+      "volume_24h": 1195634.21,
+      "change_24h": 543,
+      "trades_24h": 29430,
+      "age_hours": 32,
       "url": "https://dexscreener.com/solana/dagau7g32pmkjf8ng2372xo2hygfgenx5yn7mwmkhfgf",
-      "market_cap": 2060138,
+      "market_cap": 1930860,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "WASTED",
+      "symbol": "WASTED",
+      "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+      "price_usd": "0.0009473",
+      "liquidity_usd": 92821.53,
+      "volume_24h": 324941.76,
+      "change_24h": -24.26,
+      "trades_24h": 5443,
+      "age_hours": 303,
+      "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
+      "market_cap": 929418,
       "strategies": [
         "baseline"
       ]
@@ -91,31 +107,14 @@
       "name": "Big Guy",
       "symbol": "BIG",
       "address": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
-      "price_usd": "0.001079",
-      "liquidity_usd": 94679.32,
-      "volume_24h": 129287.51,
-      "change_24h": -8.18,
-      "trades_24h": 38661,
-      "age_hours": 88,
+      "price_usd": "0.001028",
+      "liquidity_usd": 92648.83,
+      "volume_24h": 127378.98,
+      "change_24h": -13.21,
+      "trades_24h": 37785,
+      "age_hours": 89,
       "url": "https://dexscreener.com/solana/5tecgcpfldbnjvbrpjvk32uayabpra1hgefpeujqqkyk",
-      "market_cap": 1024744,
-      "strategies": [
-        "baseline",
-        "medium_risk"
-      ]
-    },
-    {
-      "name": "WASTED",
-      "symbol": "WASTED",
-      "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "price_usd": "0.0009426",
-      "liquidity_usd": 92641.28,
-      "volume_24h": 325967.45,
-      "change_24h": -26.33,
-      "trades_24h": 5402,
-      "age_hours": 302,
-      "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
-      "market_cap": 924848,
+      "market_cap": 976986,
       "strategies": [
         "baseline"
       ]
@@ -124,30 +123,14 @@
       "name": "jeff",
       "symbol": "jeff",
       "address": "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k",
-      "price_usd": "0.0002874",
-      "liquidity_usd": 48528.44,
-      "volume_24h": 430714.26,
-      "change_24h": -75.33,
-      "trades_24h": 19234,
-      "age_hours": 367,
+      "price_usd": "0.0003093",
+      "liquidity_usd": 50391.84,
+      "volume_24h": 405296.01,
+      "change_24h": -77.5,
+      "trades_24h": 18557,
+      "age_hours": 368,
       "url": "https://dexscreener.com/solana/jcxwfczgjgjc8nza5qb6jp3cgvqw4vgug4tqj87g5zny",
-      "market_cap": 287418,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Impeach",
-      "symbol": "Impeach",
-      "address": "F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump",
-      "price_usd": "0.0002944",
-      "liquidity_usd": 48229.35,
-      "volume_24h": 209812.3,
-      "change_24h": 45.9,
-      "trades_24h": 5034,
-      "age_hours": 203,
-      "url": "https://dexscreener.com/solana/12y1mrkwewewoyqhswybesjzm8gagnig1xqgqlc5uw3v",
-      "market_cap": 279355,
+      "market_cap": 309313,
       "strategies": [
         "baseline"
       ]

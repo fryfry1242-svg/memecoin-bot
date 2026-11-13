@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-13 12:39 UTC",
+  "updated": "2026-11-13 13:55 UTC",
   "scanned": 46,
-  "passed": 3,
+  "passed": 4,
   "rejection_reasons": {
-    "low liquidity": 38,
-    "thin liquidity vs market cap": 22,
-    "too new": 32,
-    "low volume": 8,
-    "few trades": 3
+    "low liquidity": 37,
+    "too new": 33,
+    "thin liquidity vs market cap": 18,
+    "low volume": 7,
+    "few trades": 1
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.005143",
-      "liquidity_usd": 240844.27,
-      "volume_24h": 1398485.14,
-      "change_24h": -16.12,
-      "trades_24h": 57267,
-      "age_hours": 1920,
+      "price_usd": "0.005590",
+      "liquidity_usd": 252953.7,
+      "volume_24h": 1442698.58,
+      "change_24h": -0.74,
+      "trades_24h": 57063,
+      "age_hours": 1921,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 5076496,
+      "market_cap": 5517613,
       "strategies": [
         "baseline"
       ]
@@ -58,31 +58,47 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.003833",
-      "liquidity_usd": 214661.58,
-      "volume_24h": 510704.33,
-      "change_24h": -15.38,
-      "trades_24h": 2519,
-      "age_hours": 906,
+      "price_usd": "0.003796",
+      "liquidity_usd": 213661.04,
+      "volume_24h": 505956.7,
+      "change_24h": -5.4,
+      "trades_24h": 2500,
+      "age_hours": 907,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 3613114,
+      "market_cap": 3578854,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
+      "name": "State of Leonida",
+      "symbol": "Leonida",
+      "address": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+      "price_usd": "0.0006566",
+      "liquidity_usd": 66340.49,
+      "volume_24h": 179006.05,
+      "change_24h": 98.63,
+      "trades_24h": 3630,
+      "age_hours": 186,
+      "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
+      "market_cap": 637384,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
       "name": "Trump Wars",
       "symbol": "TrumpWars",
       "address": "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump",
-      "price_usd": "0.0002121",
-      "liquidity_usd": 36739.58,
-      "volume_24h": 111594.53,
-      "change_24h": 52.62,
-      "trades_24h": 2320,
-      "age_hours": 274,
+      "price_usd": "0.0002183",
+      "liquidity_usd": 37529.56,
+      "volume_24h": 112588.5,
+      "change_24h": 49.76,
+      "trades_24h": 2343,
+      "age_hours": 276,
       "url": "https://dexscreener.com/solana/7ppuyh3b5f61zc6jcfjaftwthkwne1jgwhpddanlh8eo",
-      "market_cap": 206866,
+      "market_cap": 212899,
       "strategies": [
         "baseline"
       ]

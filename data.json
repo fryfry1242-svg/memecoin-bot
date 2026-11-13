@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-13 22:59 UTC",
-  "scanned": 63,
-  "passed": 9,
+  "updated": "2026-11-13 23:40 UTC",
+  "scanned": 60,
+  "passed": 10,
   "rejection_reasons": {
-    "too new": 43,
-    "low liquidity": 45,
-    "low volume": 13,
-    "thin liquidity vs market cap": 9,
+    "low liquidity": 46,
+    "too new": 40,
+    "thin liquidity vs market cap": 12,
+    "low volume": 10,
     "few trades": 3
   },
   "rules": [
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.009154",
-      "liquidity_usd": 318792.55,
-      "volume_24h": 1762557.12,
-      "change_24h": 79.33,
-      "trades_24h": 41295,
+      "price_usd": "0.008461",
+      "liquidity_usd": 306210.61,
+      "volume_24h": 1810654.62,
+      "change_24h": 57.78,
+      "trades_24h": 40828,
       "age_hours": 1931,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 9034945,
+      "market_cap": 8350676,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.003135",
-      "liquidity_usd": 194187.37,
-      "volume_24h": 289052.48,
-      "change_24h": 12.53,
-      "trades_24h": 1894,
+      "price_usd": "0.003344",
+      "liquidity_usd": 200623.43,
+      "volume_24h": 272683.42,
+      "change_24h": 5.35,
+      "trades_24h": 1763,
       "age_hours": 917,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 2955736,
+      "market_cap": 3152853,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -75,14 +75,14 @@
       "name": "WASTED",
       "symbol": "WASTED",
       "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "price_usd": "0.001906",
-      "liquidity_usd": 129457.29,
-      "volume_24h": 281382.6,
-      "change_24h": 66.98,
-      "trades_24h": 4368,
-      "age_hours": 341,
+      "price_usd": "0.001850",
+      "liquidity_usd": 127386.47,
+      "volume_24h": 298012.1,
+      "change_24h": 45.18,
+      "trades_24h": 4603,
+      "age_hours": 342,
       "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
-      "market_cap": 1870649,
+      "market_cap": 1815762,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -92,30 +92,14 @@
       "name": "had to take profits sir",
       "symbol": "https",
       "address": "7sGdNQSvUGpahh6qyXB3g5gsdK9FAzZM299KyCXspump",
-      "price_usd": "0.0004425",
-      "liquidity_usd": 94921.54,
-      "volume_24h": 51684.92,
-      "change_24h": 18.89,
-      "trades_24h": 1178,
+      "price_usd": "0.0004286",
+      "liquidity_usd": 93100.08,
+      "volume_24h": 51089.37,
+      "change_24h": 16.73,
+      "trades_24h": 1166,
       "age_hours": 7964,
       "url": "https://dexscreener.com/solana/amk2hphohkte2tcjwkbfmpyr3jimds3j19xgdhx4zclk",
-      "market_cap": 442280,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Ansemmas",
-      "symbol": "Ansemmas",
-      "address": "HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS",
-      "price_usd": "0.0004184",
-      "liquidity_usd": 62779.48,
-      "volume_24h": 200402.85,
-      "change_24h": 43.86,
-      "trades_24h": 3713,
-      "age_hours": 1038,
-      "url": "https://dexscreener.com/solana/6qirp44q2t8b1cfbgmnqexcldqhfqmncfaffpkg4n156",
-      "market_cap": 398860,
+      "market_cap": 428371,
       "strategies": [
         "baseline"
       ]
@@ -124,14 +108,46 @@
       "name": "State of Leonida",
       "symbol": "Leonida",
       "address": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
-      "price_usd": "0.0005973",
-      "liquidity_usd": 62093.4,
-      "volume_24h": 250663.06,
-      "change_24h": 46.14,
-      "trades_24h": 4929,
-      "age_hours": 195,
+      "price_usd": "0.0005947",
+      "liquidity_usd": 61894.96,
+      "volume_24h": 257231.14,
+      "change_24h": 38.41,
+      "trades_24h": 5078,
+      "age_hours": 196,
       "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
-      "market_cap": 579844,
+      "market_cap": 577252,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Ansemmas",
+      "symbol": "Ansemmas",
+      "address": "HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS",
+      "price_usd": "0.0003601",
+      "liquidity_usd": 58129.77,
+      "volume_24h": 224131.97,
+      "change_24h": 20.14,
+      "trades_24h": 4125,
+      "age_hours": 1039,
+      "url": "https://dexscreener.com/solana/6qirp44q2t8b1cfbgmnqexcldqhfqmncfaffpkg4n156",
+      "market_cap": 343254,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Sharkbux",
+      "symbol": "SHARKBUX",
+      "address": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
+      "price_usd": "0.0005267",
+      "liquidity_usd": 57223.39,
+      "volume_24h": 1243873.8,
+      "change_24h": 158,
+      "trades_24h": 173769,
+      "age_hours": 24,
+      "url": "https://dexscreener.com/solana/gcapljm8avitumexsypcvmgk6rer9kg7gun4l9ykp394",
+      "market_cap": 522642,
       "strategies": [
         "baseline"
       ]
@@ -140,14 +156,14 @@
       "name": "Pirate Shop Token",
       "symbol": "PIRATE",
       "address": "6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump",
-      "price_usd": "0.0002750",
-      "liquidity_usd": 50391.67,
-      "volume_24h": 424950.11,
-      "change_24h": 32.92,
-      "trades_24h": 8051,
+      "price_usd": "0.0002803",
+      "liquidity_usd": 50855.68,
+      "volume_24h": 434886.03,
+      "change_24h": 26.37,
+      "trades_24h": 8158,
       "age_hours": 270,
       "url": "https://dexscreener.com/solana/ckuwaxubnxmecnurn5vvyc7klz42jnqtyh2nyfj8kv1x",
-      "market_cap": 261568,
+      "market_cap": 266559,
       "strategies": [
         "baseline"
       ]
@@ -156,14 +172,14 @@
       "name": "Christmax",
       "symbol": "Christmax",
       "address": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "price_usd": "0.0001998",
-      "liquidity_usd": 32724.23,
-      "volume_24h": 343061.09,
-      "change_24h": 190,
-      "trades_24h": 115423,
+      "price_usd": "0.0001936",
+      "liquidity_usd": 32148.83,
+      "volume_24h": 315214.24,
+      "change_24h": 128,
+      "trades_24h": 120232,
       "age_hours": 25,
       "url": "https://dexscreener.com/solana/88smwaf7twyij1pblt9tszzgprdqg17b7j5b54avudsd",
-      "market_cap": 190969,
+      "market_cap": 185078,
       "strategies": [
         "baseline"
       ]
@@ -172,14 +188,14 @@
       "name": "CHILL",
       "symbol": "CHILL",
       "address": "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump",
-      "price_usd": "0.0001765",
-      "liquidity_usd": 30935.53,
-      "volume_24h": 105753.08,
-      "change_24h": -55.3,
-      "trades_24h": 3995,
+      "price_usd": "0.0001698",
+      "liquidity_usd": 30293.78,
+      "volume_24h": 104333.78,
+      "change_24h": -59.16,
+      "trades_24h": 3978,
       "age_hours": 150,
       "url": "https://dexscreener.com/solana/gom6pz6nc2natjvtr29xa98gsqmjzt72rjnkekyprzs8",
-      "market_cap": 175886,
+      "market_cap": 169250,
       "strategies": [
         "baseline"
       ]

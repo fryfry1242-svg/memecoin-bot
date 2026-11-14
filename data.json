@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-14 12:19 UTC",
-  "scanned": 61,
-  "passed": 10,
+  "updated": "2026-11-14 13:25 UTC",
+  "scanned": 59,
+  "passed": 6,
   "rejection_reasons": {
-    "low liquidity": 45,
     "too new": 42,
-    "thin liquidity vs market cap": 20,
-    "low volume": 9,
-    "unknown age": 1,
-    "few trades": 1
+    "low liquidity": 45,
+    "thin liquidity vs market cap": 19,
+    "low volume": 10,
+    "few trades": 2,
+    "unknown age": 1
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -43,14 +43,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.007268",
-      "liquidity_usd": 280710.85,
-      "volume_24h": 1716447.37,
-      "change_24h": 43.86,
-      "trades_24h": 21615,
-      "age_hours": 1944,
+      "price_usd": "0.006818",
+      "liquidity_usd": 271554.74,
+      "volume_24h": 1660880.16,
+      "change_24h": 32.09,
+      "trades_24h": 20114,
+      "age_hours": 1945,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 7174044,
+      "market_cap": 6729212,
       "strategies": [
         "baseline"
       ]
@@ -59,80 +59,48 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.003106",
-      "liquidity_usd": 193339.32,
-      "volume_24h": 199789.66,
-      "change_24h": -4.57,
-      "trades_24h": 1383,
-      "age_hours": 930,
+      "price_usd": "0.003357",
+      "liquidity_usd": 201134.87,
+      "volume_24h": 199211.07,
+      "change_24h": -7.94,
+      "trades_24h": 1365,
+      "age_hours": 931,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 2927961,
+      "market_cap": 3164792,
       "strategies": [
         "baseline",
         "medium_risk"
-      ]
-    },
-    {
-      "name": "\u30d1\u30f3\u30c1",
-      "symbol": "Punch",
-      "address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
-      "price_usd": "0.0002744",
-      "liquidity_usd": 118636.22,
-      "volume_24h": 330453.6,
-      "change_24h": -52.26,
-      "trades_24h": 5237,
-      "age_hours": 6771,
-      "url": "https://dexscreener.com/solana/a6khmifzn9am7vkbtvp4fzny9bco2jp63r9dphaw1vrq",
-      "market_cap": 274358,
-      "strategies": [
-        "baseline"
       ]
     },
     {
       "name": "Infinite Money Glitch",
       "symbol": "GLITCH",
       "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "price_usd": "0.001561",
-      "liquidity_usd": 102585.78,
-      "volume_24h": 122164.99,
-      "change_24h": 18.3,
-      "trades_24h": 1457,
-      "age_hours": 693,
+      "price_usd": "0.001494",
+      "liquidity_usd": 100207.91,
+      "volume_24h": 122158.31,
+      "change_24h": 12.76,
+      "trades_24h": 1499,
+      "age_hours": 694,
       "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-      "market_cap": 1449190,
+      "market_cap": 1386922,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
-      "name": "State of Leonida",
-      "symbol": "Leonida",
-      "address": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
-      "price_usd": "0.0005901",
-      "liquidity_usd": 61018.22,
-      "volume_24h": 317132.57,
-      "change_24h": 11.43,
-      "trades_24h": 6354,
-      "age_hours": 209,
-      "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
-      "market_cap": 572806,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "chudhaos",
-      "symbol": "chudhaos",
-      "address": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
-      "price_usd": "0.0005594",
-      "liquidity_usd": 56776.16,
-      "volume_24h": 260439.72,
-      "change_24h": 956,
-      "trades_24h": 3349,
-      "age_hours": 37,
-      "url": "https://dexscreener.com/solana/5usjjxrjzyvzsa5mys6mfexmrfqmu5czf9aecmqs1m4y",
-      "market_cap": 541013,
+      "name": "Carl Johnson",
+      "symbol": "CJ",
+      "address": "F4vEFNoH9H2oLYRabaQQ2Z6jAAi2AhRVdTdVH6Nn2J1q",
+      "price_usd": "0.0002771",
+      "liquidity_usd": 38076.16,
+      "volume_24h": 95712.18,
+      "change_24h": 144,
+      "trades_24h": 1634,
+      "age_hours": 301,
+      "url": "https://dexscreener.com/solana/esc3fshxapawswc4obkqncnwsvai27xvbab2ucbuqtmv",
+      "market_cap": 267558,
       "strategies": [
         "baseline"
       ]
@@ -141,14 +109,14 @@
       "name": "Christmax",
       "symbol": "Christmax",
       "address": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "price_usd": "0.0002626",
-      "liquidity_usd": 37260.37,
-      "volume_24h": 213847.76,
-      "change_24h": 95.7,
-      "trades_24h": 115119,
-      "age_hours": 38,
+      "price_usd": "0.0002495",
+      "liquidity_usd": 36245.86,
+      "volume_24h": 210680.66,
+      "change_24h": 91.03,
+      "trades_24h": 112491,
+      "age_hours": 39,
       "url": "https://dexscreener.com/solana/88smwaf7twyij1pblt9tszzgprdqg17b7j5b54avudsd",
-      "market_cap": 251013,
+      "market_cap": 238511,
       "strategies": [
         "baseline"
       ]
@@ -157,46 +125,14 @@
       "name": "CHILL",
       "symbol": "CHILL",
       "address": "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump",
-      "price_usd": "0.0001956",
-      "liquidity_usd": 32223.82,
-      "volume_24h": 86572.99,
-      "change_24h": -37.79,
-      "trades_24h": 3202,
-      "age_hours": 163,
+      "price_usd": "0.0002008",
+      "liquidity_usd": 32545.73,
+      "volume_24h": 80346.57,
+      "change_24h": -31.43,
+      "trades_24h": 2889,
+      "age_hours": 164,
       "url": "https://dexscreener.com/solana/gom6pz6nc2natjvtr29xa98gsqmjzt72rjnkekyprzs8",
-      "market_cap": 194952,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Carl Johnson",
-      "symbol": "CJ",
-      "address": "F4vEFNoH9H2oLYRabaQQ2Z6jAAi2AhRVdTdVH6Nn2J1q",
-      "price_usd": "0.0001902",
-      "liquidity_usd": 31293.14,
-      "volume_24h": 80938.94,
-      "change_24h": 66.91,
-      "trades_24h": 1514,
-      "age_hours": 299,
-      "url": "https://dexscreener.com/solana/esc3fshxapawswc4obkqncnwsvai27xvbab2ucbuqtmv",
-      "market_cap": 183640,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "GTAFICATION",
-      "symbol": "GTAFY",
-      "address": "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump",
-      "price_usd": "0.00009217",
-      "liquidity_usd": 27661.55,
-      "volume_24h": 76657.89,
-      "change_24h": 175,
-      "trades_24h": 1320,
-      "age_hours": 269,
-      "url": "https://dexscreener.com/solana/6ts4lyzuuuc59mjjiskzdha4bewdecampaa547ylg3fu",
-      "market_cap": 87869,
+      "market_cap": 200076,
       "strategies": [
         "baseline"
       ]

@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-14 18:55 UTC",
-  "scanned": 52,
+  "updated": "2026-11-14 19:37 UTC",
+  "scanned": 50,
   "passed": 7,
   "rejection_reasons": {
-    "low liquidity": 40,
-    "too new": 35,
-    "low volume": 12,
-    "few trades": 5,
-    "thin liquidity vs market cap": 15,
+    "low liquidity": 42,
+    "too new": 36,
+    "thin liquidity vs market cap": 14,
+    "low volume": 9,
+    "few trades": 4,
     "unknown age": 1
   },
   "rules": [
@@ -43,80 +43,80 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.006793",
-      "liquidity_usd": 265500.25,
-      "volume_24h": 1315484.2,
-      "change_24h": 6.65,
-      "trades_24h": 16449,
-      "age_hours": 1950,
+      "price_usd": "0.006877",
+      "liquidity_usd": 267466.18,
+      "volume_24h": 1374260.71,
+      "change_24h": -3.69,
+      "trades_24h": 17829,
+      "age_hours": 1951,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 6704278,
+      "market_cap": 6787393,
       "strategies": [
         "baseline"
-      ]
-    },
-    {
-      "name": "A MIHAO CAT",
-      "symbol": "AMC",
-      "address": "HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump",
-      "price_usd": "0.001871",
-      "liquidity_usd": 101129.86,
-      "volume_24h": 2457729.29,
-      "change_24h": 669,
-      "trades_24h": 353688,
-      "age_hours": 24,
-      "url": "https://dexscreener.com/solana/dxbqyptjckqtsuwyuqjb11hpuppylgjz5x4z7ufhp3gh",
-      "market_cap": 1859745,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Big Guy",
-      "symbol": "BIG",
-      "address": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
-      "price_usd": "0.001189",
-      "liquidity_usd": 99726.78,
-      "volume_24h": 86164.65,
-      "change_24h": -6.63,
-      "trades_24h": 40577,
-      "age_hours": 147,
-      "url": "https://dexscreener.com/solana/5tecgcpfldbnjvbrpjvk32uayabpra1hgefpeujqqkyk",
-      "market_cap": 1129840,
-      "strategies": [
-        "baseline",
-        "medium_risk"
       ]
     },
     {
       "name": "Infinite Money Glitch",
       "symbol": "GLITCH",
       "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "price_usd": "0.001523",
-      "liquidity_usd": 98963.87,
-      "volume_24h": 99058.49,
-      "change_24h": -4.22,
-      "trades_24h": 1492,
-      "age_hours": 699,
+      "price_usd": "0.001627",
+      "liquidity_usd": 102288.9,
+      "volume_24h": 100259.66,
+      "change_24h": -6.31,
+      "trades_24h": 1503,
+      "age_hours": 700,
       "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-      "market_cap": 1413451,
+      "market_cap": 1509786,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
+      "name": "Big Guy",
+      "symbol": "BIG",
+      "address": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
+      "price_usd": "0.001182",
+      "liquidity_usd": 99400.24,
+      "volume_24h": 82538.38,
+      "change_24h": -6.53,
+      "trades_24h": 40684,
+      "age_hours": 147,
+      "url": "https://dexscreener.com/solana/5tecgcpfldbnjvbrpjvk32uayabpra1hgefpeujqqkyk",
+      "market_cap": 1122745,
+      "strategies": [
+        "baseline",
+        "medium_risk"
+      ]
+    },
+    {
+      "name": "A MIHAO CAT",
+      "symbol": "AMC",
+      "address": "HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump",
+      "price_usd": "0.0008396",
+      "liquidity_usd": 67457.72,
+      "volume_24h": 2244628.98,
+      "change_24h": -34.28,
+      "trades_24h": 359347,
+      "age_hours": 25,
+      "url": "https://dexscreener.com/solana/dxbqyptjckqtsuwyuqjb11hpuppylgjz5x4z7ufhp3gh",
+      "market_cap": 834607,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
       "name": "Carl Johnson",
       "symbol": "CJ",
       "address": "F4vEFNoH9H2oLYRabaQQ2Z6jAAi2AhRVdTdVH6Nn2J1q",
-      "price_usd": "0.0003320",
-      "liquidity_usd": 41047.98,
-      "volume_24h": 193304.88,
-      "change_24h": 155,
-      "trades_24h": 3138,
-      "age_hours": 306,
+      "price_usd": "0.0003583",
+      "liquidity_usd": 42674.8,
+      "volume_24h": 193936.01,
+      "change_24h": 220,
+      "trades_24h": 3173,
+      "age_hours": 307,
       "url": "https://dexscreener.com/solana/esc3fshxapawswc4obkqncnwsvai27xvbab2ucbuqtmv",
-      "market_cap": 320598,
+      "market_cap": 345964,
       "strategies": [
         "baseline"
       ]
@@ -125,14 +125,14 @@
       "name": "Christmax",
       "symbol": "Christmax",
       "address": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "price_usd": "0.0002616",
-      "liquidity_usd": 36430.31,
-      "volume_24h": 163013.84,
-      "change_24h": 10.93,
-      "trades_24h": 114337,
-      "age_hours": 44,
+      "price_usd": "0.0002475",
+      "liquidity_usd": 35429.3,
+      "volume_24h": 157899.56,
+      "change_24h": -7.71,
+      "trades_24h": 115980,
+      "age_hours": 45,
       "url": "https://dexscreener.com/solana/88smwaf7twyij1pblt9tszzgprdqg17b7j5b54avudsd",
-      "market_cap": 250112,
+      "market_cap": 236559,
       "strategies": [
         "baseline"
       ]
@@ -141,14 +141,14 @@
       "name": "GTAFICATION",
       "symbol": "GTAFY",
       "address": "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump",
-      "price_usd": "0.00009932",
-      "liquidity_usd": 29019.75,
-      "volume_24h": 149076.42,
-      "change_24h": 209,
-      "trades_24h": 2396,
-      "age_hours": 276,
+      "price_usd": "0.00009979",
+      "liquidity_usd": 29094.89,
+      "volume_24h": 149838.76,
+      "change_24h": 218,
+      "trades_24h": 2419,
+      "age_hours": 277,
       "url": "https://dexscreener.com/solana/6ts4lyzuuuc59mjjiskzdha4bewdecampaa547ylg3fu",
-      "market_cap": 94683,
+      "market_cap": 95137,
       "strategies": [
         "baseline"
       ]

@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-17 05:42 UTC",
-  "scanned": 58,
-  "passed": 8,
+  "updated": "2026-11-17 06:47 UTC",
+  "scanned": 57,
+  "passed": 7,
   "rejection_reasons": {
-    "low liquidity": 43,
-    "low volume": 6,
-    "too new": 44,
+    "low liquidity": 40,
+    "too new": 40,
     "thin liquidity vs market cap": 17,
-    "few trades": 4
+    "low volume": 8,
+    "few trades": 6
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -39,33 +39,17 @@
   },
   "candidates": [
     {
-      "name": "BLOB",
-      "symbol": "BLOB",
-      "address": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
-      "price_usd": "0.01777",
-      "liquidity_usd": 357721.36,
-      "volume_24h": 4232119.37,
-      "change_24h": 203,
-      "trades_24h": 35540,
-      "age_hours": 398,
-      "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
-      "market_cap": 17617922,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.005224",
-      "liquidity_usd": 253354.2,
-      "volume_24h": 434381.37,
-      "change_24h": 6.31,
-      "trades_24h": 2501,
-      "age_hours": 995,
+      "price_usd": "0.005376",
+      "liquidity_usd": 257111.81,
+      "volume_24h": 440685.92,
+      "change_24h": 9.71,
+      "trades_24h": 2506,
+      "age_hours": 996,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 4923882,
+      "market_cap": 5067652,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -75,14 +59,14 @@
       "name": "DogWifJob",
       "symbol": "JOB",
       "address": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-      "price_usd": "0.002113",
-      "liquidity_usd": 144937.31,
-      "volume_24h": 1287296.47,
-      "change_24h": 76.94,
-      "trades_24h": 12000,
-      "age_hours": 490,
+      "price_usd": "0.002061",
+      "liquidity_usd": 142663.15,
+      "volume_24h": 1310707.83,
+      "change_24h": 63.83,
+      "trades_24h": 12311,
+      "age_hours": 492,
       "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-      "market_cap": 2058482,
+      "market_cap": 2008219,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -92,14 +76,30 @@
       "name": "Big Guy",
       "symbol": "BIG",
       "address": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
-      "price_usd": "0.001454",
-      "liquidity_usd": 107165.57,
-      "volume_24h": 47252.62,
-      "change_24h": -6.69,
-      "trades_24h": 87464,
-      "age_hours": 206,
+      "price_usd": "0.001466",
+      "liquidity_usd": 107525.78,
+      "volume_24h": 47916.47,
+      "change_24h": -11.05,
+      "trades_24h": 87348,
+      "age_hours": 207,
       "url": "https://dexscreener.com/solana/5tecgcpfldbnjvbrpjvk32uayabpra1hgefpeujqqkyk",
-      "market_cap": 1381315,
+      "market_cap": 1392631,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Hogecoin",
+      "symbol": "HOGE",
+      "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+      "price_usd": "0.0007266",
+      "liquidity_usd": 98515.21,
+      "volume_24h": 1738868.62,
+      "change_24h": 65.29,
+      "trades_24h": 26522,
+      "age_hours": 48,
+      "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
+      "market_cap": 694188,
       "strategies": [
         "baseline"
       ]
@@ -108,47 +108,31 @@
       "name": "Infinite Money Glitch",
       "symbol": "GLITCH",
       "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "price_usd": "0.001381",
-      "liquidity_usd": 95607.89,
-      "volume_24h": 134815.53,
-      "change_24h": 15.7,
-      "trades_24h": 5373,
-      "age_hours": 758,
+      "price_usd": "0.001253",
+      "liquidity_usd": 90638.79,
+      "volume_24h": 137080.27,
+      "change_24h": -3.15,
+      "trades_24h": 5623,
+      "age_hours": 759,
       "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-      "market_cap": 1282286,
+      "market_cap": 1163380,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
-      "name": "Hogecoin",
-      "symbol": "HOGE",
-      "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "price_usd": "0.0006315",
-      "liquidity_usd": 91571.62,
-      "volume_24h": 1793190.22,
-      "change_24h": 43.69,
-      "trades_24h": 27257,
-      "age_hours": 47,
-      "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
-      "market_cap": 603403,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
       "name": "Lucia From GTA 6",
       "symbol": "Lucia",
       "address": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
-      "price_usd": "0.0003859",
-      "liquidity_usd": 53190.82,
-      "volume_24h": 70125.08,
-      "change_24h": 64.89,
-      "trades_24h": 2088,
-      "age_hours": 16998,
+      "price_usd": "0.0003649",
+      "liquidity_usd": 51508.97,
+      "volume_24h": 70610.48,
+      "change_24h": 57.08,
+      "trades_24h": 2113,
+      "age_hours": 16999,
       "url": "https://dexscreener.com/solana/9lp64xgwxb7q8qzmlfringjycfutxe4knmxwwzswukjf",
-      "market_cap": 385696,
+      "market_cap": 364699,
       "strategies": [
         "baseline"
       ]
@@ -157,14 +141,14 @@
       "name": "AiDiglet",
       "symbol": "DIGS",
       "address": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-      "price_usd": "0.0002418",
-      "liquidity_usd": 43513.58,
-      "volume_24h": 553953.12,
-      "change_24h": 50.2,
-      "trades_24h": 29047,
-      "age_hours": 473,
+      "price_usd": "0.0002500",
+      "liquidity_usd": 44236.24,
+      "volume_24h": 600517.99,
+      "change_24h": 56.88,
+      "trades_24h": 31668,
+      "age_hours": 474,
       "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
-      "market_cap": 230559,
+      "market_cap": 238419,
       "strategies": [
         "baseline"
       ]

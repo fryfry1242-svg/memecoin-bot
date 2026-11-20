@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-20 21:32 UTC",
-  "scanned": 49,
-  "passed": 5,
+  "updated": "2026-11-20 22:27 UTC",
+  "scanned": 50,
+  "passed": 7,
   "rejection_reasons": {
     "low liquidity": 38,
+    "low volume": 10,
     "too new": 37,
-    "thin liquidity vs market cap": 13,
-    "low volume": 9,
+    "thin liquidity vs market cap": 14,
     "few trades": 4
   },
   "rules": [
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.002927",
-      "liquidity_usd": 180621.64,
-      "volume_24h": 648645.6,
-      "change_24h": 62.57,
-      "trades_24h": 8832,
-      "age_hours": 2097,
+      "price_usd": "0.003499",
+      "liquidity_usd": 199558.35,
+      "volume_24h": 669418.02,
+      "change_24h": 114,
+      "trades_24h": 10214,
+      "age_hours": 2098,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 2889523,
+      "market_cap": 3453826,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -59,14 +59,30 @@
       "name": "Hogecoin",
       "symbol": "HOGE",
       "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "price_usd": "0.0008669",
-      "liquidity_usd": 115901.93,
-      "volume_24h": 505503.44,
-      "change_24h": -11.14,
-      "trades_24h": 6205,
-      "age_hours": 135,
+      "price_usd": "0.0008583",
+      "liquidity_usd": 115445.16,
+      "volume_24h": 480744.27,
+      "change_24h": -5.66,
+      "trades_24h": 5969,
+      "age_hours": 136,
       "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
-      "market_cap": 828243,
+      "market_cap": 820035,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Hugh Johnson",
+      "symbol": "HUGH",
+      "address": "Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump",
+      "price_usd": "0.0001904",
+      "liquidity_usd": 38537.52,
+      "volume_24h": 99594.11,
+      "change_24h": 188,
+      "trades_24h": 977,
+      "age_hours": 58,
+      "url": "https://dexscreener.com/solana/8nkmormxyyj9x2la7qvak5q5na1gtp2qyiscwltj627q",
+      "market_cap": 185283,
       "strategies": [
         "baseline"
       ]
@@ -75,30 +91,14 @@
       "name": "rockstar",
       "symbol": "rockstar",
       "address": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
-      "price_usd": "0.0001027",
-      "liquidity_usd": 32240.87,
-      "volume_24h": 107179.8,
-      "change_24h": 63.15,
-      "trades_24h": 2537,
+      "price_usd": "0.00009634",
+      "liquidity_usd": 31230.58,
+      "volume_24h": 94238.82,
+      "change_24h": -0.16,
+      "trades_24h": 2352,
       "age_hours": 131,
       "url": "https://dexscreener.com/solana/5pynpptnpdg5resu3vqejkqhepij1uwp5l7a2cchmxdy",
-      "market_cap": 97762,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Buck Me",
-      "symbol": "BUCKME",
-      "address": "DEgAkPNxz3dtMsesD2FDkNA2S6sch5YWfGUDT7R2pump",
-      "price_usd": "0.0001305",
-      "liquidity_usd": 27163.08,
-      "volume_24h": 233350.39,
-      "change_24h": -24.52,
-      "trades_24h": 5970,
-      "age_hours": 41,
-      "url": "https://dexscreener.com/solana/h529gpab6vkq5scwypjwmgb9njhf4udpmlwx6j6gkga8",
-      "market_cap": 130108,
+      "market_cap": 91651,
       "strategies": [
         "baseline"
       ]
@@ -107,14 +107,46 @@
       "name": "THUG LIFE INC",
       "symbol": "THUG",
       "address": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "price_usd": "0.00009069",
-      "liquidity_usd": 25422.34,
-      "volume_24h": 44784.43,
-      "change_24h": -38.62,
-      "trades_24h": 3130,
-      "age_hours": 370,
+      "price_usd": "0.0001021",
+      "liquidity_usd": 27203.84,
+      "volume_24h": 44796.61,
+      "change_24h": -30.29,
+      "trades_24h": 4190,
+      "age_hours": 371,
       "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
-      "market_cap": 90692,
+      "market_cap": 102164,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Pois",
+      "symbol": "Pois",
+      "address": "CM65K38bqGePYkNQBjGRRDYMhyxgh9xTQg2HPQTFpump",
+      "price_usd": "0.0001113",
+      "liquidity_usd": 27187.01,
+      "volume_24h": 47542.2,
+      "change_24h": 19.52,
+      "trades_24h": 974,
+      "age_hours": 10121,
+      "url": "https://dexscreener.com/solana/3qcizdvg6geu9jr3f57het9fdvukej4zv5zejhmdmpxl",
+      "market_cap": 111188,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Buck Me",
+      "symbol": "BUCKME",
+      "address": "DEgAkPNxz3dtMsesD2FDkNA2S6sch5YWfGUDT7R2pump",
+      "price_usd": "0.0001261",
+      "liquidity_usd": 26936.75,
+      "volume_24h": 221017.56,
+      "change_24h": -1.09,
+      "trades_24h": 5668,
+      "age_hours": 42,
+      "url": "https://dexscreener.com/solana/h529gpab6vkq5scwypjwmgb9njhf4udpmlwx6j6gkga8",
+      "market_cap": 125731,
       "strategies": [
         "baseline"
       ]

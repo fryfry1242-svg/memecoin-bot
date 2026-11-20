@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-20 20:43 UTC",
-  "scanned": 48,
+  "updated": "2026-11-20 21:32 UTC",
+  "scanned": 49,
   "passed": 5,
   "rejection_reasons": {
-    "too new": 35,
-    "low liquidity": 40,
+    "low liquidity": 38,
+    "too new": 37,
+    "thin liquidity vs market cap": 13,
     "low volume": 9,
-    "thin liquidity vs market cap": 8,
     "few trades": 4
   },
   "rules": [
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.003268",
-      "liquidity_usd": 190405.12,
-      "volume_24h": 620299.58,
-      "change_24h": 63.11,
-      "trades_24h": 7492,
-      "age_hours": 2096,
+      "price_usd": "0.002927",
+      "liquidity_usd": 180621.64,
+      "volume_24h": 648645.6,
+      "change_24h": 62.57,
+      "trades_24h": 8832,
+      "age_hours": 2097,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 3225539,
+      "market_cap": 2889523,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -59,14 +59,14 @@
       "name": "Hogecoin",
       "symbol": "HOGE",
       "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "price_usd": "0.0008462",
-      "liquidity_usd": 114441.96,
-      "volume_24h": 506669.42,
-      "change_24h": -13.54,
-      "trades_24h": 6156,
-      "age_hours": 134,
+      "price_usd": "0.0008669",
+      "liquidity_usd": 115901.93,
+      "volume_24h": 505503.44,
+      "change_24h": -11.14,
+      "trades_24h": 6205,
+      "age_hours": 135,
       "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
-      "market_cap": 808482,
+      "market_cap": 828243,
       "strategies": [
         "baseline"
       ]
@@ -75,30 +75,14 @@
       "name": "rockstar",
       "symbol": "rockstar",
       "address": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
-      "price_usd": "0.00009693",
-      "liquidity_usd": 31294.35,
-      "volume_24h": 111260.02,
-      "change_24h": 51.93,
-      "trades_24h": 2572,
-      "age_hours": 130,
+      "price_usd": "0.0001027",
+      "liquidity_usd": 32240.87,
+      "volume_24h": 107179.8,
+      "change_24h": 63.15,
+      "trades_24h": 2537,
+      "age_hours": 131,
       "url": "https://dexscreener.com/solana/5pynpptnpdg5resu3vqejkqhepij1uwp5l7a2cchmxdy",
-      "market_cap": 92211,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "THUG LIFE INC",
-      "symbol": "THUG",
-      "address": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "price_usd": "0.0001078",
-      "liquidity_usd": 27688.31,
-      "volume_24h": 44006.58,
-      "change_24h": -30.59,
-      "trades_24h": 2179,
-      "age_hours": 369,
-      "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
-      "market_cap": 107833,
+      "market_cap": 97762,
       "strategies": [
         "baseline"
       ]
@@ -107,14 +91,30 @@
       "name": "Buck Me",
       "symbol": "BUCKME",
       "address": "DEgAkPNxz3dtMsesD2FDkNA2S6sch5YWfGUDT7R2pump",
-      "price_usd": "0.0001318",
-      "liquidity_usd": 27248.37,
-      "volume_24h": 253104.18,
-      "change_24h": 24.95,
-      "trades_24h": 6273,
+      "price_usd": "0.0001305",
+      "liquidity_usd": 27163.08,
+      "volume_24h": 233350.39,
+      "change_24h": -24.52,
+      "trades_24h": 5970,
       "age_hours": 41,
       "url": "https://dexscreener.com/solana/h529gpab6vkq5scwypjwmgb9njhf4udpmlwx6j6gkga8",
-      "market_cap": 131373,
+      "market_cap": 130108,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "THUG LIFE INC",
+      "symbol": "THUG",
+      "address": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+      "price_usd": "0.00009069",
+      "liquidity_usd": 25422.34,
+      "volume_24h": 44784.43,
+      "change_24h": -38.62,
+      "trades_24h": 3130,
+      "age_hours": 370,
+      "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
+      "market_cap": 90692,
       "strategies": [
         "baseline"
       ]

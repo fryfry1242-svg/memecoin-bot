@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-20 19:54 UTC",
-  "scanned": 47,
-  "passed": 4,
+  "updated": "2026-11-20 20:43 UTC",
+  "scanned": 48,
+  "passed": 5,
   "rejection_reasons": {
+    "too new": 35,
     "low liquidity": 40,
     "low volume": 9,
-    "too new": 35,
-    "thin liquidity vs market cap": 7,
-    "few trades": 3
+    "thin liquidity vs market cap": 8,
+    "few trades": 4
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.003464",
-      "liquidity_usd": 196859.87,
-      "volume_24h": 619737.72,
-      "change_24h": 73.5,
-      "trades_24h": 7411,
-      "age_hours": 2095,
+      "price_usd": "0.003268",
+      "liquidity_usd": 190405.12,
+      "volume_24h": 620299.58,
+      "change_24h": 63.11,
+      "trades_24h": 7492,
+      "age_hours": 2096,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 3419076,
+      "market_cap": 3225539,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -59,14 +59,14 @@
       "name": "Hogecoin",
       "symbol": "HOGE",
       "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "price_usd": "0.0008978",
-      "liquidity_usd": 117883.26,
-      "volume_24h": 516814.78,
-      "change_24h": -3.62,
-      "trades_24h": 6177,
-      "age_hours": 133,
+      "price_usd": "0.0008462",
+      "liquidity_usd": 114441.96,
+      "volume_24h": 506669.42,
+      "change_24h": -13.54,
+      "trades_24h": 6156,
+      "age_hours": 134,
       "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
-      "market_cap": 857733,
+      "market_cap": 808482,
       "strategies": [
         "baseline"
       ]
@@ -75,14 +75,14 @@
       "name": "rockstar",
       "symbol": "rockstar",
       "address": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
-      "price_usd": "0.0001143",
-      "liquidity_usd": 33995.55,
-      "volume_24h": 118856.92,
-      "change_24h": 42.26,
-      "trades_24h": 2682,
-      "age_hours": 129,
+      "price_usd": "0.00009693",
+      "liquidity_usd": 31294.35,
+      "volume_24h": 111260.02,
+      "change_24h": 51.93,
+      "trades_24h": 2572,
+      "age_hours": 130,
       "url": "https://dexscreener.com/solana/5pynpptnpdg5resu3vqejkqhepij1uwp5l7a2cchmxdy",
-      "market_cap": 108738,
+      "market_cap": 92211,
       "strategies": [
         "baseline"
       ]
@@ -91,14 +91,30 @@
       "name": "THUG LIFE INC",
       "symbol": "THUG",
       "address": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "price_usd": "0.00009160",
-      "liquidity_usd": 25579.61,
-      "volume_24h": 43592.52,
-      "change_24h": -36.21,
-      "trades_24h": 1410,
-      "age_hours": 368,
+      "price_usd": "0.0001078",
+      "liquidity_usd": 27688.31,
+      "volume_24h": 44006.58,
+      "change_24h": -30.59,
+      "trades_24h": 2179,
+      "age_hours": 369,
       "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
-      "market_cap": 91602,
+      "market_cap": 107833,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Buck Me",
+      "symbol": "BUCKME",
+      "address": "DEgAkPNxz3dtMsesD2FDkNA2S6sch5YWfGUDT7R2pump",
+      "price_usd": "0.0001318",
+      "liquidity_usd": 27248.37,
+      "volume_24h": 253104.18,
+      "change_24h": 24.95,
+      "trades_24h": 6273,
+      "age_hours": 41,
+      "url": "https://dexscreener.com/solana/h529gpab6vkq5scwypjwmgb9njhf4udpmlwx6j6gkga8",
+      "market_cap": 131373,
       "strategies": [
         "baseline"
       ]

@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-21 12:16 UTC",
-  "scanned": 46,
-  "passed": 8,
+  "updated": "2026-11-21 13:29 UTC",
+  "scanned": 44,
+  "passed": 7,
   "rejection_reasons": {
-    "low liquidity": 33,
-    "too new": 35,
+    "low liquidity": 31,
+    "low volume": 11,
+    "too new": 34,
     "thin liquidity vs market cap": 13,
-    "low volume": 10,
-    "few trades": 4
+    "few trades": 6
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -39,34 +39,17 @@
   },
   "candidates": [
     {
-      "name": "Cartoon Money",
-      "symbol": "CBUCKS",
-      "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.004078",
-      "liquidity_usd": 225627.85,
-      "volume_24h": 165621.48,
-      "change_24h": 0.78,
-      "trades_24h": 1178,
-      "age_hours": 1098,
-      "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 3844219,
-      "strategies": [
-        "baseline",
-        "medium_risk"
-      ]
-    },
-    {
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.003057",
-      "liquidity_usd": 186460.75,
-      "volume_24h": 652458.03,
-      "change_24h": -18.11,
-      "trades_24h": 24489,
-      "age_hours": 2112,
+      "price_usd": "0.003050",
+      "liquidity_usd": 187238.7,
+      "volume_24h": 604267.29,
+      "change_24h": -7.04,
+      "trades_24h": 24110,
+      "age_hours": 2113,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 3017503,
+      "market_cap": 3010670,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -76,14 +59,14 @@
       "name": "Hogecoin",
       "symbol": "HOGE",
       "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "price_usd": "0.0007733",
-      "liquidity_usd": 109708.95,
-      "volume_24h": 376810.38,
-      "change_24h": -17.69,
-      "trades_24h": 5302,
-      "age_hours": 149,
+      "price_usd": "0.0006951",
+      "liquidity_usd": 103937.25,
+      "volume_24h": 364717.56,
+      "change_24h": -30.03,
+      "trades_24h": 5269,
+      "age_hours": 151,
       "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
-      "market_cap": 738855,
+      "market_cap": 664145,
       "strategies": [
         "baseline"
       ]
@@ -92,30 +75,14 @@
       "name": "AiDiglet",
       "symbol": "DIGS",
       "address": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-      "price_usd": "0.0002641",
-      "liquidity_usd": 51769.07,
-      "volume_24h": 662459.35,
-      "change_24h": -10.95,
-      "trades_24h": 15391,
-      "age_hours": 576,
+      "price_usd": "0.0002663",
+      "liquidity_usd": 52357.82,
+      "volume_24h": 656943.68,
+      "change_24h": -0.71,
+      "trades_24h": 15330,
+      "age_hours": 577,
       "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
-      "market_cap": 251807,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "greg",
-      "symbol": "greg",
-      "address": "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
-      "price_usd": "0.0002982",
-      "liquidity_usd": 42710.6,
-      "volume_24h": 391607.79,
-      "change_24h": 166,
-      "trades_24h": 6999,
-      "age_hours": 250,
-      "url": "https://dexscreener.com/solana/4s8cabvgadhopkkbitjdqz4tfqxkuczhwdfy8hlvubdq",
-      "market_cap": 281774,
+      "market_cap": 253897,
       "strategies": [
         "baseline"
       ]
@@ -124,14 +91,30 @@
       "name": "Christmax",
       "symbol": "Christmax",
       "address": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "price_usd": "0.0003078",
-      "liquidity_usd": 39738.97,
-      "volume_24h": 67188.28,
-      "change_24h": 63.91,
-      "trades_24h": 63060,
-      "age_hours": 206,
+      "price_usd": "0.0003501",
+      "liquidity_usd": 42691.74,
+      "volume_24h": 72047.67,
+      "change_24h": 72.36,
+      "trades_24h": 63166,
+      "age_hours": 207,
       "url": "https://dexscreener.com/solana/88smwaf7twyij1pblt9tszzgprdqg17b7j5b54avudsd",
-      "market_cap": 294205,
+      "market_cap": 334639,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "greg",
+      "symbol": "greg",
+      "address": "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
+      "price_usd": "0.0002890",
+      "liquidity_usd": 42266.56,
+      "volume_24h": 395643.06,
+      "change_24h": 123,
+      "trades_24h": 7071,
+      "age_hours": 251,
+      "url": "https://dexscreener.com/solana/4s8cabvgadhopkkbitjdqz4tfqxkuczhwdfy8hlvubdq",
+      "market_cap": 273050,
       "strategies": [
         "baseline"
       ]
@@ -140,14 +123,14 @@
       "name": "RAMBO",
       "symbol": "RAMBO",
       "address": "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump",
-      "price_usd": "0.0001831",
-      "liquidity_usd": 35011.23,
-      "volume_24h": 1491682.92,
-      "change_24h": -98.38,
-      "trades_24h": 11762,
-      "age_hours": 429,
+      "price_usd": "0.0002143",
+      "liquidity_usd": 38179.84,
+      "volume_24h": 1486161.01,
+      "change_24h": -98.25,
+      "trades_24h": 11794,
+      "age_hours": 431,
       "url": "https://dexscreener.com/solana/gz15vwspy9kfynkrmpkokp2h9yygvbovoxjsgwsjcvfk",
-      "market_cap": 180500,
+      "market_cap": 211290,
       "strategies": [
         "baseline"
       ]
@@ -156,14 +139,14 @@
       "name": "Gold Clicker Mining",
       "symbol": "GCM",
       "address": "6E8hG4V3aHjgTXLR2qrXkQFri5KFZXfoxCrgjmx2pump",
-      "price_usd": "0.0001234",
-      "liquidity_usd": 27809.98,
-      "volume_24h": 30597.55,
-      "change_24h": 212,
-      "trades_24h": 482,
-      "age_hours": 242,
+      "price_usd": "0.0001159",
+      "liquidity_usd": 26955.04,
+      "volume_24h": 32042.04,
+      "change_24h": 172,
+      "trades_24h": 507,
+      "age_hours": 243,
       "url": "https://dexscreener.com/solana/8rimfonygvayiiwyktcwvsfpjcyddah5lte2wrxnjkci",
-      "market_cap": 109487,
+      "market_cap": 102805,
       "strategies": [
         "baseline"
       ]

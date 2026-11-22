@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-22 00:06 UTC",
-  "scanned": 48,
-  "passed": 9,
+  "updated": "2026-11-22 01:22 UTC",
+  "scanned": 46,
+  "passed": 6,
   "rejection_reasons": {
-    "too new": 32,
     "low liquidity": 36,
-    "low volume": 7,
-    "thin liquidity vs market cap": 10,
+    "too new": 35,
+    "thin liquidity vs market cap": 12,
+    "low volume": 5,
     "few trades": 2
   },
   "rules": [
@@ -42,14 +42,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.003800",
-      "liquidity_usd": 217814.82,
-      "volume_24h": 157324.25,
-      "change_24h": 8.24,
-      "trades_24h": 1123,
-      "age_hours": 1110,
+      "price_usd": "0.003833",
+      "liquidity_usd": 218765.49,
+      "volume_24h": 148255.24,
+      "change_24h": 4.2,
+      "trades_24h": 1098,
+      "age_hours": 1111,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 3582266,
+      "market_cap": 3613128,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -59,14 +59,14 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.002323",
-      "liquidity_usd": 164264.78,
-      "volume_24h": 395383.8,
-      "change_24h": -29.63,
-      "trades_24h": 17650,
-      "age_hours": 2124,
+      "price_usd": "0.002319",
+      "liquidity_usd": 164166.19,
+      "volume_24h": 374228.27,
+      "change_24h": -32.76,
+      "trades_24h": 15742,
+      "age_hours": 2125,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 2293502,
+      "market_cap": 2289425,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -76,14 +76,14 @@
       "name": "Hogecoin",
       "symbol": "HOGE",
       "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "price_usd": "0.0008546",
-      "liquidity_usd": 115942.89,
-      "volume_24h": 407911.15,
-      "change_24h": 10.54,
-      "trades_24h": 5446,
-      "age_hours": 161,
+      "price_usd": "0.0007590",
+      "liquidity_usd": 109146.26,
+      "volume_24h": 398433.29,
+      "change_24h": 6.93,
+      "trades_24h": 5384,
+      "age_hours": 162,
       "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
-      "market_cap": 816539,
+      "market_cap": 725139,
       "strategies": [
         "baseline"
       ]
@@ -92,30 +92,14 @@
       "name": "Ah Shit, Here We Go Again",
       "symbol": "SHIT",
       "address": "Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump",
-      "price_usd": "0.0005728",
-      "liquidity_usd": 67768.63,
-      "volume_24h": 3752930.24,
-      "change_24h": -65.8,
-      "trades_24h": 174819,
-      "age_hours": 96,
+      "price_usd": "0.0008018",
+      "liquidity_usd": 80842.05,
+      "volume_24h": 3898057.56,
+      "change_24h": -44.34,
+      "trades_24h": 188839,
+      "age_hours": 98,
       "url": "https://dexscreener.com/solana/d1lxpkfpbqr1ywvgwyqsed93czdz8ha7s9g7yb8lmffe",
-      "market_cap": 571046,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "AiDiglet",
-      "symbol": "DIGS",
-      "address": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-      "price_usd": "0.0002840",
-      "liquidity_usd": 54930.54,
-      "volume_24h": 665510.97,
-      "change_24h": 32.82,
-      "trades_24h": 25449,
-      "age_hours": 588,
-      "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
-      "market_cap": 270835,
+      "market_cap": 799288,
       "strategies": [
         "baseline"
       ]
@@ -124,30 +108,14 @@
       "name": "Trump $1 Coin",
       "symbol": "1",
       "address": "2bCCHQadi4QeHWPKG3w13siCyWWQPgkFtniouTqVpump",
-      "price_usd": "0.0002514",
-      "liquidity_usd": 46281.87,
-      "volume_24h": 92626.73,
-      "change_24h": 3.21,
-      "trades_24h": 2083,
-      "age_hours": 892,
+      "price_usd": "0.0002101",
+      "liquidity_usd": 42300.14,
+      "volume_24h": 106622.91,
+      "change_24h": -14.46,
+      "trades_24h": 2350,
+      "age_hours": 893,
       "url": "https://dexscreener.com/solana/aqn7ukkysnazns61dvw2q6hqmm7wifsayjbon6fvwhgf",
-      "market_cap": 245328,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Christmax",
-      "symbol": "Christmax",
-      "address": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "price_usd": "0.0003598",
-      "liquidity_usd": 43550.38,
-      "volume_24h": 80286.22,
-      "change_24h": 25.5,
-      "trades_24h": 75069,
-      "age_hours": 218,
-      "url": "https://dexscreener.com/solana/88smwaf7twyij1pblt9tszzgprdqg17b7j5b54avudsd",
-      "market_cap": 343883,
+      "market_cap": 205043,
       "strategies": [
         "baseline"
       ]
@@ -156,30 +124,14 @@
       "name": "Solana Beauty Salon",
       "symbol": "SBS",
       "address": "4mE8dPH1RTqQBT5EPim5Ubt2v2wXZ9zgEDDWmL1o1EYu",
-      "price_usd": "0.0001457",
-      "liquidity_usd": 30410.58,
-      "volume_24h": 1012080.15,
-      "change_24h": 183,
-      "trades_24h": 21183,
-      "age_hours": 24,
+      "price_usd": "0.0001637",
+      "liquidity_usd": 32226.79,
+      "volume_24h": 784120.27,
+      "change_24h": 65.35,
+      "trades_24h": 15631,
+      "age_hours": 26,
       "url": "https://dexscreener.com/solana/asztn7gufcodmjnfkcqgarc2bb6qniup9hzy4j2pkkl2",
-      "market_cap": 145787,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "PumpMas",
-      "symbol": "PumpMas",
-      "address": "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump",
-      "price_usd": "0.0001284",
-      "liquidity_usd": 25246.58,
-      "volume_24h": 46411.24,
-      "change_24h": 63.32,
-      "trades_24h": 1453,
-      "age_hours": 171,
-      "url": "https://dexscreener.com/solana/b1mjhdyip3t6uqyhoipj1hza1g3yxjbvfysnjucb5cgd",
-      "market_cap": 120460,
+      "market_cap": 163791,
       "strategies": [
         "baseline"
       ]

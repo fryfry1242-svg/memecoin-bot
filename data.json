@@ -1,14 +1,13 @@
 {
-  "updated": "2026-11-23 05:48 UTC",
-  "scanned": 45,
-  "passed": 6,
+  "updated": "2026-11-23 07:20 UTC",
+  "scanned": 43,
+  "passed": 7,
   "rejection_reasons": {
-    "too new": 33,
     "low liquidity": 30,
-    "thin liquidity vs market cap": 12,
-    "unknown age": 1,
-    "low volume": 3,
-    "few trades": 1
+    "too new": 31,
+    "thin liquidity vs market cap": 13,
+    "low volume": 2,
+    "few trades": 2
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -40,33 +39,17 @@
   },
   "candidates": [
     {
-      "name": "Cartoon Money",
-      "symbol": "CBUCKS",
-      "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.003884",
-      "liquidity_usd": 220385.06,
-      "volume_24h": 74026.93,
-      "change_24h": -1.25,
-      "trades_24h": 958,
-      "age_hours": 1139,
-      "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 3661015,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
       "name": "Wojak ",
       "symbol": "WOJAK",
       "address": "8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump",
-      "price_usd": "0.0009589",
-      "liquidity_usd": 201568.16,
-      "volume_24h": 58467.63,
-      "change_24h": 13.19,
-      "trades_24h": 784,
-      "age_hours": 9225,
+      "price_usd": "0.0009716",
+      "liquidity_usd": 203358.04,
+      "volume_24h": 58965.55,
+      "change_24h": 16.59,
+      "trades_24h": 800,
+      "age_hours": 9227,
       "url": "https://dexscreener.com/solana/fdry5i5kuadz1ik8gps26qjj9rw9mpufxmeggc2hnsp7",
-      "market_cap": 958838,
+      "market_cap": 971447,
       "strategies": [
         "baseline"
       ]
@@ -75,47 +58,47 @@
       "name": "GTA6CAT",
       "symbol": "GATO",
       "address": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "price_usd": "0.001942",
-      "liquidity_usd": 152216.44,
-      "volume_24h": 159734.8,
-      "change_24h": -17.62,
-      "trades_24h": 2575,
-      "age_hours": 2153,
+      "price_usd": "0.001898",
+      "liquidity_usd": 150778.35,
+      "volume_24h": 158008.16,
+      "change_24h": -24.55,
+      "trades_24h": 2580,
+      "age_hours": 2155,
       "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-      "market_cap": 1917558,
+      "market_cap": 1873231,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
-      "name": "Hogecoin",
-      "symbol": "HOGE",
-      "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "price_usd": "0.0006194",
-      "liquidity_usd": 98961.47,
-      "volume_24h": 229939.02,
-      "change_24h": -25.99,
-      "trades_24h": 3469,
-      "age_hours": 191,
-      "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
-      "market_cap": 591801,
+      "name": "NO HUMAN",
+      "symbol": "NOHR",
+      "address": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
+      "price_usd": "0.002259",
+      "liquidity_usd": 111182.69,
+      "volume_24h": 261828.48,
+      "change_24h": 66.81,
+      "trades_24h": 2695,
+      "age_hours": 40,
+      "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
+      "market_cap": 2238729,
       "strategies": [
         "baseline"
       ]
     },
     {
-      "name": "Rocket Raccoon",
-      "symbol": "ROCKET",
-      "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
-      "price_usd": "0.0008836",
-      "liquidity_usd": 81803.43,
-      "volume_24h": 23955.46,
-      "change_24h": 3.79,
-      "trades_24h": 62048,
-      "age_hours": 42,
-      "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
-      "market_cap": 855039,
+      "name": "Hogecoin",
+      "symbol": "HOGE",
+      "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+      "price_usd": "0.0006227",
+      "liquidity_usd": 99238.94,
+      "volume_24h": 227589.4,
+      "change_24h": -26.83,
+      "trades_24h": 3428,
+      "age_hours": 192,
+      "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
+      "market_cap": 594927,
       "strategies": [
         "baseline"
       ]
@@ -124,14 +107,46 @@
       "name": "WASTED",
       "symbol": "WASTED",
       "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "price_usd": "0.0006531",
-      "liquidity_usd": 78600.58,
-      "volume_24h": 75058.6,
-      "change_24h": -23.13,
-      "trades_24h": 2560,
-      "age_hours": 564,
+      "price_usd": "0.0005946",
+      "liquidity_usd": 75153.35,
+      "volume_24h": 92513.64,
+      "change_24h": -28.12,
+      "trades_24h": 2928,
+      "age_hours": 565,
       "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
-      "market_cap": 640760,
+      "market_cap": 583413,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Rocket Raccoon",
+      "symbol": "ROCKET",
+      "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
+      "price_usd": "0.0005300",
+      "liquidity_usd": 62803.5,
+      "volume_24h": 35353.11,
+      "change_24h": -37.7,
+      "trades_24h": 67967,
+      "age_hours": 44,
+      "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
+      "market_cap": 512911,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "PumpMas",
+      "symbol": "PumpMas",
+      "address": "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump",
+      "price_usd": "0.0001503",
+      "liquidity_usd": 27882.74,
+      "volume_24h": 33075.6,
+      "change_24h": 28.93,
+      "trades_24h": 1219,
+      "age_hours": 202,
+      "url": "https://dexscreener.com/solana/b1mjhdyip3t6uqyhoipj1hza1g3yxjbvfysnjucb5cgd",
+      "market_cap": 141020,
       "strategies": [
         "baseline"
       ]

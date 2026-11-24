@@ -1,13 +1,12 @@
 {
-  "updated": "2026-11-24 02:50 UTC",
-  "scanned": 54,
-  "passed": 8,
+  "updated": "2026-11-24 03:53 UTC",
+  "scanned": 47,
+  "passed": 3,
   "rejection_reasons": {
-    "low liquidity": 40,
-    "thin liquidity vs market cap": 16,
-    "too new": 33,
-    "low volume": 6,
-    "few trades": 1
+    "low liquidity": 38,
+    "too new": 34,
+    "thin liquidity vs market cap": 15,
+    "low volume": 4
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -39,83 +38,17 @@
   },
   "candidates": [
     {
-      "name": "Cartoon Money",
-      "symbol": "CBUCKS",
-      "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.004356",
-      "liquidity_usd": 233751.62,
-      "volume_24h": 114532.61,
-      "change_24h": 12.53,
-      "trades_24h": 862,
-      "age_hours": 1160,
-      "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 4105599,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "The Bruhvengers",
-      "symbol": "BRUH",
-      "address": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
-      "price_usd": "0.008112",
-      "liquidity_usd": 218682.17,
-      "volume_24h": 461198.3,
-      "change_24h": 24.42,
-      "trades_24h": 3509,
-      "age_hours": 406,
-      "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-      "market_cap": 8032292,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Fiona the Hippo",
-      "symbol": "FIONA",
-      "address": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
-      "price_usd": "0.003845",
-      "liquidity_usd": 208289.97,
-      "volume_24h": 3528039.38,
-      "change_24h": 211,
-      "trades_24h": 50615,
-      "age_hours": 102,
-      "url": "https://dexscreener.com/solana/djbltx1hrgzzrjgj7cwtx6sn3d7tbliytkgwombuwtvb",
-      "market_cap": 3784425,
-      "strategies": [
-        "baseline",
-        "medium_risk"
-      ]
-    },
-    {
-      "name": "Dessa",
-      "symbol": "DESSA",
-      "address": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-      "price_usd": "0.002408",
-      "liquidity_usd": 145041.55,
-      "volume_24h": 617012.77,
-      "change_24h": 16.67,
-      "trades_24h": 6442,
-      "age_hours": 686,
-      "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-      "market_cap": 2358092,
-      "strategies": [
-        "baseline",
-        "medium_risk"
-      ]
-    },
-    {
-      "name": "Hogecoin",
-      "symbol": "HOGE",
-      "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "price_usd": "0.0006806",
-      "liquidity_usd": 104482.67,
-      "volume_24h": 378456.96,
-      "change_24h": 15.89,
-      "trades_24h": 4885,
-      "age_hours": 212,
-      "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
-      "market_cap": 650291,
+      "name": "Rocket Raccoon",
+      "symbol": "ROCKET",
+      "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
+      "price_usd": "0.0007153",
+      "liquidity_usd": 76185.69,
+      "volume_24h": 69335.49,
+      "change_24h": -14.06,
+      "trades_24h": 74767,
+      "age_hours": 64,
+      "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
+      "market_cap": 692234,
       "strategies": [
         "baseline"
       ]
@@ -124,30 +57,14 @@
       "name": "Umbra Cash",
       "symbol": "UCASH",
       "address": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
-      "price_usd": "0.001353",
-      "liquidity_usd": 98532.45,
-      "volume_24h": 5422051.16,
-      "change_24h": -8.11,
-      "trades_24h": 224945,
-      "age_hours": 40,
+      "price_usd": "0.0003184",
+      "liquidity_usd": 47416.14,
+      "volume_24h": 5451199.77,
+      "change_24h": -78.54,
+      "trades_24h": 228444,
+      "age_hours": 41,
       "url": "https://dexscreener.com/solana/4h7r5jzaq6pgnjfud12aeuqjrqygwz2yhpsra6sh1rxt",
-      "market_cap": 1347991,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Rocket Raccoon",
-      "symbol": "ROCKET",
-      "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
-      "price_usd": "0.0007471",
-      "liquidity_usd": 78039.8,
-      "volume_24h": 67932.93,
-      "change_24h": -8.31,
-      "trades_24h": 76522,
-      "age_hours": 63,
-      "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
-      "market_cap": 722952,
+      "market_cap": 317221,
       "strategies": [
         "baseline"
       ]
@@ -156,14 +73,14 @@
       "name": "PumpMas",
       "symbol": "PumpMas",
       "address": "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump",
-      "price_usd": "0.0001606",
-      "liquidity_usd": 28690.25,
-      "volume_24h": 29216.13,
-      "change_24h": 9.5,
-      "trades_24h": 925,
-      "age_hours": 222,
+      "price_usd": "0.0001551",
+      "liquidity_usd": 28190.77,
+      "volume_24h": 29002.61,
+      "change_24h": 7.45,
+      "trades_24h": 935,
+      "age_hours": 223,
       "url": "https://dexscreener.com/solana/b1mjhdyip3t6uqyhoipj1hza1g3yxjbvfysnjucb5cgd",
-      "market_cap": 150605,
+      "market_cap": 145533,
       "strategies": [
         "baseline"
       ]

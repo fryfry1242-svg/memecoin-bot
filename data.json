@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-24 17:47 UTC",
-  "scanned": 48,
-  "passed": 8,
+  "updated": "2026-11-24 18:51 UTC",
+  "scanned": 47,
+  "passed": 9,
   "rejection_reasons": {
-    "low liquidity": 38,
-    "low volume": 5,
-    "few trades": 3,
-    "thin liquidity vs market cap": 17,
-    "too new": 33
+    "low liquidity": 34,
+    "too new": 31,
+    "thin liquidity vs market cap": 14,
+    "low volume": 4,
+    "few trades": 2
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.004472",
-      "liquidity_usd": 236986.87,
-      "volume_24h": 96490.08,
-      "change_24h": -0.46,
-      "trades_24h": 804,
-      "age_hours": 1175,
+      "price_usd": "0.004575",
+      "liquidity_usd": 239737.47,
+      "volume_24h": 96678.26,
+      "change_24h": 4.52,
+      "trades_24h": 817,
+      "age_hours": 1176,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 4215136,
+      "market_cap": 4312288,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "Fiona the Hippo",
       "symbol": "FIONA",
       "address": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
-      "price_usd": "0.003397",
-      "liquidity_usd": 196401.99,
-      "volume_24h": 4415840.55,
-      "change_24h": 123,
-      "trades_24h": 58203,
-      "age_hours": 117,
+      "price_usd": "0.003280",
+      "liquidity_usd": 193153.02,
+      "volume_24h": 4204726.63,
+      "change_24h": 37.46,
+      "trades_24h": 55794,
+      "age_hours": 118,
       "url": "https://dexscreener.com/solana/djbltx1hrgzzrjgj7cwtx6sn3d7tbliytkgwombuwtvb",
-      "market_cap": 3342729,
+      "market_cap": 3227921,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -75,47 +75,30 @@
       "name": "NO HUMAN",
       "symbol": "NOHR",
       "address": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
-      "price_usd": "0.003529",
-      "liquidity_usd": 142002.17,
-      "volume_24h": 569266.16,
-      "change_24h": 189,
-      "trades_24h": 4335,
-      "age_hours": 74,
+      "price_usd": "0.003546",
+      "liquidity_usd": 142287.42,
+      "volume_24h": 566668.89,
+      "change_24h": 190,
+      "trades_24h": 4315,
+      "age_hours": 76,
       "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-      "market_cap": 3496785,
+      "market_cap": 3514290,
       "strategies": [
         "baseline"
-      ]
-    },
-    {
-      "name": "DogWifJob",
-      "symbol": "JOB",
-      "address": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-      "price_usd": "0.001797",
-      "liquidity_usd": 139191.05,
-      "volume_24h": 203909.82,
-      "change_24h": -8.98,
-      "trades_24h": 2926,
-      "age_hours": 671,
-      "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-      "market_cap": 1751214,
-      "strategies": [
-        "baseline",
-        "medium_risk"
       ]
     },
     {
       "name": "GTA VI",
       "symbol": "GTA6",
       "address": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
-      "price_usd": "0.0008638",
-      "liquidity_usd": 123262.25,
-      "volume_24h": 26335.81,
-      "change_24h": -31.8,
-      "trades_24h": 282,
-      "age_hours": 2644,
+      "price_usd": "0.0008528",
+      "liquidity_usd": 122485.31,
+      "volume_24h": 26599.83,
+      "change_24h": -31.92,
+      "trades_24h": 277,
+      "age_hours": 2645,
       "url": "https://dexscreener.com/solana/fdamuzyiea7cq1vniqcbhuhpfcmmcjfga6dwqq1hhld2",
-      "market_cap": 863864,
+      "market_cap": 852869,
       "strategies": [
         "baseline"
       ]
@@ -124,14 +107,14 @@
       "name": "Rocket Raccoon",
       "symbol": "ROCKET",
       "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
-      "price_usd": "0.0007701",
-      "liquidity_usd": 81657.78,
-      "volume_24h": 40880.62,
-      "change_24h": -1.73,
-      "trades_24h": 50963,
-      "age_hours": 78,
+      "price_usd": "0.0007713",
+      "liquidity_usd": 81738.23,
+      "volume_24h": 41445.01,
+      "change_24h": -3.87,
+      "trades_24h": 50069,
+      "age_hours": 79,
       "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
-      "market_cap": 745276,
+      "market_cap": 746373,
       "strategies": [
         "baseline"
       ]
@@ -140,14 +123,14 @@
       "name": "cateball",
       "symbol": "cateball",
       "address": "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump",
-      "price_usd": "0.0007846",
-      "liquidity_usd": 65751.83,
-      "volume_24h": 630578.68,
-      "change_24h": 15.46,
-      "trades_24h": 17661,
-      "age_hours": 57,
+      "price_usd": "0.0007654",
+      "liquidity_usd": 64967.06,
+      "volume_24h": 631731.67,
+      "change_24h": 7.96,
+      "trades_24h": 17676,
+      "age_hours": 58,
       "url": "https://dexscreener.com/solana/ekexwkzqwea8rbv31kwjbyzse3sosgez1vrykvu6uy2w",
-      "market_cap": 774152,
+      "market_cap": 755169,
       "strategies": [
         "baseline"
       ]
@@ -156,14 +139,46 @@
       "name": "Christmax",
       "symbol": "Christmax",
       "address": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "price_usd": "0.0003792",
-      "liquidity_usd": 44824.31,
-      "volume_24h": 39579.4,
-      "change_24h": 14.87,
-      "trades_24h": 30241,
-      "age_hours": 283,
+      "price_usd": "0.0002953",
+      "liquidity_usd": 39428.86,
+      "volume_24h": 47571.66,
+      "change_24h": -12.44,
+      "trades_24h": 35446,
+      "age_hours": 284,
       "url": "https://dexscreener.com/solana/88smwaf7twyij1pblt9tszzgprdqg17b7j5b54avudsd",
-      "market_cap": 362445,
+      "market_cap": 282269,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "PumpMas",
+      "symbol": "PumpMas",
+      "address": "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump",
+      "price_usd": "0.0001430",
+      "liquidity_usd": 26752.03,
+      "volume_24h": 35945.74,
+      "change_24h": -9.67,
+      "trades_24h": 1084,
+      "age_hours": 238,
+      "url": "https://dexscreener.com/solana/b1mjhdyip3t6uqyhoipj1hza1g3yxjbvfysnjucb5cgd",
+      "market_cap": 134108,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "The Great Whale",
+      "symbol": "jingyu",
+      "address": "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
+      "price_usd": "0.0001088",
+      "liquidity_usd": 26255.54,
+      "volume_24h": 180525.65,
+      "change_24h": -14.68,
+      "trades_24h": 5990,
+      "age_hours": 131,
+      "url": "https://dexscreener.com/solana/3d4szgvyhhwdo3dndzkqnppdqp1ffnvrzfvlrn94j1bp",
+      "market_cap": 105574,
       "strategies": [
         "baseline"
       ]

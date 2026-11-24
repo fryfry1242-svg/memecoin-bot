@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-24 04:58 UTC",
-  "scanned": 43,
+  "updated": "2026-11-24 05:59 UTC",
+  "scanned": 42,
   "passed": 3,
   "rejection_reasons": {
-    "low liquidity": 37,
-    "too new": 31,
-    "thin liquidity vs market cap": 14,
-    "low volume": 4
+    "low liquidity": 36,
+    "too new": 30,
+    "thin liquidity vs market cap": 15,
+    "low volume": 3
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -41,14 +41,14 @@
       "name": "Rocket Raccoon",
       "symbol": "ROCKET",
       "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
-      "price_usd": "0.0007270",
-      "liquidity_usd": 76954.68,
-      "volume_24h": 69078.55,
-      "change_24h": -14.41,
-      "trades_24h": 72792,
-      "age_hours": 65,
+      "price_usd": "0.0007307",
+      "liquidity_usd": 77141.28,
+      "volume_24h": 67029.33,
+      "change_24h": -17.35,
+      "trades_24h": 70876,
+      "age_hours": 66,
       "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
-      "market_cap": 703531,
+      "market_cap": 707116,
       "strategies": [
         "baseline"
       ]
@@ -57,14 +57,14 @@
       "name": "Umbra Cash",
       "symbol": "UCASH",
       "address": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
-      "price_usd": "0.0001756",
-      "liquidity_usd": 35191.27,
-      "volume_24h": 5340040.49,
-      "change_24h": -88.28,
-      "trades_24h": 232336,
-      "age_hours": 42,
+      "price_usd": "0.0001286",
+      "liquidity_usd": 30123.37,
+      "volume_24h": 5059756.31,
+      "change_24h": -90.24,
+      "trades_24h": 226707,
+      "age_hours": 43,
       "url": "https://dexscreener.com/solana/4h7r5jzaq6pgnjfud12aeuqjrqygwz2yhpsra6sh1rxt",
-      "market_cap": 174995,
+      "market_cap": 128130,
       "strategies": [
         "baseline"
       ]
@@ -73,14 +73,14 @@
       "name": "PumpMas",
       "symbol": "PumpMas",
       "address": "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump",
-      "price_usd": "0.0001440",
-      "liquidity_usd": 27202.04,
-      "volume_24h": 28540.19,
-      "change_24h": 1.86,
-      "trades_24h": 911,
-      "age_hours": 224,
+      "price_usd": "0.0001457",
+      "liquidity_usd": 27406.15,
+      "volume_24h": 28350.5,
+      "change_24h": 2.07,
+      "trades_24h": 899,
+      "age_hours": 225,
       "url": "https://dexscreener.com/solana/b1mjhdyip3t6uqyhoipj1hza1g3yxjbvfysnjucb5cgd",
-      "market_cap": 135091,
+      "market_cap": 136638,
       "strategies": [
         "baseline"
       ]

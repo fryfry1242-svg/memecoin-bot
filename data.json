@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-24 05:59 UTC",
-  "scanned": 42,
-  "passed": 3,
+  "updated": "2026-11-24 07:14 UTC",
+  "scanned": 39,
+  "passed": 4,
   "rejection_reasons": {
-    "low liquidity": 36,
-    "too new": 30,
+    "low liquidity": 33,
+    "too new": 31,
     "thin liquidity vs market cap": 15,
     "low volume": 3
   },
@@ -38,17 +38,34 @@
   },
   "candidates": [
     {
+      "name": "DogWifJob",
+      "symbol": "JOB",
+      "address": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+      "price_usd": "0.001887",
+      "liquidity_usd": 144880.87,
+      "volume_24h": 334076.65,
+      "change_24h": 9.9,
+      "trades_24h": 2728,
+      "age_hours": 660,
+      "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
+      "market_cap": 1838892,
+      "strategies": [
+        "baseline",
+        "medium_risk"
+      ]
+    },
+    {
       "name": "Rocket Raccoon",
       "symbol": "ROCKET",
       "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
-      "price_usd": "0.0007307",
-      "liquidity_usd": 77141.28,
-      "volume_24h": 67029.33,
-      "change_24h": -17.35,
-      "trades_24h": 70876,
-      "age_hours": 66,
+      "price_usd": "0.0007805",
+      "liquidity_usd": 79798.95,
+      "volume_24h": 68694.34,
+      "change_24h": -6.44,
+      "trades_24h": 68595,
+      "age_hours": 68,
       "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
-      "market_cap": 707116,
+      "market_cap": 755303,
       "strategies": [
         "baseline"
       ]
@@ -57,14 +74,14 @@
       "name": "Umbra Cash",
       "symbol": "UCASH",
       "address": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
-      "price_usd": "0.0001286",
-      "liquidity_usd": 30123.37,
-      "volume_24h": 5059756.31,
-      "change_24h": -90.24,
-      "trades_24h": 226707,
-      "age_hours": 43,
+      "price_usd": "0.0002449",
+      "liquidity_usd": 42275.85,
+      "volume_24h": 4921156.29,
+      "change_24h": -62.7,
+      "trades_24h": 222273,
+      "age_hours": 44,
       "url": "https://dexscreener.com/solana/4h7r5jzaq6pgnjfud12aeuqjrqygwz2yhpsra6sh1rxt",
-      "market_cap": 128130,
+      "market_cap": 244063,
       "strategies": [
         "baseline"
       ]
@@ -73,14 +90,14 @@
       "name": "PumpMas",
       "symbol": "PumpMas",
       "address": "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump",
-      "price_usd": "0.0001457",
-      "liquidity_usd": 27406.15,
-      "volume_24h": 28350.5,
-      "change_24h": 2.07,
-      "trades_24h": 899,
-      "age_hours": 225,
+      "price_usd": "0.0001372",
+      "liquidity_usd": 26563.11,
+      "volume_24h": 28172.07,
+      "change_24h": -7.67,
+      "trades_24h": 885,
+      "age_hours": 226,
       "url": "https://dexscreener.com/solana/b1mjhdyip3t6uqyhoipj1hza1g3yxjbvfysnjucb5cgd",
-      "market_cap": 136638,
+      "market_cap": 128677,
       "strategies": [
         "baseline"
       ]

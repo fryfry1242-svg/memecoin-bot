@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-24 13:04 UTC",
-  "scanned": 36,
-  "passed": 5,
+  "updated": "2026-11-24 14:28 UTC",
+  "scanned": 37,
+  "passed": 7,
   "rejection_reasons": {
-    "low liquidity": 27,
-    "too new": 27,
-    "thin liquidity vs market cap": 13,
+    "low liquidity": 25,
+    "too new": 26,
+    "thin liquidity vs market cap": 11,
     "low volume": 4,
-    "few trades": 3
+    "few trades": 2
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,31 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.004662",
-      "liquidity_usd": 241971.5,
-      "volume_24h": 127488.22,
-      "change_24h": 14.94,
-      "trades_24h": 882,
-      "age_hours": 1171,
+      "price_usd": "0.004460",
+      "liquidity_usd": 236641.66,
+      "volume_24h": 121298.7,
+      "change_24h": 7.47,
+      "trades_24h": 875,
+      "age_hours": 1172,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 4393720,
+      "market_cap": 4203822,
+      "strategies": [
+        "baseline",
+        "medium_risk"
+      ]
+    },
+    {
+      "name": "Fiona the Hippo",
+      "symbol": "FIONA",
+      "address": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+      "price_usd": "0.003231",
+      "liquidity_usd": 191880.56,
+      "volume_24h": 4370664.22,
+      "change_24h": 126,
+      "trades_24h": 58930,
+      "age_hours": 114,
+      "url": "https://dexscreener.com/solana/djbltx1hrgzzrjgj7cwtx6sn3d7tbliytkgwombuwtvb",
+      "market_cap": 3179629,
       "strategies": [
         "baseline",
         "medium_risk"
@@ -59,14 +76,14 @@
       "name": "NO HUMAN",
       "symbol": "NOHR",
       "address": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
-      "price_usd": "0.003601",
-      "liquidity_usd": 144641.22,
-      "volume_24h": 1140255.19,
-      "change_24h": 314,
-      "trades_24h": 12808,
-      "age_hours": 70,
+      "price_usd": "0.003361",
+      "liquidity_usd": 139155.85,
+      "volume_24h": 859230.67,
+      "change_24h": 444,
+      "trades_24h": 8027,
+      "age_hours": 71,
       "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-      "market_cap": 3568769,
+      "market_cap": 3330630,
       "strategies": [
         "baseline"
       ]
@@ -75,31 +92,47 @@
       "name": "DogWifJob",
       "symbol": "JOB",
       "address": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-      "price_usd": "0.001804",
-      "liquidity_usd": 140603.31,
-      "volume_24h": 257359.51,
-      "change_24h": -8.69,
-      "trades_24h": 2635,
-      "age_hours": 666,
+      "price_usd": "0.001784",
+      "liquidity_usd": 139127.02,
+      "volume_24h": 234052.19,
+      "change_24h": -15.6,
+      "trades_24h": 2477,
+      "age_hours": 667,
       "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-      "market_cap": 1757393,
+      "market_cap": 1738407,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
+      "name": "GTA VI",
+      "symbol": "GTA6",
+      "address": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+      "price_usd": "0.0008165",
+      "liquidity_usd": 116456.52,
+      "volume_24h": 34936.42,
+      "change_24h": -43.59,
+      "trades_24h": 342,
+      "age_hours": 2641,
+      "url": "https://dexscreener.com/solana/fdamuzyiea7cq1vniqcbhuhpfcmmcjfga6dwqq1hhld2",
+      "market_cap": 816506,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
       "name": "Rocket Raccoon",
       "symbol": "ROCKET",
       "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
-      "price_usd": "0.0007350",
-      "liquidity_usd": 77075.65,
-      "volume_24h": 39424.12,
-      "change_24h": -4.45,
-      "trades_24h": 55767,
-      "age_hours": 73,
+      "price_usd": "0.0007369",
+      "liquidity_usd": 77004.49,
+      "volume_24h": 38801.95,
+      "change_24h": -7.37,
+      "trades_24h": 54391,
+      "age_hours": 75,
       "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
-      "market_cap": 711259,
+      "market_cap": 713090,
       "strategies": [
         "baseline"
       ]
@@ -108,14 +141,14 @@
       "name": "cateball",
       "symbol": "cateball",
       "address": "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump",
-      "price_usd": "0.001060",
-      "liquidity_usd": 76961.99,
-      "volume_24h": 549222.92,
-      "change_24h": 3.75,
-      "trades_24h": 8907,
-      "age_hours": 52,
+      "price_usd": "0.001013",
+      "liquidity_usd": 75008.86,
+      "volume_24h": 589144.85,
+      "change_24h": 34.1,
+      "trades_24h": 14463,
+      "age_hours": 53,
       "url": "https://dexscreener.com/solana/ekexwkzqwea8rbv31kwjbyzse3sosgez1vrykvu6uy2w",
-      "market_cap": 1045833,
+      "market_cap": 999622,
       "strategies": [
         "baseline"
       ]

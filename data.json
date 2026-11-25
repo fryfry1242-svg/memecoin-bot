@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-25 02:03 UTC",
-  "scanned": 46,
+  "updated": "2026-11-25 03:10 UTC",
+  "scanned": 42,
   "passed": 4,
   "rejection_reasons": {
-    "low liquidity": 38,
-    "too new": 36,
+    "too new": 31,
+    "low liquidity": 34,
     "thin liquidity vs market cap": 14,
     "low volume": 4,
-    "few trades": 2
+    "few trades": 1
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,30 +42,31 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.004968",
-      "liquidity_usd": 250040.13,
-      "volume_24h": 118926.12,
-      "change_24h": 19.19,
-      "trades_24h": 942,
-      "age_hours": 1184,
+      "price_usd": "0.005276",
+      "liquidity_usd": 257793.14,
+      "volume_24h": 129882.73,
+      "change_24h": 19.18,
+      "trades_24h": 1006,
+      "age_hours": 1185,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 4682219,
+      "market_cap": 4972556,
       "strategies": [
-        "baseline"
+        "baseline",
+        "medium_risk"
       ]
     },
     {
       "name": "Hogecoin",
       "symbol": "HOGE",
       "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "price_usd": "0.0007494",
-      "liquidity_usd": 110207.05,
-      "volume_24h": 235436.72,
-      "change_24h": -0.43,
-      "trades_24h": 3520,
-      "age_hours": 235,
+      "price_usd": "0.0007340",
+      "liquidity_usd": 109048.23,
+      "volume_24h": 218653.96,
+      "change_24h": 5.2,
+      "trades_24h": 3300,
+      "age_hours": 236,
       "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
-      "market_cap": 716015,
+      "market_cap": 701238,
       "strategies": [
         "baseline"
       ]
@@ -74,14 +75,14 @@
       "name": "Rocket Raccoon",
       "symbol": "ROCKET",
       "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
-      "price_usd": "0.0006919",
-      "liquidity_usd": 76023.07,
-      "volume_24h": 47899.25,
-      "change_24h": -2.37,
-      "trades_24h": 50979,
-      "age_hours": 86,
+      "price_usd": "0.0007631",
+      "liquidity_usd": 80025.87,
+      "volume_24h": 52039.78,
+      "change_24h": -2.34,
+      "trades_24h": 51183,
+      "age_hours": 87,
       "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
-      "market_cap": 669613,
+      "market_cap": 738504,
       "strategies": [
         "baseline"
       ]
@@ -90,14 +91,14 @@
       "name": "Christmax",
       "symbol": "Christmax",
       "address": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "price_usd": "0.0002674",
-      "liquidity_usd": 37374.81,
-      "volume_24h": 55816.68,
-      "change_24h": -11.47,
-      "trades_24h": 35654,
-      "age_hours": 292,
+      "price_usd": "0.0002555",
+      "liquidity_usd": 36402.23,
+      "volume_24h": 54823.67,
+      "change_24h": -8.93,
+      "trades_24h": 35649,
+      "age_hours": 293,
       "url": "https://dexscreener.com/solana/88smwaf7twyij1pblt9tszzgprdqg17b7j5b54avudsd",
-      "market_cap": 255645,
+      "market_cap": 244276,
       "strategies": [
         "baseline"
       ]

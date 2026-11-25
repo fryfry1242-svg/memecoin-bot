@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-25 04:21 UTC",
-  "scanned": 44,
-  "passed": 4,
+  "updated": "2026-11-25 05:31 UTC",
+  "scanned": 45,
+  "passed": 6,
   "rejection_reasons": {
-    "low liquidity": 39,
-    "low volume": 5,
-    "too new": 33,
+    "low liquidity": 36,
+    "low volume": 7,
+    "too new": 34,
     "thin liquidity vs market cap": 12
   },
   "rules": [
@@ -41,14 +41,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.005718",
-      "liquidity_usd": 268557.33,
-      "volume_24h": 168600.26,
-      "change_24h": 31.66,
-      "trades_24h": 1142,
-      "age_hours": 1186,
+      "price_usd": "0.006161",
+      "liquidity_usd": 279077.77,
+      "volume_24h": 248335.82,
+      "change_24h": 45.05,
+      "trades_24h": 1331,
+      "age_hours": 1187,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 5389141,
+      "market_cap": 5806747,
       "strategies": [
         "baseline"
       ]
@@ -57,30 +57,47 @@
       "name": "Hogecoin",
       "symbol": "HOGE",
       "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "price_usd": "0.0007123",
-      "liquidity_usd": 107398.39,
-      "volume_24h": 211198.64,
-      "change_24h": -6.89,
-      "trades_24h": 3255,
-      "age_hours": 237,
+      "price_usd": "0.0006968",
+      "liquidity_usd": 106193.36,
+      "volume_24h": 198696.97,
+      "change_24h": -13.15,
+      "trades_24h": 3081,
+      "age_hours": 239,
       "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
-      "market_cap": 680561,
+      "market_cap": 665698,
       "strategies": [
         "baseline"
+      ]
+    },
+    {
+      "name": "WASTED",
+      "symbol": "WASTED",
+      "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+      "price_usd": "0.001070",
+      "liquidity_usd": 100149.1,
+      "volume_24h": 560880.43,
+      "change_24h": 9.78,
+      "trades_24h": 14362,
+      "age_hours": 611,
+      "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
+      "market_cap": 1050233,
+      "strategies": [
+        "baseline",
+        "medium_risk"
       ]
     },
     {
       "name": "Rocket Raccoon",
       "symbol": "ROCKET",
       "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
-      "price_usd": "0.0007904",
-      "liquidity_usd": 81348.62,
-      "volume_24h": 58856.17,
-      "change_24h": 10.86,
-      "trades_24h": 51469,
-      "age_hours": 89,
+      "price_usd": "0.0007401",
+      "liquidity_usd": 78598.57,
+      "volume_24h": 65029.9,
+      "change_24h": 3.92,
+      "trades_24h": 51729,
+      "age_hours": 90,
       "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
-      "market_cap": 764923,
+      "market_cap": 716234,
       "strategies": [
         "baseline"
       ]
@@ -89,14 +106,30 @@
       "name": "Christmax",
       "symbol": "Christmax",
       "address": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "price_usd": "0.0002539",
-      "liquidity_usd": 36477.16,
-      "volume_24h": 54642.4,
-      "change_24h": -7.99,
-      "trades_24h": 35672,
-      "age_hours": 294,
+      "price_usd": "0.0002505",
+      "liquidity_usd": 36020.88,
+      "volume_24h": 55079.98,
+      "change_24h": -11.36,
+      "trades_24h": 35679,
+      "age_hours": 295,
       "url": "https://dexscreener.com/solana/88smwaf7twyij1pblt9tszzgprdqg17b7j5b54avudsd",
-      "market_cap": 242692,
+      "market_cap": 239451,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "The Great Whale",
+      "symbol": "jingyu",
+      "address": "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
+      "price_usd": "0.0001031",
+      "liquidity_usd": 25567.17,
+      "volume_24h": 256347.74,
+      "change_24h": 16.81,
+      "trades_24h": 10936,
+      "age_hours": 141,
+      "url": "https://dexscreener.com/solana/3d4szgvyhhwdo3dndzkqnppdqp1ffnvrzfvlrn94j1bp",
+      "market_cap": 100029,
       "strategies": [
         "baseline"
       ]

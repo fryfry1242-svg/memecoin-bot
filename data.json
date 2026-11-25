@@ -1,12 +1,14 @@
 {
-  "updated": "2026-11-25 05:31 UTC",
-  "scanned": 45,
-  "passed": 6,
+  "updated": "2026-11-25 06:41 UTC",
+  "scanned": 42,
+  "passed": 5,
   "rejection_reasons": {
-    "low liquidity": 36,
-    "low volume": 7,
+    "low liquidity": 35,
+    "low volume": 9,
     "too new": 34,
-    "thin liquidity vs market cap": 12
+    "few trades": 2,
+    "buys but no sells": 1,
+    "thin liquidity vs market cap": 13
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -41,63 +43,64 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.006161",
-      "liquidity_usd": 279077.77,
-      "volume_24h": 248335.82,
-      "change_24h": 45.05,
-      "trades_24h": 1331,
-      "age_hours": 1187,
+      "price_usd": "0.005456",
+      "liquidity_usd": 262501.03,
+      "volume_24h": 280647.56,
+      "change_24h": 28.01,
+      "trades_24h": 1427,
+      "age_hours": 1188,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 5806747,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "Hogecoin",
-      "symbol": "HOGE",
-      "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "price_usd": "0.0006968",
-      "liquidity_usd": 106193.36,
-      "volume_24h": 198696.97,
-      "change_24h": -13.15,
-      "trades_24h": 3081,
-      "age_hours": 239,
-      "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
-      "market_cap": 665698,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "WASTED",
-      "symbol": "WASTED",
-      "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "price_usd": "0.001070",
-      "liquidity_usd": 100149.1,
-      "volume_24h": 560880.43,
-      "change_24h": 9.78,
-      "trades_24h": 14362,
-      "age_hours": 611,
-      "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
-      "market_cap": 1050233,
+      "market_cap": 5142649,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
+      "name": "WASTED",
+      "symbol": "WASTED",
+      "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+      "price_usd": "0.001268",
+      "liquidity_usd": 109405.85,
+      "volume_24h": 590538.57,
+      "change_24h": 30.09,
+      "trades_24h": 14926,
+      "age_hours": 613,
+      "url": "https://dexscreener.com/solana/tt7dks9yjjzj1fwmgopmkbmdrezzymamrhodcgdfwqn",
+      "market_cap": 1244121,
+      "strategies": [
+        "baseline",
+        "medium_risk"
+      ]
+    },
+    {
+      "name": "Hogecoin",
+      "symbol": "HOGE",
+      "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+      "price_usd": "0.0006700",
+      "liquidity_usd": 104102.9,
+      "volume_24h": 190312.15,
+      "change_24h": -15.4,
+      "trades_24h": 2811,
+      "age_hours": 240,
+      "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
+      "market_cap": 640107,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
       "name": "Rocket Raccoon",
       "symbol": "ROCKET",
       "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
-      "price_usd": "0.0007401",
-      "liquidity_usd": 78598.57,
-      "volume_24h": 65029.9,
-      "change_24h": 3.92,
-      "trades_24h": 51729,
-      "age_hours": 90,
+      "price_usd": "0.0007571",
+      "liquidity_usd": 79485.14,
+      "volume_24h": 69024.44,
+      "change_24h": 3.77,
+      "trades_24h": 51997,
+      "age_hours": 91,
       "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
-      "market_cap": 716234,
+      "market_cap": 732644,
       "strategies": [
         "baseline"
       ]
@@ -106,30 +109,14 @@
       "name": "Christmax",
       "symbol": "Christmax",
       "address": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "price_usd": "0.0002505",
-      "liquidity_usd": 36020.88,
-      "volume_24h": 55079.98,
-      "change_24h": -11.36,
-      "trades_24h": 35679,
-      "age_hours": 295,
+      "price_usd": "0.0002503",
+      "liquidity_usd": 36088.23,
+      "volume_24h": 55486.61,
+      "change_24h": -16.59,
+      "trades_24h": 35694,
+      "age_hours": 296,
       "url": "https://dexscreener.com/solana/88smwaf7twyij1pblt9tszzgprdqg17b7j5b54avudsd",
-      "market_cap": 239451,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "The Great Whale",
-      "symbol": "jingyu",
-      "address": "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
-      "price_usd": "0.0001031",
-      "liquidity_usd": 25567.17,
-      "volume_24h": 256347.74,
-      "change_24h": 16.81,
-      "trades_24h": 10936,
-      "age_hours": 141,
-      "url": "https://dexscreener.com/solana/3d4szgvyhhwdo3dndzkqnppdqp1ffnvrzfvlrn94j1bp",
-      "market_cap": 100029,
+      "market_cap": 239306,
       "strategies": [
         "baseline"
       ]

@@ -1,14 +1,13 @@
 {
-  "updated": "2026-11-26 08:55 UTC",
+  "updated": "2026-11-26 18:51 UTC",
   "scanned": 45,
-  "passed": 7,
+  "passed": 10,
   "rejection_reasons": {
     "low liquidity": 33,
     "too new": 29,
-    "thin liquidity vs market cap": 13,
-    "low volume": 7,
-    "few trades": 1,
-    "buys but no sells": 1
+    "thin liquidity vs market cap": 11,
+    "low volume": 5,
+    "few trades": 2
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -43,14 +42,30 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.005996",
-      "liquidity_usd": 275737.63,
-      "volume_24h": 194432.05,
-      "change_24h": 7.28,
-      "trades_24h": 1603,
-      "age_hours": 1214,
+      "price_usd": "0.006376",
+      "liquidity_usd": 284657.97,
+      "volume_24h": 217992.3,
+      "change_24h": 9.19,
+      "trades_24h": 1646,
+      "age_hours": 1224,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 5651292,
+      "market_cap": 6009203,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "The Bruhvengers",
+      "symbol": "BRUH",
+      "address": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+      "price_usd": "0.008344",
+      "liquidity_usd": 225378.17,
+      "volume_24h": 1423250.14,
+      "change_24h": 20.97,
+      "trades_24h": 8082,
+      "age_hours": 470,
+      "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+      "market_cap": 8262015,
       "strategies": [
         "baseline"
       ]
@@ -59,48 +74,63 @@
       "name": "GTA VI",
       "symbol": "GTA6",
       "address": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
-      "price_usd": "0.002045",
-      "liquidity_usd": 192364.46,
-      "volume_24h": 242125.28,
-      "change_24h": 157,
-      "trades_24h": 2167,
-      "age_hours": 2683,
+      "price_usd": "0.001850",
+      "liquidity_usd": 181976.34,
+      "volume_24h": 221518.35,
+      "change_24h": 53.12,
+      "trades_24h": 1919,
+      "age_hours": 2693,
       "url": "https://dexscreener.com/solana/fdamuzyiea7cq1vniqcbhuhpfcmmcjfga6dwqq1hhld2",
-      "market_cap": 2045301,
+      "market_cap": 1850868,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
-      "name": "Fiona the Hippo",
-      "symbol": "FIONA",
-      "address": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
-      "price_usd": "0.002032",
-      "liquidity_usd": 157371.37,
-      "volume_24h": 1202352.8,
-      "change_24h": -29.49,
-      "trades_24h": 14775,
-      "age_hours": 156,
-      "url": "https://dexscreener.com/solana/djbltx1hrgzzrjgj7cwtx6sn3d7tbliytkgwombuwtvb",
-      "market_cap": 1999607,
+      "name": "Red Kitten Crew",
+      "symbol": "RKC",
+      "address": "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump",
+      "price_usd": "0.001322",
+      "liquidity_usd": 178102.09,
+      "volume_24h": 28966.84,
+      "change_24h": 20.38,
+      "trades_24h": 207,
+      "age_hours": 4774,
+      "url": "https://dexscreener.com/solana/fzbyhpcocua2qsrv1s3j38rcqhp6c943p3khyb6c5rcq",
+      "market_cap": 1229851,
       "strategies": [
-        "baseline",
-        "medium_risk"
+        "baseline"
       ]
     },
     {
       "name": "Rocket Raccoon",
       "symbol": "ROCKET",
       "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
-      "price_usd": "0.0007728",
-      "liquidity_usd": 83995.58,
-      "volume_24h": 78394.8,
-      "change_24h": 8.49,
-      "trades_24h": 53015,
-      "age_hours": 117,
+      "price_usd": "0.0008367",
+      "liquidity_usd": 87542.51,
+      "volume_24h": 44713.97,
+      "change_24h": 17.08,
+      "trades_24h": 54803,
+      "age_hours": 127,
       "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
-      "market_cap": 747816,
+      "market_cap": 809647,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Jimmy Rustles",
+      "symbol": "JIMMY",
+      "address": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+      "price_usd": "0.0008029",
+      "liquidity_usd": 80877.88,
+      "volume_24h": 1769211.68,
+      "change_24h": -35.29,
+      "trades_24h": 29472,
+      "age_hours": 70,
+      "url": "https://dexscreener.com/solana/fnhwfv49ywctgcdtyf34avn8bixxcgxukqlctkrkp1gq",
+      "market_cap": 749837,
       "strategies": [
         "baseline"
       ]
@@ -109,30 +139,46 @@
       "name": "AiDiglet",
       "symbol": "DIGS",
       "address": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-      "price_usd": "0.0002608",
-      "liquidity_usd": 60358.36,
-      "volume_24h": 940224.09,
-      "change_24h": 6.06,
-      "trades_24h": 27607,
-      "age_hours": 692,
+      "price_usd": "0.0002694",
+      "liquidity_usd": 62250.27,
+      "volume_24h": 891832.54,
+      "change_24h": -4.16,
+      "trades_24h": 27406,
+      "age_hours": 702,
       "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
-      "market_cap": 248682,
+      "market_cap": 256925,
       "strategies": [
         "baseline"
       ]
     },
     {
-      "name": "enu",
-      "symbol": "enu",
-      "address": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump",
-      "price_usd": "0.0001737",
-      "liquidity_usd": 31461.6,
-      "volume_24h": 128133.96,
-      "change_24h": 46.81,
-      "trades_24h": 2498,
-      "age_hours": 149,
-      "url": "https://dexscreener.com/solana/f8ykd7drw4ytfnpg9l5r7xrrhwoysnxffr469u3lvjgp",
-      "market_cap": 166671,
+      "name": "Female Draco Malfoy",
+      "symbol": "Malfoid",
+      "address": "6zzzG49KX5nksnqfogs31dwoMYSHaJXkropKbv1QZVga",
+      "price_usd": "0.0003808",
+      "liquidity_usd": 49668.1,
+      "volume_24h": 40757.22,
+      "change_24h": 27.46,
+      "trades_24h": 622,
+      "age_hours": 1352,
+      "url": "https://dexscreener.com/solana/6wxtjalnn3gcujajj9vj2te51zsngpvxv37ebfgrajlz",
+      "market_cap": 362159,
+      "strategies": [
+        "baseline"
+      ]
+    },
+    {
+      "name": "Woopy Dog",
+      "symbol": "WOOPY",
+      "address": "2va3NUJtEcPemDYg2N1RgA79rPKGTGGJKo3gTY5zpump",
+      "price_usd": "0.0001884",
+      "liquidity_usd": 31830.77,
+      "volume_24h": 244607.72,
+      "change_24h": 2516,
+      "trades_24h": 906,
+      "age_hours": 13379,
+      "url": "https://dexscreener.com/solana/b9xksbd9cjvtdiaqscstckzp9e777y64kuwtlixgad6c",
+      "market_cap": 188291,
       "strategies": [
         "baseline"
       ]
@@ -141,14 +187,14 @@
       "name": "Santa Coin",
       "symbol": "Santa",
       "address": "CcpN5RXTEjbRqbtuHoxyiMZorzsghbfpeyYQjSvTgS27",
-      "price_usd": "0.0001904",
-      "liquidity_usd": 25098.5,
-      "volume_24h": 143338.11,
-      "change_24h": 58.94,
-      "trades_24h": 2871,
-      "age_hours": 40,
+      "price_usd": "0.0001969",
+      "liquidity_usd": 25681.24,
+      "volume_24h": 142273.47,
+      "change_24h": 37.45,
+      "trades_24h": 2748,
+      "age_hours": 50,
       "url": "https://dexscreener.com/solana/4p4wjrdeihtbca4m1fnrvf1f9julspqzo1smcr1mnr7v",
-      "market_cap": 190451,
+      "market_cap": 196947,
       "strategies": [
         "baseline"
       ]

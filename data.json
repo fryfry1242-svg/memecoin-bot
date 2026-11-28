@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-28 02:30 UTC",
-  "scanned": 52,
-  "passed": 8,
+  "updated": "2026-11-28 10:54 UTC",
+  "scanned": 47,
+  "passed": 6,
   "rejection_reasons": {
-    "low liquidity": 40,
-    "too new": 32,
+    "low liquidity": 37,
+    "too new": 29,
     "thin liquidity vs market cap": 18,
-    "low volume": 11,
-    "few trades": 3
+    "low volume": 7,
+    "few trades": 2
   },
   "rules": [
     "Liquidity of at least $25,000 (money sitting in the trading pool)",
@@ -42,14 +42,14 @@
       "name": "Cartoon Money",
       "symbol": "CBUCKS",
       "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "price_usd": "0.006389",
-      "liquidity_usd": 285829.88,
-      "volume_24h": 326620.37,
-      "change_24h": -16.4,
-      "trades_24h": 2346,
-      "age_hours": 1256,
+      "price_usd": "0.006622",
+      "liquidity_usd": 291090.93,
+      "volume_24h": 197796.21,
+      "change_24h": -13.46,
+      "trades_24h": 1727,
+      "age_hours": 1264,
       "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-      "market_cap": 6021628,
+      "market_cap": 6241525,
       "strategies": [
         "baseline"
       ]
@@ -58,14 +58,14 @@
       "name": "Rizzmas",
       "symbol": "Rizzmas",
       "address": "85cQsFgbi8mBZxiPppbpPXuV7j1hA8tBwhjF4gKW6mHg",
-      "price_usd": "0.000001311",
-      "liquidity_usd": 223393.95,
-      "volume_24h": 117157.71,
-      "change_24h": -9.53,
-      "trades_24h": 2089,
-      "age_hours": 25664,
+      "price_usd": "0.000001305",
+      "liquidity_usd": 220471.94,
+      "volume_24h": 77454.63,
+      "change_24h": 2.75,
+      "trades_24h": 1622,
+      "age_hours": 25673,
       "url": "https://dexscreener.com/solana/hgrvezf83hm2x5hovx9ec2cbiajtmwfhk6vcuplh4ydy",
-      "market_cap": 651669,
+      "market_cap": 648257,
       "strategies": [
         "baseline"
       ]
@@ -74,47 +74,31 @@
       "name": "DogWifJob",
       "symbol": "JOB",
       "address": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-      "price_usd": "0.002833",
-      "liquidity_usd": 181825.9,
-      "volume_24h": 546705.48,
-      "change_24h": 70.6,
-      "trades_24h": 11212,
-      "age_hours": 751,
+      "price_usd": "0.003113",
+      "liquidity_usd": 189637.38,
+      "volume_24h": 771775.59,
+      "change_24h": 71.96,
+      "trades_24h": 12727,
+      "age_hours": 760,
       "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-      "market_cap": 2760242,
+      "market_cap": 3033225,
       "strategies": [
         "baseline",
         "medium_risk"
       ]
     },
     {
-      "name": "three.ws",
-      "symbol": "three",
-      "address": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
-      "price_usd": "0.0004489",
-      "liquidity_usd": 123332.65,
-      "volume_24h": 65270.62,
-      "change_24h": 12.31,
-      "trades_24h": 12332,
-      "age_hours": 5107,
-      "url": "https://dexscreener.com/solana/5byl7mzolabynwmpzkpkjf4mgkz7febzranos19pre2z",
-      "market_cap": 448821,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
       "name": "Rocket Raccoon",
       "symbol": "ROCKET",
       "address": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
-      "price_usd": "0.0007658",
-      "liquidity_usd": 83301.96,
-      "volume_24h": 30871.54,
-      "change_24h": -11.04,
-      "trades_24h": 92141,
-      "age_hours": 159,
+      "price_usd": "0.0007615",
+      "liquidity_usd": 83108.22,
+      "volume_24h": 27512.01,
+      "change_24h": -10.64,
+      "trades_24h": 91934,
+      "age_hours": 167,
       "url": "https://dexscreener.com/solana/9nlfujwrhgqyxkw2jukka1gjvtibxaty2ad4qrysckke",
-      "market_cap": 741041,
+      "market_cap": 736891,
       "strategies": [
         "baseline"
       ]
@@ -123,30 +107,14 @@
       "name": "Snowball",
       "symbol": "Snowball",
       "address": "9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump",
-      "price_usd": "0.0003117",
-      "liquidity_usd": 45690.79,
-      "volume_24h": 1313153.56,
-      "change_24h": -41.08,
-      "trades_24h": 34812,
-      "age_hours": 56,
+      "price_usd": "0.0002121",
+      "liquidity_usd": 37500.19,
+      "volume_24h": 974071.35,
+      "change_24h": -74.97,
+      "trades_24h": 26578,
+      "age_hours": 65,
       "url": "https://dexscreener.com/solana/aircdeu4yl6hjuina65mtwakzmex7stkzsinmyzhzkt2",
-      "market_cap": 311770,
-      "strategies": [
-        "baseline"
-      ]
-    },
-    {
-      "name": "enu",
-      "symbol": "enu",
-      "address": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump",
-      "price_usd": "0.0003197",
-      "liquidity_usd": 44202.84,
-      "volume_24h": 273237.12,
-      "change_24h": 68.33,
-      "trades_24h": 6239,
-      "age_hours": 191,
-      "url": "https://dexscreener.com/solana/f8ykd7drw4ytfnpg9l5r7xrrhwoysnxffr469u3lvjgp",
-      "market_cap": 306820,
+      "market_cap": 212176,
       "strategies": [
         "baseline"
       ]
@@ -155,14 +123,14 @@
       "name": "PumpMas",
       "symbol": "PumpMas",
       "address": "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump",
-      "price_usd": "0.0002061",
-      "liquidity_usd": 33249.55,
-      "volume_24h": 49849.18,
-      "change_24h": 61.17,
-      "trades_24h": 1373,
-      "age_hours": 318,
+      "price_usd": "0.0002303",
+      "liquidity_usd": 34962.17,
+      "volume_24h": 73076.05,
+      "change_24h": 100,
+      "trades_24h": 1854,
+      "age_hours": 326,
       "url": "https://dexscreener.com/solana/b1mjhdyip3t6uqyhoipj1hza1g3yxjbvfysnjucb5cgd",
-      "market_cap": 193327,
+      "market_cap": 216009,
       "strategies": [
         "baseline"
       ]
